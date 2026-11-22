@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kinofilter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#121110; --panel:#1b1a18; --line:#2c2a27; --text:#ece8e1; --muted:#9a948a;
+    --accent:#e8b04a; --accent-ink:#1a1408; --chip:#24221f;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--text);font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:15px;line-height:1.4}
+  .wrap{max-width:640px;margin:0 auto;padding:16px 14px 60px}
+  header{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:4px}
+  h1{font-size:20px;margin:0;font-weight:600;letter-spacing:-.01em}
+  .proto{font-size:11px;color:var(--accent);border:1px solid var(--accent);border-radius:99px;padding:2px 8px;white-space:nowrap}
+  .note{color:var(--muted);font-size:12.5px;margin:0 0 14px}
+
+  .filters{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:14px;position:sticky;top:8px;z-index:5}
+  .row{display:grid;gap:7px}
+  .lbl{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);display:flex;justify-content:space-between}
+  .lbl b{color:var(--text);font-weight:600;text-transform:none;letter-spacing:0;font-family:"IBM Plex Mono",monospace}
+  .seg{display:flex;gap:6px;flex-wrap:wrap}
+  .seg button,.chip{appearance:none;border:1px solid var(--line);background:var(--chip);color:var(--text);font:inherit;font-size:14px;padding:7px 12px;border-radius:9px;cursor:pointer}
+  .seg button[aria-pressed="true"],.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+  .timeline{display:flex;gap:10px;align-items:center}
+  input[type=time]{background:var(--chip);color:var(--text);border:1px solid var(--line);border-radius:9px;padding:6px 10px;font:600 18px "IBM Plex Mono",monospace;color-scheme:dark}
+  select{background:var(--chip);color:var(--text);border:1px solid var(--line);border-radius:9px;padding:8px 10px;font:inherit;width:100%;color-scheme:dark}
+  input[type=range]{width:100%;accent-color:var(--accent)}
+  .days{display:flex;gap:6px;align-items:stretch}
+  .days select{width:auto;flex:0 0 auto;padding-right:28px}
+  .days select.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .toggle{background:none;border:none;color:var(--muted);font:inherit;font-size:13px;padding:0;cursor:pointer;justify-self:start;text-decoration:underline;text-underline-offset:3px}
+
+  .summary{display:flex;justify-content:space-between;align-items:baseline;margin:18px 2px 8px;font-size:13px;color:var(--muted)}
+  .summary strong{color:var(--text);font-size:15px}
+  .list{display:grid;gap:8px}
+  .card{display:grid;grid-template-columns:62px 1fr;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px}
+  .t{font:600 19px "IBM Plex Mono",monospace;color:var(--accent);line-height:1.1}
+  .t small{display:block;font-size:11px;color:var(--muted);font-weight:500;margin-top:4px}
+  .title{font-weight:600;font-size:16px;margin:0}
+  .orig{color:var(--muted);font-size:13px;margin:1px 0 6px}
+  .title{margin-bottom:6px}
+  .meta{display:flex;flex-wrap:wrap;gap:5px 10px;font-size:12.5px;color:var(--muted)}
+  .row2{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:8px}
+  .row2 .meta{margin:0}
+  .tk{flex:0 0 auto;font-size:12.5px;font-weight:600;padding:5px 10px;border-radius:8px;border:1px solid var(--line);color:var(--text)!important;background:var(--chip)}
+  .tk.direct{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)!important}
+  .title a{color:inherit;text-decoration:underline;text-decoration-color:var(--muted);text-decoration-thickness:1px;text-underline-offset:4px}
+  .title a::after{content:" \2197";font-size:.8em;color:var(--muted)}
+  .credits{font-size:12.5px;color:var(--muted);margin-top:5px}
+  .badge.dub{border-color:var(--muted);color:var(--muted)}
+  .badge{font:600 11px "IBM Plex Mono",monospace;padding:2px 6px;border-radius:5px;border:1px solid var(--accent);color:var(--accent)}
+  .cinema{color:var(--text)}
+  .empty{color:var(--muted);text-align:center;padding:40px 10px;border:1px dashed var(--line);border-radius:12px}
+  .hidden{display:none}
+  .card a{color:inherit;text-decoration:none}
+  .foot{color:var(--muted);font-size:11.5px;margin-top:28px;line-height:1.5}
+  .foot a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Kinofilter</h1>
+    <span class="proto" id="stand">lädt …</span>
+  </header>
+  <p class="note">Berliner Kinoprogramm nach Startzeit, Fassung und Umkreis.</p>
+
+  <section class="filters" id="filters">
+    <div class="row">
+      <div class="days"><div class="seg" id="days"></div><select id="dayMore" aria-label="Weiteres Datum"></select></div>
+    </div>
+
+    <div class="row">
+      <div class="lbl">Startzeit <b id="winLbl"></b></div>
+      <div class="timeline">
+        <input type="time" id="time" value="20:00" step="300">
+        <div class="seg" id="tol"></div>
+      </div>
+    </div>
+
+    <div id="more" class="row" style="gap:14px">
+      <div class="row">
+        <div class="lbl">Fassung</div>
+        <div class="seg" id="vers"></div>
+      </div>
+      <div class="two">
+        <div class="row">
+          <div class="lbl">Startpunkt</div>
+          <select id="origin"></select>
+        </div>
+        <div class="row">
+          <div class="lbl">Umkreis <b id="radLbl"></b></div>
+          <input type="range" id="radius" min="1" max="15.5" step="0.5" value="4">
+        </div>
+      </div>
+    </div>
+    <button class="toggle" id="moreBtn">Filter einklappen</button>
+  </section>
+
+  <div class="summary"><span><strong id="count">0</strong> Vorstellungen</span><span id="hiddenInfo"></span></div>
+  <div class="list" id="list"></div>
+  <p class="foot" id="foot"></p>
+</div>
+
+<script>
+// ---------- Startpunkte ----------
+const ORIGINS = [
+  {id:"hermannstr",name:"Neukölln (S+U Hermannstr.)",lat:52.4672,lng:13.4314},
+  {id:"nk-nord",name:"Neukölln Nord (Hermannplatz)",lat:52.4867,lng:13.4246},
+  {id:"xberg",name:"Kreuzberg (Kotti)",lat:52.4991,lng:13.4180},
+  {id:"fhain",name:"Friedrichshain (Boxhagener Pl.)",lat:52.5110,lng:13.4590},
+  {id:"mitte",name:"Mitte (Rosenthaler Pl.)",lat:52.5296,lng:13.4015},
+  {id:"pberg",name:"Prenzlauer Berg (Eberswalder)",lat:52.5413,lng:13.4120},
+  {id:"schoene",name:"Schöneberg (Nollendorfpl.)",lat:52.4996,lng:13.3536},
+  {id:"charl",name:"Charlottenburg (Savignypl.)",lat:52.5054,lng:13.3229},
+  {id:"wedding",name:"Wedding (Leopoldpl.)",lat:52.5466,lng:13.3594}
+];
+
+// ---------- Hilfen ----------
+const $=id=>document.getElementById(id);
+const toMin=t=>{const [h,m]=t.split(":").map(Number);return h*60+m};
+const fmt=m=>String(Math.floor(m/60)%24).padStart(2,"0")+":"+String(m%60).padStart(2,"0");
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function km(a,b){
+  const R=6371,toR=x=>x*Math.PI/180;
+  const dLat=toR(b.lat-a.lat),dLng=toR(b.lng-a.lng);
+  const h=Math.sin(dLat/2)**2+Math.cos(toR(a.lat))*Math.cos(toR(b.lat))*Math.sin(dLng/2)**2;
+  return 2*R*Math.asin(Math.sqrt(h));
+}
+let langNames=null;try{langNames=new Intl.DisplayNames(["de"],{type:"language"})}catch(e){}
+const langName=c=>{if(!c)return"";try{return langNames?langNames.of(c):c}catch(e){return c}};
+const isoLocal=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const dayShort=["So","Mo","Di","Mi","Do","Fr","Sa"];
+
+// ---------- Fassungslogik ----------
+// Ergebnis: Liste der Kategorien (OV/OmU/OmeU) oder [] = Synchronfassung
+function categories(show,film){
+  const isDe=film&&film.lang==="de";
+  if(!show.v.length) return isDe?["OV"]:[];
+  const out=[];
+  show.v.forEach(v=>{ if(v==="DFmeU"){ if(isDe) out.push("OmeU"); } else out.push(v); });
+  return out;
+}
+
+// ---------- Zustand ----------
+let DATA=null, DATES=[];
+const DEFAULT={day:0,time:"20:00",tol:30,vers:["OV","OmU","OmeU"],origin:"hermannstr",radius:4,collapsed:false};
+let S=Object.assign({},DEFAULT);
+try{const saved=JSON.parse(localStorage.getItem("kino-jetzt")||"null");if(saved)S=Object.assign(S,saved)}catch(e){}
+if(!ORIGINS.some(o=>o.id===S.origin))S.origin=DEFAULT.origin;
+// Beim Öffnen immer: heute, jetzige Uhrzeit auf die nächste Viertelstunde aufgerundet
+{const n=new Date();const m=Math.ceil((n.getHours()*60+n.getMinutes())/15)*15;S.time=fmt(m);S.day=0;}
+function save(){try{localStorage.setItem("kino-jetzt",JSON.stringify(S))}catch(e){}}
+
+function dayLabel(i){
+  if(i===0)return"Heute"; if(i===1)return"Morgen";
+  const d=new Date(DATES[i]+"T12:00");
+  return dayShort[d.getDay()]+", "+d.getDate()+"."+(d.getMonth()+1)+".";
+}
+function segButtons(el,items,isOn,onClick){
+  el.innerHTML="";
+  items.forEach(it=>{
+    const b=document.createElement("button");
+    b.type="button";b.textContent=it.label;b.setAttribute("aria-pressed",isOn(it.value));
+    b.onclick=()=>onClick(it.value);el.appendChild(b);
+  });
+}
+function renderControls(){
+  segButtons($("days"),[0,1].filter(i=>i<DATES.length).map(i=>({label:dayLabel(i),value:i})),v=>S.day===v,v=>{S.day=v;update()});
+  const dm=$("dayMore");
+  dm.classList.toggle("hidden",DATES.length<3);
+  if(DATES.length>=3){dm.value=S.day>=2?String(S.day):"2";dm.classList.toggle("on",S.day>=2);}
+  segButtons($("tol"),[15,30,45,60].map(v=>({label:"± "+v,value:v})),v=>S.tol===v,v=>{S.tol=v;update()});
+  segButtons($("vers"),["OV","OmU","OmeU"].map(v=>({label:v,value:v})),v=>S.vers.includes(v),v=>{
+    S.vers=S.vers.includes(v)?S.vers.filter(x=>x!==v):[...S.vers,v];update()});
+  $("time").value=S.time;
+  $("radius").value=S.radius;
+  $("radLbl").textContent=S.radius>15?"ganz Berlin":String(S.radius).replace(".",",")+" km";
+  const c=toMin(S.time);
+  $("winLbl").textContent=fmt(Math.max(0,c-S.tol))+"–"+fmt(c+S.tol);
+  $("more").classList.toggle("hidden",S.collapsed);
+  $("moreBtn").textContent=S.collapsed?"Fassung & Ort anzeigen":"Filter einklappen";
+}
+function renderList(){
+  const L=$("list");
+  if(!DATA){return}
+  const center=toMin(S.time), day=DATES[S.day];
+  const o=ORIGINS.find(x=>x.id===S.origin)||ORIGINS[0];
+  let dub=0; const res=[];
+  DATA.shows.forEach(s=>{
+    if(s.d!==day) return;
+    const m=toMin(s.t);
+    if(Math.abs(m-center)>S.tol) return;
+    const c=DATA.cinemas[s.c]; if(!c||c.lat==null) return;
+    const d=km(o,c); if(S.radius<=15&&d>S.radius) return;
+    const f=DATA.films[s.f]||{};
+    const cats=categories(s,f);
+    if(S.vers.length){
+      if(!cats.length){dub++;return}
+      if(!cats.some(x=>S.vers.includes(x))) return;
+    }
+    res.push({s,m,c,d,f,cats});
+  });
+  res.sort((a,b)=>a.m-b.m||a.d-b.d);
+  $("count").textContent=res.length;
+  $("hiddenInfo").textContent=dub?dub+" Synchronfassung"+(dub>1?"en":"")+" ausgeblendet":"";
+  L.innerHTML="";
+  if(!res.length){
+    L.innerHTML='<div class="empty">Nichts im Zeitfenster und Umkreis.<br>Spielraum oder Radius vergrößern.</div>';return;
+  }
+  const frag=document.createDocumentFragment();
+  res.forEach(({s,m,c,d,f,cats})=>{
+    const el=document.createElement("div");el.className="card";
+    // Nur gesicherte Sprachangaben (TMDB) anzeigen, kein Produktionsland
+    const lang=(f.langs||[]).map(langName).filter(Boolean).join(", ");
+    const end=f.min?`<small>bis ${fmt(m+f.min+15)}</small>`:"";
+    const href=s.tk||c.web||c.url;
+    const credits=[f.dir?"R: "+f.dir:"",f.year].filter(Boolean).join(" · ");
+    // Letterboxd: über TMDB-Nummer direkt zum Film, sonst Suche
+    const lb=f.tmdb?`https://letterboxd.com/tmdb/${f.tmdb}/`:`https://letterboxd.com/search/films/${encodeURIComponent(f.orig||f.title||"")}/`;
+    const link=href?`<a class="tk${s.tkd?" direct":""}" href="${esc(href)}" target="_blank" rel="noopener">${s.tkd?"Tickets":"Zum Kino"}</a>`:"";
+    el.innerHTML=`
+      <div class="t">${esc(s.t)}${end}</div>
+      <div>
+        <p class="title"><a href="${esc(lb)}" target="_blank" rel="noopener">${esc(f.orig||f.title||"?")}</a></p>
+        <div class="meta">
+          ${cats.length?cats.map(x=>`<span class="badge">${x}</span>`).join(""):'<span class="badge dub">Synchro</span>'}
+          ${lang?`<span>${esc(lang)}</span>`:""}
+          ${f.min?`<span>${f.min} Min</span>`:""}
+        </div>
+        ${credits?`<div class="credits">${esc(credits)}</div>`:""}
+        <div class="row2">
+          <div class="meta">
+            <span class="cinema">${esc(c.name)}</span>
+            <span>${d.toFixed(1).replace(".",",")} km</span>
+          </div>
+          ${link}
+        </div>
+      </div>`;
+    frag.appendChild(el);
+  });
+  L.appendChild(frag);
+}
+function update(){renderControls();renderList();save()}
+
+function init(data){
+  DATA=data;
+  const today=isoLocal(new Date());
+  DATES=[...new Set(data.shows.map(s=>s.d))].filter(d=>d>=today).sort().slice(0,8);
+  if(!DATES.length) DATES=[today];
+  if(!(S.day>=0&&S.day<DATES.length)) S.day=0;
+  $("dayMore").innerHTML=DATES.slice(2).map((d,i)=>`<option value="${i+2}">${dayLabel(i+2)}</option>`).join("");
+  const g=new Date(data.generated);
+  $("stand").textContent="Stand "+g.getDate()+"."+(g.getMonth()+1)+". "+fmt(g.getHours()*60+g.getMinutes());
+  $("foot").innerHTML='Programmdaten: <a href="https://www.indiekino.de" target="_blank" rel="noopener">indiekino.de</a> und <a href="https://www.berlin.de/kino/" target="_blank" rel="noopener">berlin.de</a>.'+
+    (data.tmdb?' Filmdaten teilweise von <a href="https://www.themoviedb.org" target="_blank" rel="noopener">TMDB</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.':'');
+  update();
+}
+
+// Startpunkte & Bedienelemente
+ORIGINS.forEach(o=>{const op=document.createElement("option");op.value=o.id;op.textContent=o.name;$("origin").appendChild(op)});
+$("origin").value=S.origin;
+$("dayMore").onchange=e=>{S.day=Number(e.target.value);update()};
+$("dayMore").onfocus=e=>{if(S.day<2){S.day=Number(e.target.value);update()}};
+$("origin").onchange=e=>{S.origin=e.target.value;update()};
+$("time").oninput=e=>{if(e.target.value){S.time=e.target.value;update()}};
+$("radius").oninput=e=>{S.radius=Number(e.target.value);update()};
+$("moreBtn").onclick=()=>{S.collapsed=!S.collapsed;update()};
+renderControls();
+
+fetch("data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(init).catch(e=>{
+  $("stand").textContent="Fehler";
+  $("list").innerHTML='<div class="empty">Programmdaten konnten nicht geladen werden.</div>';
+});
+</script>
+</body>
+</html>
