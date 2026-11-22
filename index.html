@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kinofilter</title>
+<title>Playtime</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -14,21 +14,23 @@
   }
   *{box-sizing:border-box}
   html,body{margin:0;background:var(--bg);color:var(--text);font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:15px;line-height:1.4}
-  .wrap{max-width:640px;margin:0 auto;padding:16px 14px 60px}
-  header{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:4px}
-  h1{font-size:20px;margin:0;font-weight:600;letter-spacing:-.01em}
+  .wrap{max-width:640px;margin:0 auto;padding:0 12px 60px}
+  .top{position:sticky;top:0;z-index:10;background:var(--bg);padding:8px 0 6px;margin:0 -12px;padding-left:12px;padding-right:12px}
+  .top::after{content:"";position:absolute;left:0;right:0;bottom:-10px;height:10px;background:linear-gradient(var(--bg),transparent);pointer-events:none}
+  .brand{display:block;padding-bottom:9px;border-bottom:1px solid var(--line)}
+  h1{font-size:19px;margin:0;font-weight:600;letter-spacing:-.01em;line-height:1.2}
   .proto{font-size:11px;color:var(--accent);border:1px solid var(--accent);border-radius:99px;padding:2px 8px;white-space:nowrap}
-  .note{color:var(--muted);font-size:12.5px;margin:0 0 14px}
+  .note{color:var(--muted);font-size:11.5px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:-.005em}
 
-  .filters{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:14px;position:sticky;top:8px;z-index:5}
-  .row{display:grid;gap:7px}
+  .filters{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px;display:grid;gap:10px}
+  .row{display:grid;gap:5px}
   .lbl{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);display:flex;justify-content:space-between}
   .lbl b{color:var(--text);font-weight:600;text-transform:none;letter-spacing:0;font-family:"IBM Plex Mono",monospace}
   .seg{display:flex;gap:6px;flex-wrap:wrap}
-  .seg button,.chip{appearance:none;border:1px solid var(--line);background:var(--chip);color:var(--text);font:inherit;font-size:14px;padding:7px 12px;border-radius:9px;cursor:pointer}
+  .seg button,.chip{appearance:none;border:1px solid var(--line);background:var(--chip);color:var(--text);font:inherit;font-size:14px;padding:5px 11px;border-radius:8px;cursor:pointer}
   .seg button[aria-pressed="true"],.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
   .timeline{display:flex;gap:10px;align-items:center}
-  input[type=time]{background:var(--chip);color:var(--text);border:1px solid var(--line);border-radius:9px;padding:6px 10px;font:600 18px "IBM Plex Mono",monospace;color-scheme:dark}
+  input[type=time]{background:var(--chip);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:4px 9px;font:600 17px "IBM Plex Mono",monospace;color-scheme:dark}
   select{background:var(--chip);color:var(--text);border:1px solid var(--line);border-radius:9px;padding:8px 10px;font:inherit;width:100%;color-scheme:dark}
   input[type=range]{width:100%;accent-color:var(--accent)}
   .days{display:flex;gap:6px;align-items:stretch}
@@ -37,10 +39,10 @@
   .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
   .toggle{background:none;border:none;color:var(--muted);font:inherit;font-size:13px;padding:0;cursor:pointer;justify-self:start;text-decoration:underline;text-underline-offset:3px}
 
-  .summary{display:flex;justify-content:space-between;align-items:baseline;margin:18px 2px 8px;font-size:13px;color:var(--muted)}
+  .summary{display:flex;justify-content:space-between;align-items:baseline;margin:8px 2px 0;font-size:13px;color:var(--muted)}
   .summary strong{color:var(--text);font-size:15px}
-  .list{display:grid;gap:8px}
-  .card{display:grid;grid-template-columns:62px 1fr;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px}
+  .list{display:grid;gap:6px;margin-top:8px}
+  .card{display:grid;grid-template-columns:62px 1fr;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 11px}
   .t{font:600 19px "IBM Plex Mono",monospace;color:var(--accent);line-height:1.1}
   .t small{display:block;font-size:11px;color:var(--muted);font-weight:500;margin-top:4px}
   .title{font-weight:600;font-size:16px;margin:0}
@@ -66,13 +68,12 @@
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>Kinofilter</h1>
-    <span class="proto" id="stand">lädt …</span>
-  </header>
-  <p class="note">Berliner Kinoprogramm nach Startzeit, Fassung und Umkreis.</p>
+ <div class="top">
 
   <section class="filters" id="filters">
+    <header class="brand">
+      <span class="note">Berliner Kinoprogramm nach Startzeit, Fassung und Umkreis</span>
+    </header>
     <div class="row">
       <div class="days"><div class="seg" id="days"></div><select id="dayMore" aria-label="Weiteres Datum"></select></div>
     </div>
@@ -103,8 +104,8 @@
     </div>
     <button class="toggle" id="moreBtn">Filter einklappen</button>
   </section>
-
   <div class="summary"><span><strong id="count">0</strong> Vorstellungen</span><span id="hiddenInfo"></span></div>
+ </div>
   <div class="list" id="list"></div>
   <p class="foot" id="foot"></p>
 </div>
@@ -138,6 +139,14 @@ let langNames=null;try{langNames=new Intl.DisplayNames(["de"],{type:"language"})
 const langName=c=>{if(!c)return"";try{return langNames?langNames.of(c):c}catch(e){return c}};
 const isoLocal=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 const dayShort=["So","Mo","Di","Mi","Do","Fr","Sa"];
+
+// Originaltitel, wenn er in lateinischer Schrift ist, sonst der englische Titel (TMDB)
+const latin=/^[\p{Script=Latin}\p{N}\p{P}\p{S}\p{Zs}]+$/u;
+const showTitle=f=>{
+  if(f.orig&&latin.test(f.orig)) return f.orig;
+  if(f.en&&latin.test(f.en)) return f.en;
+  return f.title||f.orig||"?";
+};
 
 // ---------- Fassungslogik ----------
 // Ergebnis: Liste der Kategorien (OV/OmU/OmeU) oder [] = Synchronfassung
@@ -229,7 +238,7 @@ function renderList(){
     el.innerHTML=`
       <div class="t">${esc(s.t)}${end}</div>
       <div>
-        <p class="title"><a href="${esc(lb)}" target="_blank" rel="noopener">${esc(f.orig||f.title||"?")}</a></p>
+        <p class="title"><a href="${esc(lb)}" target="_blank" rel="noopener">${esc(showTitle(f))}</a></p>
         <div class="meta">
           ${cats.length?cats.map(x=>`<span class="badge">${x}</span>`).join(""):'<span class="badge dub">Synchro</span>'}
           ${lang?`<span>${esc(lang)}</span>`:""}
@@ -258,8 +267,7 @@ function init(data){
   if(!(S.day>=0&&S.day<DATES.length)) S.day=0;
   $("dayMore").innerHTML=DATES.slice(2).map((d,i)=>`<option value="${i+2}">${dayLabel(i+2)}</option>`).join("");
   const g=new Date(data.generated);
-  $("stand").textContent="Stand "+g.getDate()+"."+(g.getMonth()+1)+". "+fmt(g.getHours()*60+g.getMinutes());
-  $("foot").innerHTML='Programmdaten: <a href="https://www.indiekino.de" target="_blank" rel="noopener">indiekino.de</a> und <a href="https://www.berlin.de/kino/" target="_blank" rel="noopener">berlin.de</a>.'+
+  $("foot").innerHTML='Stand: '+g.getDate()+"."+(g.getMonth()+1)+". "+fmt(g.getHours()*60+g.getMinutes())+' Uhr. Programmdaten: <a href="https://www.indiekino.de" target="_blank" rel="noopener">indiekino.de</a> und <a href="https://www.berlin.de/kino/" target="_blank" rel="noopener">berlin.de</a>.'+
     (data.tmdb?' Filmdaten teilweise von <a href="https://www.themoviedb.org" target="_blank" rel="noopener">TMDB</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.':'');
   update();
 }
@@ -276,7 +284,6 @@ $("moreBtn").onclick=()=>{S.collapsed=!S.collapsed;update()};
 renderControls();
 
 fetch("data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(init).catch(e=>{
-  $("stand").textContent="Fehler";
   $("list").innerHTML='<div class="empty">Programmdaten konnten nicht geladen werden.</div>';
 });
 </script>

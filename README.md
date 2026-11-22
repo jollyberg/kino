@@ -1,4 +1,4 @@
-# Kinofilter
+# Playtime
 
 Berliner Kinoprogramm, gefiltert nach Startzeit, Fassung (OV / OmU / OmeU; ohne Auswahl alle inkl. Synchronfassungen) und Umkreis.
 
