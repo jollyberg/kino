@@ -20,7 +20,7 @@ CINEMA_CACHE = os.path.join(CACHE_DIR, "cinemas.json")
 FILM_CACHE = os.path.join(CACHE_DIR, "films.json")
 OUT = os.path.join(ROOT, "data.json")
 
-UA = "kinofilter/1.0 (private Kinoprogramm-Seite)"
+UA = "playtime/1.0 (private Kinoprogramm-Seite)"
 TMDB_TOKEN = os.environ.get("TMDB_TOKEN", "").strip()
 
 IK = "https://www.indiekino.de"
@@ -250,31 +250,70 @@ def tmdb(path, **params):
         return None
 
 
+TMDB_VERSION = 2  # erhöhen, damit Filme ohne Treffer neu gesucht werden
+
+PREFIX = re.compile(r"^(?:atmos|dolby atmos|imax|d-box|4dx|3d|ov|omu|preview|premiere|vorpremiere|"
+                    r"sneak|classic sneak|sneak preview)\s*[:,]\s*", re.I)
+SUFFIX = re.compile(r"\s*(?:\b3D\b|\(director'?s cut\)|-\s*extended version|-\s*das kinoerlebnis|"
+                    r"\(\d{4}\))\s*$", re.I)
+
+
+def clean_title(t):
+    t = (t or "").strip()
+    for _ in range(3):
+        t2 = SUFFIX.sub("", PREFIX.sub("", t)).strip()
+        if t2 == t:
+            break
+        t = t2
+    return t
+
+
+def tmdb_year(r):
+    try:
+        return int((r.get("release_date") or "")[:4])
+    except ValueError:
+        return None
+
+
 def tmdb_enrich(meta, title):
-    """Ergänzt lang/orig über IMDB-ID oder Titelsuche."""
+    """Ergänzt lang/langs/orig über IMDB-ID oder Titelsuche (Originaltitel zuerst)."""
     res = None
     if meta.get("imdb"):
         r = tmdb(f"/find/{meta['imdb']}", external_source="imdb_id")
         if r and r.get("movie_results"):
             res = r["movie_results"][0]
-    if res is None and title:
-        q = re.sub(r"^(preview|vorpremiere|sneak|premiere)\s*:\s*", "", title, flags=re.I)
-        params = {"query": q, "language": "de-DE"}
-        if meta.get("year"):
-            params["year"] = meta["year"]
-        r = tmdb("/search/movie", **params)
-        if r and r.get("results"):
-            res = r["results"][0]
+    queries = []
+    for q in (meta.get("orig"), title, (title or "").split(" - ")[0]):
+        q = clean_title(q)
+        if q and q not in queries:
+            queries.append(q)
+    year = meta.get("year")
+    for q in queries:
+        if res:
+            break
+        if year:
+            r = tmdb("/search/movie", query=q, year=year, language="de-DE")
+            if r and r.get("results"):
+                res = r["results"][0]
+                break
+        # ohne Jahr, aber nur Treffer mit passendem Jahr (±1) übernehmen
+        r = tmdb("/search/movie", query=q, language="de-DE")
+        for cand in (r or {}).get("results", [])[:5]:
+            cy = tmdb_year(cand)
+            if not year or (cy and abs(cy - year) <= 1):
+                res = cand
+                break
     meta["tmdb_checked"] = True
+    meta["tmdb_v"] = TMDB_VERSION
     if res:
         meta["lang"] = res.get("original_language")
         meta.setdefault("orig", res.get("original_title"))
         meta["tmdb"] = res.get("id")
         # Alle im Film gesprochenen Sprachen (für mehrsprachige Filme)
-        det = tmdb(f"/movie/{res.get('id')}")
+        det = tmdb(f"/movie/{res.get('id')}", language="en-US")
         if det:
+            meta["title_en"] = det.get("title")
             langs = [l.get("iso_639_1") for l in det.get("spoken_languages") or [] if l.get("iso_639_1")]
-            # Originalsprache zuerst
             if meta["lang"] in langs:
                 langs.remove(meta["lang"])
             meta["langs"] = ([meta["lang"]] if meta["lang"] else []) + langs
@@ -380,8 +419,13 @@ def main():
             for k, v in keep.items():
                 meta.setdefault(k, v)
             time.sleep(0.15)
-        if TMDB_TOKEN and not meta.get("tmdb_checked"):
+        if TMDB_TOKEN and (not meta.get("tmdb_checked") or
+                           (not meta.get("tmdb") and meta.get("tmdb_v", 1) < TMDB_VERSION)):
             tmdb_enrich(meta, meta.get("title") or title)
+        elif TMDB_TOKEN and meta.get("tmdb") and "title_en" not in meta:
+            # englischer Titel nachholen (für Originaltitel in nicht-lateinischer Schrift)
+            det = tmdb(f"/movie/{meta['tmdb']}", language="en-US")
+            meta["title_en"] = det.get("title") if det else None
         films[key] = meta
     save(FILM_CACHE, films)
 
@@ -410,7 +454,7 @@ def main():
         out_films[k] = {"title": m.get("title") or needed.get(k, ""), "orig": m.get("orig"),
                         "lang": lang, "langs": m.get("langs") or ([m["lang"]] if m.get("lang") else []),
                         "min": m.get("min"), "year": m.get("year"), "dir": m.get("director"),
-                        "genre": m.get("genre"), "tmdb": m.get("tmdb")}
+                        "genre": m.get("genre"), "tmdb": m.get("tmdb"), "en": m.get("title_en")}
 
     out_cinemas = {k: {"name": c["name"], "addr": c.get("addr"), "lat": c.get("lat"), "lng": c.get("lng"),
                        "multiplex": c.get("multiplex", False), "url": c.get("url"), "web": c.get("web")}
