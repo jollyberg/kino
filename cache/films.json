@@ -2,7 +2,7 @@
  "bd:10002": {
   "title": "Sneak Preview",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "bd:219460": {
@@ -31,6 +31,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1269644,
+    "rt": 93,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Amrum",
+    "y": 2025
+   }
+  ],
   "min": 93,
   "orig": "Amrum",
   "orig_source": null,
@@ -40,7 +51,7 @@
   "tmdb": 1269644,
   "tmdb_checked": true,
   "tmdb_runtime": 93,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -52,10 +63,11 @@
   "country": "Frankreich",
   "director": "Francois Ozon",
   "genre": "Krimidrama",
+  "match_log": [],
   "min": 122,
   "title": "Der Fremde",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2026
  },
@@ -69,6 +81,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 804370,
+    "rt": 89,
+    "score": 8.95,
+    "sim": 0.98,
+    "t": "Arco - Eine fantastische Reise durch die Zeiten",
+    "y": 2025
+   }
+  ],
   "min": 88,
   "orig": "Arco",
   "orig_source": null,
@@ -78,7 +101,7 @@
   "tmdb": 804370,
   "tmdb_checked": true,
   "tmdb_runtime": 89,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -96,6 +119,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1430655,
+    "rt": 81,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Pferd am Stiel",
+    "y": 2026
+   }
+  ],
   "min": 80,
   "orig": "Pferd am Stiel",
   "orig_source": null,
@@ -105,7 +139,7 @@
   "tmdb": 1430655,
   "tmdb_checked": true,
   "tmdb_runtime": 81,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -123,6 +157,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1317149,
+    "rt": 121,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Verflucht normal",
+    "y": 2025
+   }
+  ],
   "min": 121,
   "orig": "I Swear",
   "orig_source": null,
@@ -132,7 +177,7 @@
   "tmdb": 1317149,
   "tmdb_checked": true,
   "tmdb_runtime": 121,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -150,6 +195,17 @@
   "langs": [
    "da"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1583409,
+    "rt": 80,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Der frechste Troll der Welt",
+    "y": 2026
+   }
+  ],
   "min": 80,
   "orig": "Krølle Bølle",
   "orig_source": null,
@@ -159,7 +215,7 @@
   "tmdb": 1583409,
   "tmdb_checked": true,
   "tmdb_runtime": 80,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -175,6 +231,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1185542,
+    "rt": 108,
+    "score": 9.94,
+    "sim": 0.97,
+    "t": "Lieblingsmenschen - Die außergewöhnliche Freundschaft von Agnes & Amir",
+    "y": 2026
+   }
+  ],
   "min": 108,
   "orig": "Lieblingsmenschen - Die außergewöhnliche Freundschaft von Agnes & Amir",
   "orig_source": null,
@@ -184,7 +251,7 @@
   "tmdb": 1185542,
   "tmdb_checked": true,
   "tmdb_runtime": 108,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -202,6 +269,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1553672,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Das gewisse Etwas",
+    "y": 2026
+   }
+  ],
   "min": 105,
   "orig": "Das gewisse Etwas",
   "orig_source": null,
@@ -211,7 +289,7 @@
   "tmdb": 1553672,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -245,6 +323,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1492574,
+    "rt": 91,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Bibi Blocksberg - Die total verhexte Zeitreise",
+    "y": 2026
+   }
+  ],
   "min": 90,
   "orig": "Bibi Blocksberg - Die total verhexte Zeitreise",
   "orig_source": null,
@@ -254,7 +343,7 @@
   "tmdb": 1492574,
   "tmdb_checked": true,
   "tmdb_runtime": 91,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -272,6 +361,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1263337,
+    "rt": 102,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Eiserne Wildnis – Heart of the Beast",
+    "y": 2026
+   }
+  ],
   "min": 101,
   "orig": "Heart of the Beast",
   "orig_source": null,
@@ -281,7 +381,7 @@
   "tmdb": 1263337,
   "tmdb_checked": true,
   "tmdb_runtime": 102,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -299,6 +399,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1426805,
+    "rt": 101,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Emil und die Detektive",
+    "y": 2026
+   }
+  ],
   "min": 100,
   "orig": "Emil und die Detektive",
   "orig_source": null,
@@ -308,7 +419,7 @@
   "tmdb": 1426805,
   "tmdb_checked": true,
   "tmdb_runtime": 101,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -326,6 +437,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1477104,
+    "rt": 81,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Shaun das Schaf – Spuk im Kürbisfeld",
+    "y": 2026
+   }
+  ],
   "min": 80,
   "orig": "Shaun the Sheep: The Beast of Mossy Bottom",
   "orig_source": null,
@@ -335,7 +457,7 @@
   "tmdb": 1477104,
   "tmdb_checked": true,
   "tmdb_runtime": 81,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -353,6 +475,25 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1283515,
+    "rt": 117,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Verity – Dunkle Geheimnisse",
+    "y": 2026
+   },
+   {
+    "id": 1812260,
+    "rt": 45,
+    "sim": 1.0,
+    "t": "Verity",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 114,
   "orig": "Verity",
   "orig_source": null,
@@ -362,7 +503,7 @@
   "tmdb": 1283515,
   "tmdb_checked": true,
   "tmdb_runtime": 117,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -380,6 +521,17 @@
   "langs": [
    "ar"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1658555,
+    "rt": 120,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Hadoota",
+    "y": 2026
+   }
+  ],
   "min": 120,
   "orig": "حدوتة",
   "orig_source": null,
@@ -389,7 +541,7 @@
   "tmdb": 1658555,
   "tmdb_checked": true,
   "tmdb_runtime": 120,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -406,6 +558,17 @@
    "en",
    "pt"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1244523,
+    "rt": 103,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Beware Boiúna",
+    "y": 2026
+   }
+  ],
   "min": 104,
   "orig": "Beware Boiúna",
   "orig_source": null,
@@ -415,7 +578,7 @@
   "tmdb": 1244523,
   "tmdb_checked": true,
   "tmdb_runtime": 103,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -433,6 +596,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1437511,
+    "rt": 122,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "How to Rob a Bank",
+    "y": 2026
+   }
+  ],
   "min": 122,
   "orig": "How to Rob a Bank",
   "orig_source": null,
@@ -442,7 +616,7 @@
   "tmdb": 1437511,
   "tmdb_checked": true,
   "tmdb_runtime": 122,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -451,9 +625,20 @@
   "year": 2026
  },
  "bd:316259": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1430077,
+    "rt": 108,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Hokum",
+    "y": 2026
+   }
+  ],
   "title": "Hokum",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "bd:316398": {
@@ -466,6 +651,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1477572,
+    "rt": 118,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Heimsuchung – Eine Jahrhundertgeschichte",
+    "y": 2026
+   }
+  ],
   "min": 121,
   "orig": "Heimsuchung – Eine Jahrhundertgeschichte",
   "orig_source": null,
@@ -475,7 +671,7 @@
   "tmdb": 1477572,
   "tmdb_checked": true,
   "tmdb_runtime": 118,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -493,6 +689,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1503762,
+    "rt": 132,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Sinn und Sinnlichkeit",
+    "y": 2026
+   }
+  ],
   "min": 133,
   "orig": "Sense and Sensibility",
   "orig_source": null,
@@ -502,7 +709,7 @@
   "tmdb": 1503762,
   "tmdb_checked": true,
   "tmdb_runtime": 132,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -520,6 +727,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1400940,
+    "rt": 109,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Clayface",
+    "y": 2026
+   }
+  ],
   "min": 108,
   "orig": "Clayface",
   "orig_source": null,
@@ -529,7 +747,7 @@
   "tmdb": 1400940,
   "tmdb_checked": true,
   "tmdb_runtime": 109,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -547,6 +765,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1525072,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Der perfekte Urlaub",
+    "y": 2026
+   }
+  ],
   "min": 117,
   "orig": "Der perfekte Urlaub",
   "orig_source": null,
@@ -556,7 +785,7 @@
   "tmdb": 1525072,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -574,6 +803,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1400837,
+    "rt": 93,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Other Mommy",
+    "y": 2026
+   }
+  ],
   "min": 93,
   "orig": "Other Mommy",
   "orig_source": null,
@@ -583,7 +823,7 @@
   "tmdb": 1400837,
   "tmdb_checked": true,
   "tmdb_runtime": 93,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -601,6 +841,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1625344,
+    "rt": 68,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Der Regenbogenfisch",
+    "y": 2026
+   }
+  ],
   "min": 68,
   "orig": "Der Regenbogenfisch",
   "orig_source": null,
@@ -610,7 +861,7 @@
   "tmdb": 1625344,
   "tmdb_checked": true,
   "tmdb_runtime": 68,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -628,6 +879,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1084409,
+    "rt": 106,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Ein Talent fürs Morden",
+    "y": 2026
+   }
+  ],
   "min": 106,
   "orig": "A Talent for Murder",
   "orig_source": null,
@@ -637,7 +899,7 @@
   "tmdb": 1084409,
   "tmdb_checked": true,
   "tmdb_runtime": 106,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -655,6 +917,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1447206,
+    "rt": 106,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Geister",
+    "y": 2026
+   }
+  ],
   "min": 106,
   "orig": "Geister",
   "orig_source": null,
@@ -664,7 +937,7 @@
   "tmdb": 1447206,
   "tmdb_checked": true,
   "tmdb_runtime": 106,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -683,6 +956,17 @@
    "ja",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1381071,
+    "rt": 135,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Godzilla Minus Zero",
+    "y": 2026
+   }
+  ],
   "min": 135,
   "orig": "ゴジラ-0.0",
   "orig_source": null,
@@ -692,7 +976,7 @@
   "tmdb": 1381071,
   "tmdb_checked": true,
   "tmdb_runtime": 135,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "ja"
@@ -727,6 +1011,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 791523,
+    "rt": 132,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Wildwood",
+    "y": 2026
+   }
+  ],
   "min": 132,
   "orig": "Wildwood",
   "orig_source": null,
@@ -736,7 +1031,7 @@
   "tmdb": 791523,
   "tmdb_checked": true,
   "tmdb_runtime": 132,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -754,6 +1049,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1567605,
+    "rt": 115,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Ebenezer – Eine Weihnachtsgeschichte",
+    "y": 2026
+   }
+  ],
   "min": 116,
   "orig": "Ebenezer",
   "orig_source": null,
@@ -763,7 +1069,7 @@
   "tmdb": 1567605,
   "tmdb_checked": true,
   "tmdb_runtime": 115,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -782,6 +1088,17 @@
    "en",
    "es"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 891621,
+    "rt": 117,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Wild Horse Nine",
+    "y": 2026
+   }
+  ],
   "min": 118,
   "orig": "Wild Horse Nine",
   "orig_source": null,
@@ -791,7 +1108,7 @@
   "tmdb": 891621,
   "tmdb_checked": true,
   "tmdb_runtime": 117,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en",
@@ -810,6 +1127,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1778515,
+    "rt": 60,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Festtagsspaß mit Peppa",
+    "y": 2026
+   }
+  ],
   "min": 60,
   "orig": "Festive Fun with Peppa",
   "orig_source": null,
@@ -819,7 +1147,7 @@
   "tmdb": 1778515,
   "tmdb_checked": true,
   "tmdb_runtime": 60,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -835,6 +1163,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1300968,
+    "rt": 158,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Die Tribute von Panem: Sunrise on the Reaping",
+    "y": 2026
+   }
+  ],
   "min": 158,
   "orig": "The Hunger Games: Sunrise on the Reaping",
   "orig_source": null,
@@ -844,7 +1183,7 @@
   "tmdb": 1300968,
   "tmdb_checked": true,
   "tmdb_runtime": 158,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -862,6 +1201,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1458099,
+    "rt": 88,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "The Only Living Pickpocket in New York",
+    "y": 2026
+   }
+  ],
   "min": 88,
   "orig": "The Only Living Pickpocket in New York",
   "orig_source": null,
@@ -871,7 +1221,7 @@
   "tmdb": 1458099,
   "tmdb_checked": true,
   "tmdb_runtime": 88,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -883,10 +1233,11 @@
   "country": "Japan",
   "director": "Yukihiro Miyamoto, Akiyuki Shinbo",
   "genre": "Anime",
+  "match_log": [],
   "min": 120,
   "title": "Puella Magi Madoka Magica Der Film - Walpurgisnacht: Rising",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2026
  },
@@ -901,6 +1252,17 @@
    "hi",
    "sa"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 656908,
+    "rt": 195,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Ramayana: Rise of a Legend",
+    "y": 2026
+   }
+  ],
   "min": 195,
   "orig": "रामायणम्",
   "orig_source": null,
@@ -910,7 +1272,7 @@
   "tmdb": 656908,
   "tmdb_checked": true,
   "tmdb_runtime": 195,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "hi"
@@ -941,6 +1303,17 @@
    "en",
    "ay"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1286656,
+    "rt": 128,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "I Play Rocky",
+    "y": 2026
+   }
+  ],
   "min": 128,
   "orig": "I Play Rocky",
   "orig_source": null,
@@ -950,7 +1323,7 @@
   "tmdb": 1286656,
   "tmdb_checked": true,
   "tmdb_runtime": 128,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -968,6 +1341,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1400336,
+    "rt": 105,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Meine Frau, unsere Schwiegertochter und ich",
+    "y": 2026
+   }
+  ],
   "min": 105,
   "orig": "Focker In-Law",
   "orig_source": null,
@@ -977,7 +1361,7 @@
   "tmdb": 1400336,
   "tmdb_checked": true,
   "tmdb_runtime": 105,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -986,9 +1370,10 @@
   "year": 2026
  },
  "bd:317808": {
+  "match_log": [],
   "title": "#HockeyDeutschland. Durch Liebe zum Titel",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "bd:317998": {
@@ -1005,15 +1390,37 @@
   "v": 2
  },
  "bd:318057": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1825589,
+    "rt": 0,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Akte Vuskovic – Doping. Skandal. Zweifel",
+    "y": 2026
+   }
+  ],
   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "bd:318058": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1707378,
+    "rt": 0,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Dzień Dziecka księdza Jana Kaczkowskiego",
+    "y": 2026
+   }
+  ],
   "title": "Dzien dziecka ksiedza Jana Kaczkowskiego",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "bd:318194": {
@@ -1054,6 +1461,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1564324,
+    "rt": 124,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Adams Acht",
+    "y": 2026
+   }
+  ],
   "min": 124,
   "orig": "Adams Acht",
   "orig_source": "Adams 8: The Rome Eight",
@@ -1063,7 +1481,7 @@
   "tmdb": 1564324,
   "tmdb_checked": true,
   "tmdb_runtime": 124,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -1079,6 +1497,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1477576,
+    "rt": 110,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Alte Liebe",
+    "y": 2026
+   }
+  ],
   "min": 111,
   "orig": "Alte Liebe",
   "orig_source": null,
@@ -1088,7 +1517,7 @@
   "tmdb": 1477576,
   "tmdb_checked": true,
   "tmdb_runtime": 110,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -1113,7 +1542,7 @@
   "tmdb": 433763,
   "tmdb_checked": true,
   "tmdb_runtime": 97,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -1148,6 +1577,26 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1198654,
+    "rt": 100,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Bad Apples",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 1642114,
+    "rt": 0,
+    "score": 1.0,
+    "sim": 1.0,
+    "t": "Bad Apples",
+    "y": 2026
+   }
+  ],
   "min": 100,
   "orig": "Bad Apples",
   "orig_source": null,
@@ -1157,7 +1606,7 @@
   "tmdb": 1198654,
   "tmdb_checked": true,
   "tmdb_runtime": 100,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -1201,6 +1650,17 @@
   "langs": [
    "el"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1518731,
+    "rt": 121,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Bearcave",
+    "y": 2026
+   }
+  ],
   "min": 121,
   "orig": "Αρκουδότρυπα",
   "orig_source": null,
@@ -1210,7 +1670,7 @@
   "tmdb": 1518731,
   "tmdb_checked": true,
   "tmdb_runtime": 121,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -1233,6 +1693,17 @@
    "en",
    "pt"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1244523,
+    "rt": 103,
+    "score": 9.62,
+    "sim": 0.81,
+    "t": "Beware Boiúna",
+    "y": 2026
+   }
+  ],
   "min": 100,
   "orig": "Beware Boiúna",
   "orig_source": "Beware Boiuna – Titan",
@@ -1242,7 +1713,7 @@
   "tmdb": 1244523,
   "tmdb_checked": true,
   "tmdb_runtime": 103,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -1260,6 +1731,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1492574,
+    "rt": 91,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Bibi Blocksberg - Die total verhexte Zeitreise",
+    "y": 2026
+   }
+  ],
   "min": 91,
   "orig": "Bibi Blocksberg - Die total verhexte Zeitreise",
   "orig_source": "Bibi Blocksberg: Die total verhexte Zeitreise",
@@ -1269,7 +1751,7 @@
   "tmdb": 1492574,
   "tmdb_checked": true,
   "tmdb_runtime": 91,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -1287,6 +1769,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1512629,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Biermann",
+    "y": 2026
+   }
+  ],
   "min": 120,
   "orig": "Biermann",
   "orig_source": null,
@@ -1296,7 +1789,7 @@
   "tmdb": 1512629,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -1314,6 +1807,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1540151,
+    "rt": 108,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Block 10",
+    "y": 2026
+   }
+  ],
   "min": 104,
   "orig": "Block 10",
   "orig_source": null,
@@ -1323,7 +1827,7 @@
   "tmdb": 1540151,
   "tmdb_checked": true,
   "tmdb_runtime": 108,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -1342,6 +1846,17 @@
    "en",
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 759,
+    "rt": 91,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Blondinen bevorzugt",
+    "y": 1953
+   }
+  ],
   "min": 91,
   "orig": "Gentlemen Prefer Blondes",
   "orig_source": "Gentlemen Prefer Blondes",
@@ -1351,7 +1866,7 @@
   "tmdb": 759,
   "tmdb_checked": true,
   "tmdb_runtime": 91,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -1369,6 +1884,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1517161,
+    "rt": 99,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Broken English: Marianne Faithful",
+    "y": 2026
+   }
+  ],
   "min": 99,
   "orig": "Broken English",
   "orig_source": null,
@@ -1378,7 +1904,7 @@
   "tmdb": 1517161,
   "tmdb_checked": true,
   "tmdb_runtime": 99,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -1396,6 +1922,25 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1468757,
+    "rt": 116,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Bruno - Der junge Kreisky",
+    "y": 2026
+   },
+   {
+    "id": 1727449,
+    "rt": 2,
+    "sim": 0.62,
+    "t": "Broad Bruno",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 116,
   "orig": "Bruno - Der junge Kreisky",
   "orig_source": "Bruno: Der junge Kreisky",
@@ -1405,7 +1950,7 @@
   "tmdb": 1468757,
   "tmdb_checked": true,
   "tmdb_runtime": 116,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -1423,6 +1968,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1433854,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Brute 1986",
+    "y": 2026
+   }
+  ],
   "min": 84,
   "orig": "Brute 1986",
   "orig_source": null,
@@ -1432,7 +1988,7 @@
   "tmdb": 1433854,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -1451,6 +2007,51 @@
    "es",
    "de"
   ],
+  "match_log": [
+   {
+    "dir": false,
+    "id": 1654313,
+    "rt": 118,
+    "score": 4.24,
+    "sim": 0.62,
+    "t": "Unanswered//butterfly",
+    "y": 2026
+   },
+   {
+    "dir": true,
+    "id": 1261032,
+    "rt": 117,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Butterfly – Rückkehr nach Gran Canaria",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 920647,
+    "rt": 102,
+    "score": 1.64,
+    "sim": 0.82,
+    "t": "Butterfly Jam",
+    "y": 2026
+   },
+   {
+    "id": 1704229,
+    "rt": 89,
+    "sim": 1.0,
+    "t": "Butterfly",
+    "x": "Laufzeit",
+    "y": 2026
+   },
+   {
+    "id": 1728871,
+    "rt": 4,
+    "sim": 1.0,
+    "t": "Butterfly",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 120,
   "orig": "Butterfly",
   "orig_source": "Butterfly",
@@ -1460,7 +2061,7 @@
   "tmdb": 1261032,
   "tmdb_checked": true,
   "tmdb_runtime": 117,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -1476,6 +2077,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1380417,
+    "rt": 107,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "By Any Means",
+    "y": 2026
+   }
+  ],
   "min": 107,
   "orig": "By Any Means",
   "orig_source": null,
@@ -1485,7 +2097,7 @@
   "tmdb": 1380417,
   "tmdb_checked": true,
   "tmdb_runtime": 107,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -1503,6 +2115,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1427836,
+    "rt": 94,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+    "y": 2026
+   }
+  ],
   "min": 93,
   "orig": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
   "orig_source": "Checker Tobi und die heimliche Herrscherin der Erde (2025)",
@@ -1512,7 +2135,7 @@
   "tmdb": 1427836,
   "tmdb_checked": true,
   "tmdb_runtime": 94,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -1530,6 +2153,25 @@
    "es",
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1299799,
+    "rt": 114,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Chopin - Eine Sonate in Paris",
+    "y": 2025
+   },
+   {
+    "id": 1016836,
+    "rt": 85,
+    "sim": 0.63,
+    "t": "Chopin",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 133,
   "orig": "Chopin, Chopin!",
   "orig_source": "Chopin, Chopin!",
@@ -1539,7 +2181,7 @@
   "tmdb": 1299799,
   "tmdb_checked": true,
   "tmdb_runtime": 114,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "es",
@@ -1553,7 +2195,7 @@
   "genre": "Überraschungsfilm",
   "title": "Classic Sneak",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ik:clayface_2026": {
@@ -1566,6 +2208,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1400940,
+    "rt": 109,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Clayface",
+    "y": 2026
+   }
+  ],
   "min": 109,
   "orig": "Clayface",
   "orig_source": null,
@@ -1575,7 +2228,7 @@
   "tmdb": 1400940,
   "tmdb_checked": true,
   "tmdb_runtime": 109,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -1592,6 +2245,26 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1496491,
+    "rt": 75,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Comédie Française",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 1709002,
+    "rt": 0,
+    "score": 1.66,
+    "sim": 0.83,
+    "t": "Hamlet (Comédie-Française)",
+    "y": 2026
+   }
+  ],
   "min": 75,
   "orig": "De la Comédie-Française",
   "orig_source": "De la Comédie-Française",
@@ -1601,7 +2274,7 @@
   "tmdb": 1496491,
   "tmdb_checked": true,
   "tmdb_runtime": 75,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -1634,6 +2307,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1477583,
+    "rt": 103,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Corpus Delicti",
+    "y": 2026
+   }
+  ],
   "min": 103,
   "orig": "Corpus Delicti",
   "orig_source": null,
@@ -1643,7 +2327,7 @@
   "tmdb": 1477583,
   "tmdb_checked": true,
   "tmdb_runtime": 103,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -1688,7 +2372,7 @@
   "tmdb": 18,
   "tmdb_checked": true,
   "tmdb_runtime": 126,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -1706,6 +2390,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1185537,
+    "rt": 100,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Das Geheimnis der gestohlenen Maske",
+    "y": 2026
+   }
+  ],
   "min": 98,
   "orig": "Das Geheimnis der gestohlenen Maske",
   "orig_source": null,
@@ -1715,7 +2410,7 @@
   "tmdb": 1185537,
   "tmdb_checked": true,
   "tmdb_runtime": 100,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -1734,6 +2429,17 @@
    "de",
    "bg"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1013822,
+    "rt": 164,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Das geträumte Abenteuer",
+    "y": 2026
+   }
+  ],
   "min": 167,
   "orig": "Das geträumte Abenteuer",
   "orig_source": null,
@@ -1743,7 +2449,7 @@
   "tmdb": 1013822,
   "tmdb_checked": true,
   "tmdb_runtime": 164,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "bg"
@@ -1761,6 +2467,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1553672,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Das gewisse Etwas",
+    "y": 2026
+   }
+  ],
   "min": 91,
   "orig": "Das gewisse Etwas",
   "orig_source": null,
@@ -1770,7 +2487,7 @@
   "tmdb": 1553672,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -1799,6 +2516,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 175360,
+    "rt": 127,
+    "score": 6.75,
+    "sim": 0.88,
+    "t": "Das indische Grabmal, erster Teil: Die Sendung des Yoghi",
+    "y": 1921
+   }
+  ],
   "min": 100,
   "orig": "Das indische Grabmal, erster Teil: Die Sendung des Yoghi",
   "orig_source": "Das indische Grabmal: Die Sendung des Yoghi",
@@ -1808,7 +2536,7 @@
   "tmdb": 175360,
   "tmdb_checked": true,
   "tmdb_runtime": 127,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -1825,6 +2553,17 @@
    "fr",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1165366,
+    "rt": 160,
+    "score": 9.77,
+    "sim": 0.88,
+    "t": "De Gaulle - Zeit des Widerstands",
+    "y": 2026
+   }
+  ],
   "min": 160,
   "orig": "La Bataille de Gaulle : L’Âge de fer",
   "orig_source": "La Bataille de Gaulle – Partie 1 : L’Âge de fer",
@@ -1834,7 +2573,7 @@
   "tmdb": 1165366,
   "tmdb_checked": true,
   "tmdb_runtime": 160,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -1868,6 +2607,17 @@
   "langs": [
    "da"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1583409,
+    "rt": 80,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Der frechste Troll der Welt",
+    "y": 2026
+   }
+  ],
   "min": 80,
   "orig": "Krølle Bølle",
   "orig_source": "Krølle Bølle",
@@ -1877,7 +2627,7 @@
   "tmdb": 1583409,
   "tmdb_checked": true,
   "tmdb_runtime": 80,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -1910,6 +2660,17 @@
    "es",
    "tr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 144,
+    "rt": 128,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Der Himmel über Berlin",
+    "y": 1987
+   }
+  ],
   "min": 127,
   "orig": "Der Himmel über Berlin",
   "orig_source": null,
@@ -1919,7 +2680,7 @@
   "tmdb": 144,
   "tmdb_checked": true,
   "tmdb_runtime": 128,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de",
@@ -1960,6 +2721,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 677558,
+    "rt": 91,
+    "score": 7.33,
+    "sim": 0.67,
+    "t": "Der letzte Walsänger",
+    "y": 2026
+   }
+  ],
   "min": 99,
   "orig": "The Last Whale Singer",
   "orig_source": "Der letzte Walsänger: The Last Whale Singer",
@@ -1969,7 +2741,7 @@
   "tmdb": 677558,
   "tmdb_checked": true,
   "tmdb_runtime": 91,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -1987,6 +2759,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1525072,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Der perfekte Urlaub",
+    "y": 2026
+   }
+  ],
   "min": 117,
   "orig": "Der perfekte Urlaub",
   "orig_source": null,
@@ -1996,7 +2779,7 @@
   "tmdb": 1525072,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2014,6 +2797,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1625344,
+    "rt": 68,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Der Regenbogenfisch",
+    "y": 2026
+   }
+  ],
   "min": 70,
   "orig": "Der Regenbogenfisch",
   "orig_source": null,
@@ -2023,7 +2817,7 @@
   "tmdb": 1625344,
   "tmdb_checked": true,
   "tmdb_runtime": 68,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2042,6 +2836,17 @@
    "de",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 17938,
+    "rt": 93,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Der schweigende Stern",
+    "y": 1960
+   }
+  ],
   "min": 93,
   "orig": "Der schweigende Stern",
   "orig_source": null,
@@ -2051,7 +2856,7 @@
   "tmdb": 17938,
   "tmdb_checked": true,
   "tmdb_runtime": 93,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2069,6 +2874,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1410202,
+    "rt": 97,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Spaziergang nach Syrakus",
+    "y": 2026
+   }
+  ],
   "min": 97,
   "orig": "Spaziergang nach Syrakus",
   "orig_source": "Der Spaziergang nach Syrakus",
@@ -2078,7 +2894,7 @@
   "tmdb": 1410202,
   "tmdb_checked": true,
   "tmdb_runtime": 97,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2090,11 +2906,12 @@
   "country": "Österreich/Luxemburg",
   "director": "Ulrike Ottinger",
   "genre": "Drama",
+  "match_log": [],
   "min": 119,
   "orig": "Die Blutgräfin – The Blood Countess",
   "title": "Die Blutgräfin",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2026
  },
@@ -2116,7 +2933,7 @@
   "tmdb": 906,
   "tmdb_checked": true,
   "tmdb_runtime": 90,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2134,6 +2951,33 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1368337,
+    "rt": 173,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Die Odyssee",
+    "y": 2026
+   },
+   {
+    "id": 1756234,
+    "rt": 92,
+    "sim": 1.0,
+    "t": "The Odyssey",
+    "x": "Laufzeit",
+    "y": 2026
+   },
+   {
+    "id": 1698863,
+    "rt": 86,
+    "sim": 1.0,
+    "t": "The Odyssey",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 172,
   "orig": "The Odyssey",
   "orig_source": "The Odyssey",
@@ -2143,7 +2987,7 @@
   "tmdb": 1368337,
   "tmdb_checked": true,
   "tmdb_runtime": 173,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -2161,6 +3005,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 311601,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Die Privatsekretärin",
+    "y": 1953
+   }
+  ],
   "min": 95,
   "orig": "Die Privatsekretärin",
   "orig_source": "Die Privatsekretärin",
@@ -2170,7 +3025,7 @@
   "tmdb": 311601,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2189,6 +3044,17 @@
    "fr",
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 989246,
+    "rt": 76,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Die Schatzsuche im Blaumeisental",
+    "y": 2025
+   }
+  ],
   "min": 77,
   "orig": "Le Secret des mésanges",
   "orig_source": "Le secret des mésanges",
@@ -2198,7 +3064,7 @@
   "tmdb": 989246,
   "tmdb_checked": true,
   "tmdb_runtime": 76,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -2216,6 +3082,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 734812,
+    "rt": 0,
+    "score": 6.0,
+    "sim": 1.0,
+    "t": "Die Tigerentenbande - Der Film",
+    "y": 2011
+   }
+  ],
   "min": 71,
   "orig": "Die Tigerentenbande - Der Film",
   "orig_source": null,
@@ -2225,7 +3102,7 @@
   "tmdb": 734812,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2243,6 +3120,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1300968,
+    "rt": 158,
+    "score": 8.0,
+    "sim": 1.0,
+    "t": "Die Tribute von Panem: Sunrise on the Reaping",
+    "y": 2026
+   }
+  ],
   "min": 150,
   "orig": "The Hunger Games: Sunrise on the Reaping",
   "orig_source": "The Hunger Games: Sunrise On The Reaping",
@@ -2252,7 +3140,7 @@
   "tmdb": 1300968,
   "tmdb_checked": true,
   "tmdb_runtime": 158,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -2299,6 +3187,17 @@
    "fr",
    "zh"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1248832,
+    "rt": 129,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Digger",
+    "y": 2026
+   }
+  ],
   "min": 128,
   "orig": "Digger",
   "orig_source": null,
@@ -2308,7 +3207,7 @@
   "tmdb": 1248832,
   "tmdb_checked": true,
   "tmdb_runtime": 129,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -2320,11 +3219,22 @@
   "country": "Tschad/ Frankreich/ Deutschland/ Elfenbeinküste",
   "director": "Achille Ronaїmou Adoumbaye",
   "genre": "Drama",
+  "match_log": [
+   {
+    "dir": false,
+    "id": 1430865,
+    "rt": 97,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Diya – Blutgeld",
+    "y": 2026
+   }
+  ],
   "min": 90,
   "orig": "Diya",
   "title": "Preview: Diya - Blutgeld",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2025
  },
@@ -2339,6 +3249,17 @@
    "lv",
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1282280,
+    "rt": 95,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Dog of God",
+    "y": 2025
+   }
+  ],
   "min": 95,
   "orig": "Dieva suns",
   "orig_source": "Dieva suns",
@@ -2348,7 +3269,7 @@
   "tmdb": 1282280,
   "tmdb_checked": true,
   "tmdb_runtime": 95,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de",
@@ -2367,6 +3288,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1430820,
+    "rt": 92,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "À pied d’œuvre",
+    "y": 2026
+   }
+  ],
   "min": 92,
   "orig": "À pied d’œuvre",
   "orig_source": "À pied d’œuvre",
@@ -2376,7 +3308,7 @@
   "tmdb": 1430820,
   "tmdb_checked": true,
   "tmdb_runtime": 92,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -2394,6 +3326,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1452242,
+    "rt": 93,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Drei Kameradinnen",
+    "y": 2026
+   }
+  ],
   "min": 93,
   "orig": "Drei Kameradinnen",
   "orig_source": null,
@@ -2403,7 +3346,7 @@
   "tmdb": 1452242,
   "tmdb_checked": true,
   "tmdb_runtime": 93,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -2420,6 +3363,17 @@
    "ka",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1057888,
+    "rt": 187,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Dry Leaf",
+    "y": 2026
+   }
+  ],
   "min": 186,
   "orig": "ხმელი ფოთოლი",
   "orig_source": "Khmeli potoli",
@@ -2429,7 +3383,7 @@
   "tmdb": 1057888,
   "tmdb_checked": true,
   "tmdb_runtime": 187,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "ka"
@@ -2448,6 +3402,17 @@
    "sq",
    "sr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1472825,
+    "rt": 101,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Dua",
+    "y": 2026
+   }
+  ],
   "min": 101,
   "orig": "Dua",
   "orig_source": "Dua",
@@ -2457,7 +3422,7 @@
   "tmdb": 1472825,
   "tmdb_checked": true,
   "tmdb_runtime": 101,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "sq"
@@ -2469,11 +3434,21 @@
   "country": "USA",
   "director": "Ti West",
   "genre": "Komödie, Drama, Fantasy",
+  "match_log": [
+   {
+    "id": 1749825,
+    "rt": 85,
+    "sim": 0.78,
+    "t": "Ebenezer Scrooge: A Christmas Carol Horror",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 116,
   "orig": "Ebenezer: A Christmas Carol",
   "title": "Ebenezer - Eine Weihnachtsgeschichte",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2026
  },
@@ -2485,6 +3460,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1202205,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Edmund und Luzie - Winterabenteuer",
+    "y": 2023
+   }
+  ],
   "min": 45,
   "orig": "L'Hiver d'Edmond et Lucy",
   "orig_source": "L'hiver d'Edmond et Lucy",
@@ -2494,7 +3480,7 @@
   "tmdb": 1202205,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2023
  },
@@ -2508,6 +3494,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1084409,
+    "rt": 106,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Ein Talent fürs Morden",
+    "y": 2026
+   }
+  ],
   "min": 106,
   "orig": "A Talent for Murder",
   "orig_source": "A Talent for Murder",
@@ -2517,7 +3514,7 @@
   "tmdb": 1084409,
   "tmdb_checked": true,
   "tmdb_runtime": 106,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -2535,6 +3532,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1616868,
+    "rt": 93,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Einar Schleef - Ich habe kein Deutschland gefunden",
+    "y": 2026
+   }
+  ],
   "min": 92,
   "orig": "Einar Schleef - Ich habe kein Deutschland gefunden",
   "orig_source": null,
@@ -2544,7 +3552,7 @@
   "tmdb": 1616868,
   "tmdb_checked": true,
   "tmdb_runtime": 93,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2562,6 +3570,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1263337,
+    "rt": 102,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Eiserne Wildnis – Heart of the Beast",
+    "y": 2026
+   }
+  ],
   "min": 101,
   "orig": "Heart of the Beast",
   "orig_source": "Heart of the Beast",
@@ -2571,7 +3590,7 @@
   "tmdb": 1263337,
   "tmdb_checked": true,
   "tmdb_runtime": 102,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -2597,7 +3616,7 @@
   "tmdb": 1022787,
   "tmdb_checked": true,
   "tmdb_runtime": 98,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -2615,6 +3634,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1426805,
+    "rt": 101,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Emil und die Detektive",
+    "y": 2026
+   }
+  ],
   "min": 101,
   "orig": "Emil und die Detektive",
   "orig_source": "Emil und die Detektive",
@@ -2624,7 +3654,7 @@
   "tmdb": 1426805,
   "tmdb_checked": true,
   "tmdb_runtime": 101,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2640,6 +3670,51 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1769694,
+    "rt": 75,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Eternity",
+    "y": 2026
+   },
+   {
+    "dir": true,
+    "id": 1769681,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Eternity",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 1674193,
+    "rt": 88,
+    "score": 1.6,
+    "sim": 0.8,
+    "t": "Eternity One",
+    "y": 2026
+   },
+   {
+    "id": 1789018,
+    "rt": 4,
+    "sim": 1.0,
+    "t": "ETERNITY",
+    "x": "Laufzeit",
+    "y": 2026
+   },
+   {
+    "id": 1259102,
+    "rt": 114,
+    "sim": 1.0,
+    "t": "Eternity",
+    "x": "Laufzeit",
+    "y": 2025
+   }
+  ],
   "min": 72,
   "orig": "Eternity",
   "orig_source": null,
@@ -2649,7 +3724,7 @@
   "tmdb": 1769694,
   "tmdb_checked": true,
   "tmdb_runtime": 75,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2026
  },
@@ -2665,6 +3740,17 @@
    "es",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1655419,
+    "rt": 124,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Everytime",
+    "y": 2026
+   }
+  ],
   "min": 121,
   "orig": "Everytime",
   "orig_source": "Everytime (2026)",
@@ -2674,7 +3760,7 @@
   "tmdb": 1655419,
   "tmdb_checked": true,
   "tmdb_runtime": 124,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2686,11 +3772,12 @@
   "country": "Japan",
   "director": "Genki Kawamura",
   "genre": "Horror, Thriller",
+  "match_log": [],
   "min": 95,
   "orig": "8-ban deguchi",
   "title": "Exit 8",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2025
  },
@@ -2704,6 +3791,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1427838,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Extrawurst",
+    "y": 2026
+   }
+  ],
   "min": 100,
   "orig": "Extrawurst",
   "orig_source": null,
@@ -2713,7 +3811,7 @@
   "tmdb": 1427838,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2753,6 +3851,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1778515,
+    "rt": 60,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Festtagsspaß mit Peppa",
+    "y": 2026
+   }
+  ],
   "min": 60,
   "orig": "Festive Fun with Peppa",
   "orig_source": null,
@@ -2762,7 +3871,7 @@
   "tmdb": 1778515,
   "tmdb_checked": true,
   "tmdb_runtime": 60,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -2791,7 +3900,7 @@
   "min": 69,
   "title": "Filme von Robert Beavers",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2013
  },
@@ -2825,6 +3934,17 @@
    "en",
    "tl"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1465063,
+    "rt": 109,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Forgotten Island",
+    "y": 2026
+   }
+  ],
   "min": 109,
   "orig": "Forgotten Island",
   "orig_source": null,
@@ -2834,7 +3954,7 @@
   "tmdb": 1465063,
   "tmdb_checked": true,
   "tmdb_runtime": 109,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -2852,6 +3972,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1176971,
+    "rt": 112,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Frau Winkler verlässt das Haus",
+    "y": 2026
+   }
+  ],
   "min": 108,
   "orig": "Frau Winkler verlässt das Haus",
   "orig_source": null,
@@ -2861,7 +3992,7 @@
   "tmdb": 1176971,
   "tmdb_checked": true,
   "tmdb_runtime": 112,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2895,6 +4026,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 2216,
+    "rt": 90,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Fünf Patronenhülsen",
+    "y": 1960
+   }
+  ],
   "min": 87,
   "orig": "Fünf Patronenhülsen",
   "orig_source": null,
@@ -2904,7 +4046,7 @@
   "tmdb": 2216,
   "tmdb_checked": true,
   "tmdb_runtime": 90,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -2933,11 +4075,12 @@
   "country": "J",
   "director": "Shohei Imamura",
   "genre": "Drama",
+  "match_log": [],
   "min": 139,
   "orig": "Fukushu suruwa ware niari",
   "title": "Vengeance is Mine",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 1979
  },
@@ -2951,6 +4094,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1319849,
+    "rt": 81,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "FUTURE COUNCIL - Komm an Bord",
+    "y": 2025
+   }
+  ],
   "min": 81,
   "orig": "Future Council",
   "orig_source": "Future Council",
@@ -2960,7 +4114,7 @@
   "tmdb": 1319849,
   "tmdb_checked": true,
   "tmdb_runtime": 81,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -2978,6 +4132,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1447206,
+    "rt": 106,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Geister",
+    "y": 2026
+   }
+  ],
   "min": 106,
   "orig": "Geister",
   "orig_source": null,
@@ -2987,7 +4152,7 @@
   "tmdb": 1447206,
   "tmdb_checked": true,
   "tmdb_runtime": 106,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -3033,11 +4198,12 @@
   "country": "J",
   "director": "Mamoru Oshii",
   "genre": "Action, Animation, Science Fiction",
+  "match_log": [],
   "min": 79,
   "orig": "Kokaku kidotai",
   "title": "Ghost in the Shell",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 1995
  },
@@ -3051,6 +4217,25 @@
   "langs": [
    "es"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1443576,
+    "rt": 112,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Glaube",
+    "y": 2025
+   },
+   {
+    "id": 1251919,
+    "rt": 17,
+    "sim": 0.69,
+    "t": "Los domingos que quedan",
+    "x": "Laufzeit",
+    "y": 2024
+   }
+  ],
   "min": 115,
   "orig": "Los domingos",
   "orig_source": "Los domingos",
@@ -3060,7 +4245,7 @@
   "tmdb": 1443576,
   "tmdb_checked": true,
   "tmdb_runtime": 112,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "es"
@@ -3079,6 +4264,17 @@
    "ja",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1381071,
+    "rt": 135,
+    "score": 7.67,
+    "sim": 0.83,
+    "t": "Godzilla Minus Zero",
+    "y": 2026
+   }
+  ],
   "min": 125,
   "orig": "ゴジラ-0.0",
   "orig_source": "Gojira Minus Zero (2026)",
@@ -3088,7 +4284,7 @@
   "tmdb": 1381071,
   "tmdb_checked": true,
   "tmdb_runtime": 135,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "ja"
@@ -3122,6 +4318,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 78313,
+    "rt": 110,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Halt auf freier Strecke",
+    "y": 2011
+   }
+  ],
   "min": 110,
   "orig": "Halt auf freier Strecke",
   "orig_source": null,
@@ -3131,7 +4338,7 @@
   "tmdb": 78313,
   "tmdb_checked": true,
   "tmdb_runtime": 110,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -3149,6 +4356,17 @@
   "langs": [
    "ja"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 5910,
+    "rt": 103,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Hana-bi - Feuerblume",
+    "y": 1997
+   }
+  ],
   "min": 103,
   "orig": "HANA-BI",
   "orig_source": "Hana-Bi",
@@ -3158,7 +4376,7 @@
   "tmdb": 5910,
   "tmdb_checked": true,
   "tmdb_runtime": 103,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "ja"
@@ -3194,6 +4412,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1477572,
+    "rt": 118,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Heimsuchung – Eine Jahrhundertgeschichte",
+    "y": 2026
+   }
+  ],
   "min": 118,
   "orig": "Heimsuchung – Eine Jahrhundertgeschichte",
   "orig_source": "Heimsuchung: eine Jahrhundertgeschichte (2026)",
@@ -3203,7 +4432,7 @@
   "tmdb": 1477572,
   "tmdb_checked": true,
   "tmdb_runtime": 118,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -3219,6 +4448,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1675935,
+    "rt": 0,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Helene Weigel - Revolutionärin im Rampenlicht",
+    "y": 2026
+   }
+  ],
   "min": 102,
   "orig": "Helene Weigel - Revolutionärin im Rampenlicht",
   "orig_source": "Helene Weigel: Revolutionärin im Rampenlicht",
@@ -3228,7 +4468,7 @@
   "tmdb": 1675935,
   "tmdb_checked": true,
   "tmdb_runtime": 0,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2026
  },
@@ -3243,6 +4483,17 @@
    "en",
    "ja"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1469342,
+    "rt": 109,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Her Private Hell",
+    "y": 2026
+   }
+  ],
   "min": 109,
   "orig": "Her Private Hell",
   "orig_source": null,
@@ -3252,7 +4503,7 @@
   "tmdb": 1469342,
   "tmdb_checked": true,
   "tmdb_runtime": 109,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en",
@@ -3271,6 +4522,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1700888,
+    "rt": 119,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Hiddensee",
+    "y": 2026
+   }
+  ],
   "min": 118,
   "orig": "Hiddensee",
   "orig_source": null,
@@ -3280,7 +4542,7 @@
   "tmdb": 1700888,
   "tmdb_checked": true,
   "tmdb_runtime": 119,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -3298,6 +4560,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1191818,
+    "rt": 114,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "The Birthday Party",
+    "y": 2026
+   }
+  ],
   "min": 114,
   "orig": "Histoires de la nuit",
   "orig_source": "Histoires de la nuit",
@@ -3307,7 +4580,7 @@
   "tmdb": 1191818,
   "tmdb_checked": true,
   "tmdb_runtime": 114,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -3326,6 +4599,17 @@
    "en",
    "es"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1430077,
+    "rt": 108,
+    "score": 8.0,
+    "sim": 1.0,
+    "t": "Hokum",
+    "y": 2026
+   }
+  ],
   "min": 101,
   "orig": "Hokum",
   "orig_source": null,
@@ -3335,7 +4619,7 @@
   "tmdb": 1430077,
   "tmdb_checked": true,
   "tmdb_runtime": 108,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -3353,6 +4637,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1437511,
+    "rt": 122,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "How to Rob a Bank",
+    "y": 2026
+   }
+  ],
   "min": 122,
   "orig": "How to Rob a Bank",
   "orig_source": null,
@@ -3362,7 +4657,7 @@
   "tmdb": 1437511,
   "tmdb_checked": true,
   "tmdb_runtime": 122,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -3432,6 +4727,17 @@
    "en",
    "zh"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1227877,
+    "rt": 113,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "I Love Boosters",
+    "y": 2026
+   }
+  ],
   "min": 113,
   "orig": "I Love Boosters",
   "orig_source": null,
@@ -3441,7 +4747,7 @@
   "tmdb": 1227877,
   "tmdb_checked": true,
   "tmdb_runtime": 113,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -3460,6 +4766,17 @@
    "en",
    "ay"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1286656,
+    "rt": 128,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "I Play Rocky",
+    "y": 2026
+   }
+  ],
   "min": 128,
   "orig": "I Play Rocky",
   "orig_source": null,
@@ -3469,7 +4786,7 @@
   "tmdb": 1286656,
   "tmdb_checked": true,
   "tmdb_runtime": 128,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -3499,6 +4816,17 @@
    "de",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1466007,
+    "rt": 103,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Identitti",
+    "y": 2026
+   }
+  ],
   "min": 103,
   "orig": "Identitti",
   "orig_source": null,
@@ -3508,7 +4836,7 @@
   "tmdb": 1466007,
   "tmdb_checked": true,
   "tmdb_runtime": 103,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -3524,6 +4852,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 947493,
+    "rt": 90,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Iron Boy",
+    "y": 2026
+   }
+  ],
   "min": 90,
   "orig": "Le Corset",
   "orig_source": "Le Corset",
@@ -3533,7 +4872,7 @@
   "tmdb": 947493,
   "tmdb_checked": true,
   "tmdb_runtime": 90,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -3552,6 +4891,17 @@
    "es",
    "ar"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1514847,
+    "rt": 100,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Iván & Hadoum",
+    "y": 2026
+   }
+  ],
   "min": 100,
   "orig": "Iván & Hadoum",
   "orig_source": "Ivan und Hadoum",
@@ -3561,7 +4911,7 @@
   "tmdb": 1514847,
   "tmdb_checked": true,
   "tmdb_runtime": 100,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "es"
@@ -3615,6 +4965,17 @@
    "it",
    "he"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1404684,
+    "rt": 119,
+    "score": 9.94,
+    "sim": 0.97,
+    "t": "Nur geträumt",
+    "y": 2026
+   }
+  ],
   "min": 116,
   "orig": "Juste une illusion",
   "orig_source": "Just une illusion",
@@ -3624,7 +4985,7 @@
   "tmdb": 1404684,
   "tmdb_checked": true,
   "tmdb_runtime": 119,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -3669,6 +5030,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 858035,
+    "rt": 116,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Klara und die Sonne",
+    "y": 2026
+   }
+  ],
   "min": 116,
   "orig": "Klara and the Sun",
   "orig_source": "Klara and the Sun",
@@ -3678,7 +5050,7 @@
   "tmdb": 858035,
   "tmdb_checked": true,
   "tmdb_runtime": 116,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -3724,6 +5096,17 @@
    "en",
    "it"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1422041,
+    "rt": 159,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "La bola negra",
+    "y": 2026
+   }
+  ],
   "min": 155,
   "orig": "La bola negra",
   "orig_source": "La bola negra",
@@ -3733,7 +5116,7 @@
   "tmdb": 1422041,
   "tmdb_checked": true,
   "tmdb_runtime": 159,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "es"
@@ -3751,6 +5134,17 @@
   "langs": [
    "it"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1397364,
+    "rt": 133,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "La grazia",
+    "y": 2025
+   }
+  ],
   "min": 133,
   "orig": "La grazia",
   "orig_source": "La grazia",
@@ -3760,7 +5154,7 @@
   "tmdb": 1397364,
   "tmdb_checked": true,
   "tmdb_runtime": 133,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "it"
@@ -3778,6 +5172,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1049439,
+    "rt": 112,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "L'Âge d'Or",
+    "y": 2026
+   }
+  ],
   "min": 113,
   "orig": "L'Âge d'Or",
   "orig_source": "L'age d'or",
@@ -3787,7 +5192,7 @@
   "tmdb": 1049439,
   "tmdb_checked": true,
   "tmdb_runtime": 112,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -3806,6 +5211,17 @@
    "it",
    "ja"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1462322,
+    "rt": 98,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Eine Letzte Runde",
+    "y": 2025
+   }
+  ],
   "min": 100,
   "orig": "Le città di pianura",
   "orig_source": "Le Citta Di Pianura",
@@ -3815,7 +5231,7 @@
   "tmdb": 1462322,
   "tmdb_checked": true,
   "tmdb_runtime": 98,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "it"
@@ -3834,6 +5250,25 @@
    "de",
    "it"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1689091,
+    "rt": 92,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "LEICA – Ein Jahrhundert in Bildern",
+    "y": 2026
+   },
+   {
+    "id": 1737142,
+    "rt": 15,
+    "sim": 1.0,
+    "t": "Leica",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 92,
   "orig": "Leica – A Century of Vision",
   "orig_source": "Leica: Ein Jahrhundert in Bildern",
@@ -3843,7 +5278,7 @@
   "tmdb": 1689091,
   "tmdb_checked": true,
   "tmdb_runtime": 92,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2026
  },
@@ -3857,6 +5292,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1241803,
+    "rt": 178,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Les Misérables",
+    "y": 2026
+   }
+  ],
   "min": 180,
   "orig": "Les Misérables",
   "orig_source": null,
@@ -3866,7 +5312,7 @@
   "tmdb": 1241803,
   "tmdb_checked": true,
   "tmdb_runtime": 178,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -3884,6 +5330,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1376439,
+    "rt": 99,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Les Misérables - Die Geschichte von Jean Valjean",
+    "y": 2025
+   }
+  ],
   "min": 98,
   "orig": "Jean Valjean",
   "orig_source": "Jean Valjean",
@@ -3893,7 +5350,7 @@
   "tmdb": 1376439,
   "tmdb_checked": true,
   "tmdb_runtime": 99,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -3911,6 +5368,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1185542,
+    "rt": 108,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Lieblingsmenschen - Die außergewöhnliche Freundschaft von Agnes & Amir",
+    "y": 2026
+   }
+  ],
   "min": 108,
   "orig": "Lieblingsmenschen - Die außergewöhnliche Freundschaft von Agnes & Amir",
   "orig_source": "Lieblingsmenschen: Die außergewöhnliche Freundschaft von Agnes & Amir",
@@ -3920,7 +5388,7 @@
   "tmdb": 1185542,
   "tmdb_checked": true,
   "tmdb_runtime": 108,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -3932,11 +5400,12 @@
   "country": "Kolumbien/Spanien/USA",
   "director": "Gala del Sol",
   "genre": "Drama, Fantasy, Queer Cinema",
+  "match_log": [],
   "min": 106,
   "orig": "Llueve sobre Babel",
   "title": "Rains over Babel",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2024
  },
@@ -3950,6 +5419,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1452237,
+    "rt": 102,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Lügen über meine Mutter",
+    "y": 2026
+   }
+  ],
   "min": 101,
   "orig": "Lügen über meine Mutter",
   "orig_source": null,
@@ -3959,7 +5439,7 @@
   "tmdb": 1452237,
   "tmdb_checked": true,
   "tmdb_runtime": 102,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -3997,6 +5477,17 @@
    "en",
    "qu"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1635401,
+    "rt": 89,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Materia Prima - New Energy - Old Powers",
+    "y": 2026
+   }
+  ],
   "min": 90,
   "orig": "Materia Prima",
   "orig_source": "Materia Prima",
@@ -4006,7 +5497,7 @@
   "tmdb": 1635401,
   "tmdb_checked": true,
   "tmdb_runtime": 89,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en",
@@ -4026,6 +5517,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1494724,
+    "rt": 97,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Mein Freund Barry",
+    "y": 2026
+   }
+  ],
   "min": 97,
   "orig": "Mein Freund Barry",
   "orig_source": null,
@@ -4035,7 +5537,7 @@
   "tmdb": 1494724,
   "tmdb_checked": true,
   "tmdb_runtime": 97,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -4071,6 +5573,17 @@
    "en",
    "es"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1315772,
+    "rt": 90,
+    "score": 9.33,
+    "sim": 0.67,
+    "t": "Minions & Monster",
+    "y": 2026
+   }
+  ],
   "min": 90,
   "orig": "Minions & Monsters",
   "orig_source": "Minions 3",
@@ -4080,7 +5593,7 @@
   "tmdb": 1315772,
   "tmdb_checked": true,
   "tmdb_runtime": 90,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -4099,6 +5612,25 @@
    "fr",
    "ru"
   ],
+  "match_log": [
+   {
+    "id": 1781858,
+    "rt": 5,
+    "sim": 0.8,
+    "t": "The Minotaur",
+    "x": "Laufzeit",
+    "y": 2026
+   },
+   {
+    "dir": true,
+    "id": 848700,
+    "rt": 142,
+    "score": 9.88,
+    "sim": 0.94,
+    "t": "Minotaurus",
+    "y": 2026
+   }
+  ],
   "min": 140,
   "orig": "Minotaure",
   "orig_source": "Minotaur",
@@ -4108,7 +5640,7 @@
   "tmdb": 848700,
   "tmdb_checked": true,
   "tmdb_runtime": 142,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "ru"
@@ -4140,6 +5672,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1572116,
+    "rt": 82,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Monster Mia",
+    "y": 2026
+   }
+  ],
   "min": 81,
   "orig": "Monster Mia",
   "orig_source": null,
@@ -4149,7 +5692,7 @@
   "tmdb": 1572116,
   "tmdb_checked": true,
   "tmdb_runtime": 82,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de",
@@ -4170,6 +5713,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1431129,
+    "rt": 93,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Morgen vor langer Zeit",
+    "y": 2026
+   }
+  ],
   "min": 93,
   "orig": "Morgen vor langer Zeit",
   "orig_source": null,
@@ -4179,7 +5733,7 @@
   "tmdb": 1431129,
   "tmdb_checked": true,
   "tmdb_runtime": 93,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -4212,6 +5766,25 @@
   "langs": [
    "es"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1437703,
+    "rt": 101,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Moscas - Fliegen und andere Gäste",
+    "y": 2026
+   },
+   {
+    "id": 1716389,
+    "rt": 22,
+    "sim": 1.0,
+    "t": "Moscas",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 99,
   "orig": "Moscas",
   "orig_source": "Moscas",
@@ -4221,7 +5794,7 @@
   "tmdb": 1437703,
   "tmdb_checked": true,
   "tmdb_runtime": 101,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "es"
@@ -4291,6 +5864,17 @@
   "langs": [
    "da"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1218067,
+    "rt": 83,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Mumbo Jumbo",
+    "y": 2026
+   }
+  ],
   "min": 82,
   "orig": "Da Mumbo Jumbo blev kæmpestor",
   "orig_source": "Da Mumbo Jumbo blev kæmpestor",
@@ -4300,7 +5884,7 @@
   "tmdb": 1218067,
   "tmdb_checked": true,
   "tmdb_runtime": 83,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "da"
@@ -4310,9 +5894,10 @@
  },
  "ik:music_for_cinemas": {
   "genre": "Musikfilm",
+  "match_log": [],
   "title": "Music For Cinemas",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ik:mutant_2025": {
@@ -4320,6 +5905,25 @@
   "lang": "es",
   "langs": [
    "es"
+  ],
+  "match_log": [
+   {
+    "id": 1478046,
+    "rt": 10,
+    "sim": 0.71,
+    "t": "Mutant Fish!",
+    "x": "Laufzeit",
+    "y": 2025
+   },
+   {
+    "dir": null,
+    "id": 1416866,
+    "rt": 80,
+    "score": 6.5,
+    "sim": 0.75,
+    "t": "La Mutante",
+    "y": 2025
+   }
   ],
   "min": 80,
   "orig": "La Mutante",
@@ -4330,7 +5934,7 @@
   "tmdb": 1416866,
   "tmdb_checked": true,
   "tmdb_runtime": 80,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2025
  },
@@ -4346,6 +5950,25 @@
    "he",
    "ar"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1755291,
+    "rt": 77,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "NAZA",
+    "y": 2026
+   },
+   {
+    "id": 1682860,
+    "rt": 14,
+    "sim": 0.89,
+    "t": "Nazar",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 80,
   "orig": "NAZA",
   "orig_source": null,
@@ -4355,7 +5978,7 @@
   "tmdb": 1755291,
   "tmdb_checked": true,
   "tmdb_runtime": 77,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en",
@@ -4390,6 +6013,17 @@
   "langs": [
    "ka"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1306247,
+    "rt": 139,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Nebenrolle",
+    "y": 2026
+   }
+  ],
   "min": 139,
   "orig": "მეორეხარისხოვანი როლი",
   "orig_source": "Meorekhariskhovani Rol",
@@ -4399,7 +6033,7 @@
   "tmdb": 1306247,
   "tmdb_checked": true,
   "tmdb_runtime": 139,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -4423,7 +6057,7 @@
   "tmdb": 9479,
   "tmdb_checked": true,
   "tmdb_runtime": 76,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -4441,6 +6075,17 @@
   "langs": [
    "es"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1447567,
+    "rt": 86,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Niñxs - Das Leben glitzert",
+    "y": 2026
+   }
+  ],
   "min": 86,
   "orig": "Niñxs",
   "orig_source": "Ninxs",
@@ -4450,7 +6095,7 @@
   "tmdb": 1447567,
   "tmdb_checked": true,
   "tmdb_runtime": 86,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "es"
@@ -4469,6 +6114,17 @@
    "ps",
    "fa"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1241574,
+    "rt": 103,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "No Good Men",
+    "y": 2026
+   }
+  ],
   "min": 100,
   "orig": "Kabul Jan",
   "orig_source": "Kabul Jan",
@@ -4478,7 +6134,7 @@
   "tmdb": 1241574,
   "tmdb_checked": true,
   "tmdb_runtime": 103,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -4518,7 +6174,7 @@
   "tmdb": 29283,
   "tmdb_checked": true,
   "tmdb_runtime": 70,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -4536,6 +6192,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1507796,
+    "rt": 115,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "On the Sea",
+    "y": 2025
+   }
+  ],
   "min": 111,
   "orig": "On the Sea",
   "orig_source": null,
@@ -4545,7 +6212,7 @@
   "tmdb": 1507796,
   "tmdb_checked": true,
   "tmdb_runtime": 115,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -4563,6 +6230,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1400837,
+    "rt": 93,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Other Mommy",
+    "y": 2026
+   }
+  ],
   "min": 93,
   "orig": "Other Mommy",
   "orig_source": null,
@@ -4572,7 +6250,7 @@
   "tmdb": 1400837,
   "tmdb_checked": true,
   "tmdb_runtime": 93,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -4608,6 +6286,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1157869,
+    "rt": 139,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Parallele Leben",
+    "y": 2026
+   }
+  ],
   "min": 140,
   "orig": "Histoires parallèles",
   "orig_source": "Histoires parallèles",
@@ -4617,7 +6306,7 @@
   "tmdb": 1157869,
   "tmdb_checked": true,
   "tmdb_runtime": 139,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -4650,6 +6339,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1185806,
+    "rt": 88,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "PAW Patrol: Der Dino Film",
+    "y": 2026
+   }
+  ],
   "min": 88,
   "orig": "PAW Patrol: The Dino Movie",
   "orig_source": "PAW Patrol: The Dino Movie",
@@ -4659,7 +6359,7 @@
   "tmdb": 1185806,
   "tmdb_checked": true,
   "tmdb_runtime": 88,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -4709,6 +6409,17 @@
   "langs": [
    "cs"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 431333,
+    "rt": 92,
+    "score": 8.0,
+    "sim": 1.0,
+    "t": "Před maturitou",
+    "y": 1932
+   }
+  ],
   "min": 102,
   "orig": "Před maturitou",
   "orig_source": "Pred maturitou",
@@ -4718,7 +6429,7 @@
   "tmdb": 431333,
   "tmdb_checked": true,
   "tmdb_runtime": 92,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "cs"
@@ -4736,6 +6447,26 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1375441,
+    "rt": 110,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Primetime",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 1791730,
+    "rt": 115,
+    "score": 2.33,
+    "sim": 0.67,
+    "t": "Primetime Preacher$",
+    "y": 2026
+   }
+  ],
   "min": 107,
   "orig": "Primetime",
   "orig_source": "Prime Time",
@@ -4745,7 +6476,7 @@
   "tmdb": 1375441,
   "tmdb_checked": true,
   "tmdb_runtime": 110,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -4763,6 +6494,17 @@
   "langs": [
    "ja"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 822653,
+    "rt": 120,
+    "score": 9.22,
+    "sim": 0.61,
+    "t": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising-",
+    "y": 2026
+   }
+  ],
   "min": 120,
   "orig": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
   "orig_source": "Gekijo-ban Maho Shojo Madoka Magika Warupurugisu no Kaiten",
@@ -4772,7 +6514,7 @@
   "tmdb": 822653,
   "tmdb_checked": true,
   "tmdb_runtime": 120,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -4788,6 +6530,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1318435,
+    "rt": 101,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Queens of the Dead",
+    "y": 2025
+   }
+  ],
   "min": 99,
   "orig": "Queens of the Dead",
   "orig_source": null,
@@ -4797,7 +6550,7 @@
   "tmdb": 1318435,
   "tmdb_checked": true,
   "tmdb_runtime": 101,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -4809,11 +6562,12 @@
   "country": "Indien",
   "director": "Nitesh Tiwari",
   "genre": "Abenteuer, Action, Fantasy",
+  "match_log": [],
   "min": 195,
   "orig": "Ramayana",
   "title": "Ramayana - Birth of a Legend",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2026
  },
@@ -4827,6 +6581,26 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1423191,
+    "rt": 94,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Resident Evil",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 1712451,
+    "rt": 89,
+    "score": 4.54,
+    "sim": 0.77,
+    "t": "Resident Dead",
+    "y": 2026
+   }
+  ],
   "min": 90,
   "orig": "Resident Evil",
   "orig_source": null,
@@ -4836,7 +6610,7 @@
   "tmdb": 1423191,
   "tmdb_checked": true,
   "tmdb_runtime": 94,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -4894,6 +6668,70 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": false,
+    "id": 1182831,
+    "rt": 120,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Sacrifice",
+    "y": 2025
+   },
+   {
+    "id": 1263240,
+    "rt": 17,
+    "sim": 0.82,
+    "t": "The Sacrifice",
+    "x": "Laufzeit",
+    "y": 2025
+   },
+   {
+    "dir": null,
+    "id": 1622926,
+    "rt": 0,
+    "score": 3.44,
+    "sim": 0.72,
+    "t": "Lethal Sacrifice",
+    "y": 2025
+   },
+   {
+    "dir": false,
+    "id": 1563690,
+    "rt": 88,
+    "score": 2.24,
+    "sim": 0.62,
+    "t": "Resilience & Sacrifice",
+    "y": 2025
+   },
+   {
+    "dir": false,
+    "id": 1355281,
+    "rt": 94,
+    "score": 2.33,
+    "sim": 0.67,
+    "t": "The Last Sacrifice",
+    "y": 2025
+   },
+   {
+    "dir": true,
+    "id": 1284186,
+    "rt": 100,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Sacrifice",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 931628,
+    "rt": 94,
+    "score": 1.8,
+    "sim": 0.9,
+    "t": "Berlin Nobody",
+    "y": 2024
+   }
+  ],
   "min": 103,
   "orig": "Sacrifice",
   "orig_source": "Sacrifice",
@@ -4903,7 +6741,7 @@
   "tmdb": 1284186,
   "tmdb_checked": true,
   "tmdb_runtime": 100,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -4938,6 +6776,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1424255,
+    "rt": 100,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Scherbenland",
+    "y": 2026
+   }
+  ],
   "min": 100,
   "orig": "Scherbenland",
   "orig_source": "Scherbenland – Ton Steine Scherben und der Kreuzberger Sound der Gegenwart",
@@ -4947,7 +6796,7 @@
   "tmdb": 1424255,
   "tmdb_checked": true,
   "tmdb_runtime": 100,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -4977,6 +6826,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1279169,
+    "rt": 95,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Schwarzer Zucker, Rotes Blut",
+    "y": 2023
+   }
+  ],
   "min": 90,
   "orig": "Black Sugar, Red Blood",
   "orig_source": "Schwarzer Zucker, Rotes Blut",
@@ -4986,7 +6846,7 @@
   "tmdb": 1279169,
   "tmdb_checked": true,
   "tmdb_runtime": 95,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2024
  },
@@ -5000,6 +6860,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1477104,
+    "rt": 81,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Shaun das Schaf – Spuk im Kürbisfeld",
+    "y": 2026
+   }
+  ],
   "min": 80,
   "orig": "Shaun the Sheep: The Beast of Mossy Bottom",
   "orig_source": "Shaun the Sheep – The Beast of Mossy Bottom",
@@ -5009,7 +6880,7 @@
   "tmdb": 1477104,
   "tmdb_checked": true,
   "tmdb_runtime": 81,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5028,6 +6899,34 @@
    "pt",
    "es"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 837881,
+    "rt": 129,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "She Said",
+    "y": 2022
+   },
+   {
+    "id": 1035395,
+    "rt": 10,
+    "sim": 0.84,
+    "t": "She Said No",
+    "x": "Laufzeit",
+    "y": 2022
+   },
+   {
+    "dir": false,
+    "id": 868812,
+    "rt": 100,
+    "score": 0.52,
+    "sim": 0.76,
+    "t": "What She Said",
+    "y": 2021
+   }
+  ],
   "min": 128,
   "orig": "She Said",
   "orig_source": null,
@@ -5037,7 +6936,7 @@
   "tmdb": 837881,
   "tmdb_checked": true,
   "tmdb_runtime": 129,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -5060,6 +6959,35 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1596286,
+    "rt": 97,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Silenced",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 1735910,
+    "rt": 112,
+    "score": 2.39,
+    "sim": 0.7,
+    "t": "Silenced Nights",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 1837168,
+    "rt": 0,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Silenced",
+    "y": 2026
+   }
+  ],
   "min": 97,
   "orig": "Silenced",
   "orig_source": "Silenced",
@@ -5069,7 +6997,7 @@
   "tmdb": 1596286,
   "tmdb_checked": true,
   "tmdb_runtime": 97,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -5085,6 +7013,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1503762,
+    "rt": 132,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Sinn und Sinnlichkeit",
+    "y": 2026
+   }
+  ],
   "min": 131,
   "orig": "Sense and Sensibility",
   "orig_source": "Sense and Sensibility",
@@ -5094,7 +7033,7 @@
   "tmdb": 1503762,
   "tmdb_checked": true,
   "tmdb_runtime": 132,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5107,7 +7046,7 @@
   "orig": "Sneakpreview",
   "title": "Sneak Preview",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ik:spa_weekend-entspannung_auf_eigene_gefahr": {
@@ -5120,6 +7059,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1341138,
+    "rt": 97,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Spa Weekend",
+    "y": 2026
+   }
+  ],
   "min": 97,
   "orig": "Spa Weekend",
   "orig_source": "Spa Weekend (2026)",
@@ -5129,7 +7079,7 @@
   "tmdb": 1341138,
   "tmdb_checked": true,
   "tmdb_runtime": 97,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5147,6 +7097,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 969681,
+    "rt": 145,
+    "score": 9.92,
+    "sim": 0.96,
+    "t": "Spider-Man: Brand New Day",
+    "y": 2026
+   }
+  ],
   "min": 150,
   "orig": "Spider-Man: Brand New Day",
   "orig_source": "Spider-Man 4: Brand New Day",
@@ -5156,7 +7117,7 @@
   "tmdb": 969681,
   "tmdb_checked": true,
   "tmdb_runtime": 145,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5175,6 +7136,17 @@
    "de",
    "ko"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1599784,
+    "rt": 113,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Staatsschutz",
+    "y": 2026
+   }
+  ],
   "min": 113,
   "orig": "Staatsschutz",
   "orig_source": null,
@@ -5184,7 +7156,7 @@
   "tmdb": 1599784,
   "tmdb_checked": true,
   "tmdb_runtime": 113,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de",
@@ -5219,6 +7191,42 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1153576,
+    "rt": 120,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Street Fighter",
+    "y": 2026
+   },
+   {
+    "id": 1745343,
+    "rt": 1,
+    "sim": 0.88,
+    "t": "Street Cat Fighter",
+    "x": "Laufzeit",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 1749829,
+    "rt": 0,
+    "score": 1.93,
+    "sim": 0.97,
+    "t": "Street Fighters",
+    "y": 2026
+   },
+   {
+    "id": 1713308,
+    "rt": 9,
+    "sim": 0.8,
+    "t": "Hanoi Street Fighters",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 125,
   "orig": "Street Fighter",
   "orig_source": null,
@@ -5228,7 +7236,7 @@
   "tmdb": 1153576,
   "tmdb_checked": true,
   "tmdb_runtime": 120,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5246,6 +7254,17 @@
   "langs": [
    "ja"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 11830,
+    "rt": 115,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Tampopo",
+    "y": 1985
+   }
+  ],
   "min": 114,
   "orig": "タンポポ",
   "orig_source": null,
@@ -5255,7 +7274,7 @@
   "tmdb": 11830,
   "tmdb_checked": true,
   "tmdb_runtime": 115,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "ja"
@@ -5308,6 +7327,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 13963,
+    "rt": 117,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "The Band - The Last Waltz",
+    "y": 1978
+   }
+  ],
   "min": 120,
   "orig": "The Last Waltz",
   "orig_source": "The Band – The Last Waltz",
@@ -5317,7 +7347,7 @@
   "tmdb": 13963,
   "tmdb_checked": true,
   "tmdb_runtime": 117,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5336,6 +7366,17 @@
    "en",
    "la"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 31767,
+    "rt": 112,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Die Teufel",
+    "y": 1971
+   }
+  ],
   "min": 114,
   "orig": "The Devils",
   "orig_source": "The Devils",
@@ -5345,7 +7386,7 @@
   "tmdb": 31767,
   "tmdb_checked": true,
   "tmdb_runtime": 112,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5365,6 +7406,17 @@
    "es",
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 950028,
+    "rt": 107,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "The Invite",
+    "y": 2026
+   }
+  ],
   "min": 107,
   "orig": "The Invite",
   "orig_source": "The Invite: Die Einladung",
@@ -5374,7 +7426,7 @@
   "tmdb": 950028,
   "tmdb_checked": true,
   "tmdb_runtime": 107,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5392,6 +7444,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1446080,
+    "rt": 80,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "The Mad Dog of Europe",
+    "y": 2026
+   }
+  ],
   "min": 80,
   "orig": "The Mad Dog of Europe",
   "orig_source": null,
@@ -5401,7 +7464,7 @@
   "tmdb": 1446080,
   "tmdb_checked": true,
   "tmdb_runtime": 80,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5435,6 +7498,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1458099,
+    "rt": 88,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "The Only Living Pickpocket in New York",
+    "y": 2026
+   }
+  ],
   "min": 88,
   "orig": "The Only Living Pickpocket in New York",
   "orig_source": null,
@@ -5444,7 +7518,7 @@
   "tmdb": 1458099,
   "tmdb_checked": true,
   "tmdb_runtime": 88,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5462,6 +7536,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1281331,
+    "rt": 113,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "The Social Reckoning",
+    "y": 2026
+   }
+  ],
   "min": 112,
   "orig": "The Social Reckoning",
   "orig_source": null,
@@ -5471,7 +7556,7 @@
   "tmdb": 1281331,
   "tmdb_checked": true,
   "tmdb_runtime": 113,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5489,6 +7574,42 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1433583,
+    "rt": 112,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "The Weight – Im Goldrausch",
+    "y": 2026
+   },
+   {
+    "id": 1741621,
+    "rt": 7,
+    "sim": 0.77,
+    "t": "The Weight of Us",
+    "x": "Laufzeit",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 1598419,
+    "rt": 0,
+    "score": 1.29,
+    "sim": 0.65,
+    "t": "The weight of silence",
+    "y": 2026
+   },
+   {
+    "id": 1756246,
+    "rt": 16,
+    "sim": 0.69,
+    "t": "The Weight We Carry",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 112,
   "orig": "The Weight",
   "orig_source": "The Weight",
@@ -5498,7 +7619,7 @@
   "tmdb": 1433583,
   "tmdb_checked": true,
   "tmdb_runtime": 112,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5525,7 +7646,7 @@
   "tmdb": 106646,
   "tmdb_checked": true,
   "tmdb_runtime": 180,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5552,7 +7673,7 @@
   "tmdb": 18148,
   "tmdb_checked": true,
   "tmdb_runtime": 137,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "ja"
@@ -5581,6 +7702,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1764309,
+    "rt": 102,
+    "score": 9.67,
+    "sim": 0.83,
+    "t": "Tun & Lassen",
+    "y": 2026
+   }
+  ],
   "min": 100,
   "orig": "Tun & Lassen",
   "orig_source": null,
@@ -5590,7 +7722,7 @@
   "tmdb": 1764309,
   "tmdb_checked": true,
   "tmdb_runtime": 102,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -5618,6 +7750,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1731354,
+    "rt": 120,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Übergang",
+    "y": 2026
+   }
+  ],
   "min": 120,
   "orig": "Übergang",
   "orig_source": "Übergang (2026)",
@@ -5627,7 +7770,7 @@
   "tmdb": 1731354,
   "tmdb_checked": true,
   "tmdb_runtime": 120,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -5652,6 +7795,41 @@
    "de",
    "en"
   ],
+  "match_log": [
+   {
+    "id": 1786620,
+    "rt": 32,
+    "sim": 1.0,
+    "t": "SAFE",
+    "x": "Laufzeit",
+    "y": 2026
+   },
+   {
+    "id": 1814053,
+    "rt": 8,
+    "sim": 0.62,
+    "t": "Safe Zone",
+    "x": "Laufzeit",
+    "y": 2026
+   },
+   {
+    "dir": true,
+    "id": 1685339,
+    "rt": 93,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Unsafe",
+    "y": 2026
+   },
+   {
+    "id": 1412951,
+    "rt": 6,
+    "sim": 0.6,
+    "t": "Unsafe Outside",
+    "x": "Laufzeit",
+    "y": 2025
+   }
+  ],
   "min": 90,
   "orig": "Unsafe",
   "orig_source": "Safe",
@@ -5661,7 +7839,7 @@
   "tmdb": 1685339,
   "tmdb_checked": true,
   "tmdb_runtime": 93,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -5683,6 +7861,17 @@
    "ru",
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1437696,
+    "rt": 82,
+    "score": 9.24,
+    "sim": 0.62,
+    "t": "Vaterland",
+    "y": 2026
+   }
+  ],
   "min": 82,
   "orig": "Ojczyzna",
   "orig_source": "Vaterland: Fatherland",
@@ -5692,7 +7881,7 @@
   "tmdb": 1437696,
   "tmdb_checked": true,
   "tmdb_runtime": 82,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -5710,6 +7899,25 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1283515,
+    "rt": 117,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Verity – Dunkle Geheimnisse",
+    "y": 2026
+   },
+   {
+    "id": 1812260,
+    "rt": 45,
+    "sim": 1.0,
+    "t": "Verity",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 114,
   "orig": "Verity",
   "orig_source": "Verity",
@@ -5719,7 +7927,7 @@
   "tmdb": 1283515,
   "tmdb_checked": true,
   "tmdb_runtime": 117,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5773,7 +7981,7 @@
   "tmdb": 276741,
   "tmdb_checked": true,
   "tmdb_runtime": 99,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -5792,6 +8000,17 @@
    "de",
    "pt"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1616782,
+    "rt": 91,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Was an Empfindsamkeit bleibt",
+    "y": 2026
+   }
+  ],
   "min": 91,
   "orig": "Was an Empfindsamkeit bleibt",
   "orig_source": null,
@@ -5801,7 +8020,7 @@
   "tmdb": 1616782,
   "tmdb_checked": true,
   "tmdb_runtime": 91,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -5819,6 +8038,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1698323,
+    "rt": 96,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Was haben wir gelacht",
+    "y": 2026
+   }
+  ],
   "min": 96,
   "orig": "Was haben wir gelacht",
   "orig_source": null,
@@ -5828,7 +8058,7 @@
   "tmdb": 1698323,
   "tmdb_checked": true,
   "tmdb_runtime": 96,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -5846,6 +8076,17 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1322333,
+    "rt": 97,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Watching People Watching Birds",
+    "y": 2026
+   }
+  ],
   "min": 92,
   "orig": "Watching People Watching Birds",
   "orig_source": null,
@@ -5855,7 +8096,7 @@
   "tmdb": 1322333,
   "tmdb_checked": true,
   "tmdb_runtime": 97,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
@@ -5901,6 +8142,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1255833,
+    "rt": 106,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Whalefall",
+    "y": 2026
+   }
+  ],
   "min": 106,
   "orig": "Whalefall",
   "orig_source": null,
@@ -5910,7 +8162,7 @@
   "tmdb": 1255833,
   "tmdb_checked": true,
   "tmdb_runtime": 106,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -5928,6 +8180,25 @@
   "langs": [
    "de"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1675931,
+    "rt": 90,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Whistleblower",
+    "y": 2026
+   },
+   {
+    "id": 1771813,
+    "rt": 6,
+    "sim": 0.87,
+    "t": "The Whistleblower",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 90,
   "orig": "Whistleblower",
   "orig_source": "Whistleblower",
@@ -5937,7 +8208,7 @@
   "tmdb": 1675931,
   "tmdb_checked": true,
   "tmdb_runtime": 90,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de",
@@ -5965,7 +8236,7 @@
   "tmdb": 14231,
   "tmdb_checked": true,
   "tmdb_runtime": 82,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -5984,6 +8255,17 @@
    "de",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1426957,
+    "rt": 86,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Wiener Blues – The Loneliest Man in Town",
+    "y": 2026
+   }
+  ],
   "min": 86,
   "orig": "The Loneliest Man in Town",
   "orig_source": "The Loneliest Man in Town",
@@ -5993,7 +8275,7 @@
   "tmdb": 1426957,
   "tmdb_checked": true,
   "tmdb_runtime": 86,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "de"
@@ -6012,6 +8294,17 @@
    "en",
    "es"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 891621,
+    "rt": 117,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Wild Horse Nine",
+    "y": 2026
+   }
+  ],
   "min": 118,
   "orig": "Wild Horse Nine",
   "orig_source": null,
@@ -6021,7 +8314,7 @@
   "tmdb": 891621,
   "tmdb_checked": true,
   "tmdb_runtime": 117,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en",
@@ -6041,6 +8334,17 @@
    "sv",
    "la"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 614,
+    "rt": 91,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Wilde Erdbeeren",
+    "y": 1957
+   }
+  ],
   "min": 92,
   "orig": "Smultronstället",
   "orig_source": "Smultron stället",
@@ -6050,7 +8354,7 @@
   "tmdb": 614,
   "tmdb_checked": true,
   "tmdb_runtime": 91,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "sv"
@@ -6068,6 +8372,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 791523,
+    "rt": 132,
+    "score": 8.0,
+    "sim": 1.0,
+    "t": "Wildwood",
+    "y": 2026
+   }
+  ],
   "min": 139,
   "orig": "Wildwood",
   "orig_source": null,
@@ -6077,7 +8392,7 @@
   "tmdb": 791523,
   "tmdb_checked": true,
   "tmdb_runtime": 132,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -6111,6 +8426,17 @@
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1765072,
+    "rt": 175,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "You Can See Everything",
+    "y": 2026
+   }
+  ],
   "min": 174,
   "orig": "You Can See Everything",
   "orig_source": null,
@@ -6120,7 +8446,7 @@
   "tmdb": 1765072,
   "tmdb_checked": true,
   "tmdb_runtime": 175,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "en"
@@ -6139,6 +8465,17 @@
    "it",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 6916,
+    "rt": 102,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Zwei wie Pech und Schwefel",
+    "y": 1974
+   }
+  ],
   "min": 101,
   "orig": "...altrimenti ci arrabbiamo!",
   "orig_source": "...Altrimenti ci arrabbiamo",
@@ -6148,7 +8485,7 @@
   "tmdb": 6916,
   "tmdb_checked": true,
   "tmdb_runtime": 102,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "it"
@@ -6157,21 +8494,81 @@
   "year": 1973
  },
  "ikt:a girl s story": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1514891,
+    "rt": 117,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "A Girl’s Story",
+    "y": 2026
+   },
+   {
+    "dir": null,
+    "id": 69906,
+    "rt": 27,
+    "score": 1.75,
+    "sim": 0.88,
+    "t": "A Girl's Own Story",
+    "y": 1984
+   }
+  ],
   "title": "A Girl's Story",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:al mahatta the station": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 609753,
+    "rt": 16,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Al Mahatta",
+    "y": 1989
+   }
+  ],
   "title": "Al Mahatta - The Station",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:amuleto 2026": {
   "lang": "es",
   "langs": [
    "es"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1765296,
+    "rt": 9,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Amuleto",
+    "y": 2026
+   },
+   {
+    "dir": null,
+    "id": 1541021,
+    "rt": 0,
+    "score": 3.0,
+    "sim": 1.0,
+    "t": "Amuleto",
+    "y": 2025
+   },
+   {
+    "dir": null,
+    "id": 1515916,
+    "rt": 7,
+    "score": 5.65,
+    "sim": 0.82,
+    "t": "El amuleto",
+    "y": 2025
+   }
   ],
   "min": 9,
   "orig": "Amuleto",
@@ -6182,14 +8579,25 @@
   "tmdb": 1765296,
   "tmdb_checked": true,
   "tmdb_runtime": 9,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2026
  },
  "ikt:aqui nao entra luz": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1539301,
+    "rt": 80,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Aqui Não Entra Luz",
+    "y": 2026
+   }
+  ],
   "title": "Aqui nao entra luz",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:blood money 2026": {
@@ -6205,21 +8613,53 @@
   "year": 2026
  },
  "ikt:burning voice": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1635605,
+    "rt": 84,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Burning Voice",
+    "y": 2026
+   },
+   {
+    "dir": null,
+    "id": 872459,
+    "rt": 30,
+    "score": 1.86,
+    "sim": 0.93,
+    "t": "A Burning Voice",
+    "y": 2021
+   }
+  ],
   "title": "Burning Voice",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:cakallarla dans viii": {
+  "match_log": [],
   "title": "Cakallarla Dans VIII",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:cartas para": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1541289,
+    "rt": 89,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Cartas para...",
+    "y": 2025
+   }
+  ],
   "title": "Cartas para...",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:checkout": {
@@ -6234,27 +8674,51 @@
   "tmdb_checked": true
  },
  "ikt:colors of white rock": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 874510,
+    "rt": 83,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Colors of White Rock",
+    "y": 2026
+   }
+  ],
   "title": "Colors of White Rock",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:d box preview mein frau unsere schwiegertochter und ich": {
+  "match_log": [],
   "title": "D-Box, Preview: Mein Frau, unsere Schwiegertochter und ich",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:das fest im botanischen garten": {
+  "match_log": [],
   "title": "Das Fest im Botanischen Garten",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:die miserable mutter": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1404124,
+    "rt": 82,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Die miserable Mutter",
+    "y": 2027
+   }
+  ],
   "title": "Die miserable Mutter",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:eisfrauen": {
@@ -6281,15 +8745,27 @@
   "tmdb_checked": true
  },
  "ikt:flesh fuel": {
+  "match_log": [],
   "title": "Flesh & Fuel",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:follies die lust mit der liebe": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1075525,
+    "rt": 0,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Follies",
+    "y": null
+   }
+  ],
   "title": "Follies - Die Lust mit der Liebe",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:gabin 2026": {
@@ -6298,6 +8774,17 @@
   "lang": "fr",
   "langs": [
    "fr"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1312310,
+    "rt": 105,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Gabin",
+    "y": 2026
+   }
   ],
   "min": 105,
   "orig": "Gabin",
@@ -6308,22 +8795,34 @@
   "tmdb": 1312310,
   "tmdb_checked": true,
   "tmdb_runtime": 105,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
  },
  "ikt:geschichte von spaten chrysanthemen": {
+  "match_log": [],
   "title": "Geschichte von späten Chrysanthemen",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:hadoota": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1658555,
+    "rt": 120,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Hadoota",
+    "y": 2026
+   }
+  ],
   "title": "Hadoota",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:herbstromanze": {
@@ -6340,7 +8839,7 @@
  "ikt:herr der ringe quiz ein quiz sie zu knechten": {
   "title": "Herr der Ringe Quiz: Ein Quiz, sie zu knechten",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:il cattivo poeta bad poet": {
@@ -6355,45 +8854,101 @@
   "tmdb_checked": true
  },
  "ikt:imax the further mis adventures of cliff booth": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1457866,
+    "rt": 141,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+    "y": 2026
+   }
+  ],
   "title": "IMAX: The Further Mis-Adventures of Cliff Booth",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:jodeln is ka sund": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 353583,
+    "rt": 73,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Jodeln is ka Sünd",
+    "y": 1974
+   }
+  ],
   "title": "Jodeln is ka Sünd",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:killing anna": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1635607,
+    "rt": 76,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Killing Anna",
+    "y": 2026
+   }
+  ],
   "title": "Killing Anna",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:kino kaffee im kiez": {
   "title": "Kino & Kaffee im Kiez",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:kokurojo the samurai and the prisoner": {
+  "match_log": [],
   "title": "Kokurojo - The Samurai and the Prisoner",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:l affaire marie claire der fall marie claire": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1003494,
+    "rt": 102,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "L’Affaire Marie-Claire",
+    "y": 2026
+   }
+  ],
   "title": "L'affaire Marie Claire - Der Fall Marie-Claire",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:l espece explosive too many beasts": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1001405,
+    "rt": 95,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "L'Espèce explosive",
+    "y": 2026
+   }
+  ],
   "title": "L'espece explosive - Too Many Beasts",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:mariage au gout d orange orange flavoured wedding": {
@@ -6408,9 +8963,10 @@
   "tmdb_checked": true
  },
  "ikt:mein frau unsere schwiegertochter und ich": {
+  "match_log": [],
   "title": "Mein Frau, unsere Schwiegertochter und ich",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:mother there is star in me": {
@@ -6418,15 +8974,27 @@
   "tmdb_checked": true
  },
  "ikt:moulin": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1437925,
+    "rt": 132,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Moulin",
+    "y": 2026
+   }
+  ],
   "title": "Moulin",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:muganga der heiler": {
+  "match_log": [],
   "title": "Muganga – Der Heiler",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:my live in versailles the movie": {
@@ -6434,9 +9002,10 @@
   "tmdb_checked": true
  },
  "ikt:nagi daiari nagi notes": {
+  "match_log": [],
   "title": "Nagi daiari - Nagi Notes",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:narciso": {
@@ -6479,15 +9048,37 @@
   "year": 2025
  },
  "ikt:nos povo das ilhas": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1474302,
+    "rt": 80,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Nós, Povo das Ilhas",
+    "y": 2025
+   }
+  ],
   "title": "Nos, Povo das Ilhas",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:notre salut ein mann seiner zeit": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1318864,
+    "rt": 155,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Notre salut",
+    "y": 2026
+   }
+  ],
   "title": "Notre salut - Ein Mann seiner Zeit",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:nuns vs the vatican": {
@@ -6502,15 +9093,54 @@
   "tmdb_checked": true
  },
  "ikt:o samba que mora aqui": {
+  "match_log": [],
   "title": "O samba que mora aqui",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:om chapter 1 udhiram the blood wood": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1384528,
+    "rt": 178,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Om Chapter 1: Udhiram - The Blood Wood",
+    "y": 2026
+   },
+   {
+    "dir": null,
+    "id": 303611,
+    "rt": 4,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Om",
+    "y": 1986
+   },
+   {
+    "dir": null,
+    "id": 1496844,
+    "rt": 15,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "OM",
+    "y": 2007
+   },
+   {
+    "dir": null,
+    "id": 1365046,
+    "rt": 0,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Om",
+    "y": 1986
+   }
+  ],
   "title": "OM - Chapter 1: Udhiram - The Blood Wood",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:one in a million 2026": {
@@ -6530,19 +9160,31 @@
  "ikt:os braig brothers kurzfilmprogramm": {
   "title": "Os Braig Brothers-Kurzfilmprogramm",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:premiere ein helles funkeln": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1173147,
+    "rt": 90,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Ein helles Funkeln",
+    "y": 2025
+   }
+  ],
   "title": "Premiere: Ein Helles Funkeln",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:preview mein frau unsere schwiegertochter und ich": {
+  "match_log": [],
   "title": "Preview: Mein Frau, unsere Schwiegertochter und ich",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:quatro meninas": {
@@ -6559,13 +9201,42 @@
  "ikt:quizkino live": {
   "title": "QuizKino Live",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:renoir 2026": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1392527,
+    "rt": 120,
+    "score": 3.0,
+    "sim": 1.0,
+    "t": "Renoir",
+    "y": 2025
+   },
+   {
+    "dir": null,
+    "id": 1747216,
+    "rt": 90,
+    "score": 2.41,
+    "sim": 0.71,
+    "t": "Renoir & Love",
+    "y": 2027
+   },
+   {
+    "dir": null,
+    "id": 1627130,
+    "rt": 52,
+    "score": 2.2,
+    "sim": 0.6,
+    "t": "Renoir in Love",
+    "y": 2025
+   }
+  ],
   "title": "Renoir",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2026
  },
@@ -6577,6 +9248,50 @@
    "zh",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1643483,
+    "rt": 91,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Replica",
+    "y": 2026
+   },
+   {
+    "dir": null,
+    "id": 1800272,
+    "rt": 0,
+    "score": 4.0,
+    "sim": 1.0,
+    "t": "Réplica",
+    "y": 2026
+   },
+   {
+    "id": 1676973,
+    "rt": 5,
+    "sim": 0.74,
+    "t": "Iris Replica",
+    "x": "Laufzeit",
+    "y": 2026
+   },
+   {
+    "id": 1800952,
+    "rt": 18,
+    "sim": 0.61,
+    "t": "Infinite Replica",
+    "x": "Laufzeit",
+    "y": 2026
+   },
+   {
+    "id": 1577711,
+    "rt": 7,
+    "sim": 1.0,
+    "t": "Replica",
+    "x": "Laufzeit",
+    "y": 2025
+   }
+  ],
   "min": 91,
   "orig": "Replica",
   "orig_source": null,
@@ -6586,22 +9301,34 @@
   "tmdb": 1643483,
   "tmdb_checked": true,
   "tmdb_runtime": 91,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
  },
  "ikt:sansho the bailiff": {
+  "match_log": [],
   "title": "Sansho the Bailiff",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:sarah bernhardt la divine": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1228322,
+    "rt": 98,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Sarah Bernhardt, La Divine",
+    "y": 2024
+   }
+  ],
   "title": "Sarah Bernhardt, la divine",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:scene 2026": {
@@ -6634,6 +9361,17 @@
   "langs": [
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1483319,
+    "rt": 83,
+    "score": 7.0,
+    "sim": 1.0,
+    "t": "Shana",
+    "y": 2026
+   }
+  ],
   "min": 83,
   "orig": "Shana",
   "orig_source": null,
@@ -6643,7 +9381,7 @@
   "tmdb": 1483319,
   "tmdb_checked": true,
   "tmdb_runtime": 83,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "wd": [
    "fr"
@@ -6652,9 +9390,10 @@
   "year": 2026
  },
  "ikt:shumei the living legacy of kabuki": {
+  "match_log": [],
   "title": "Shumei - The Living Legacy of Kabuki",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:spatzenkino klingende geschichten": {
@@ -6721,15 +9460,27 @@
   "tmdb_checked": true
  },
  "ikt:velhos bandidos": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1362786,
+    "rt": 93,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Velhos Bandidos",
+    "y": 2026
+   }
+  ],
   "title": "Velhos bandidos",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4
  },
  "ikt:wadja 2024": {
+  "match_log": [],
   "title": "Wadja",
   "tmdb_checked": true,
-  "tmdb_v": 5,
+  "tmdb_v": 6,
   "v": 4,
   "year": 2024
  },
