@@ -255,7 +255,7 @@ def tmdb(path, **params):
         return None
 
 
-TMDB_VERSION = 6  # erhöhen, damit Filme neu bei TMDB gesucht werden
+TMDB_VERSION = 7  # erhöhen, damit Filme neu bei TMDB gesucht werden
 
 PREFIX = re.compile(r"^(?:atmos|dolby atmos|imax|d-box|4dx|3d|ov|omu|preview|premiere|vorpremiere|"
                     r"sneak|classic sneak|sneak preview)\s*[:,]\s*", re.I)
@@ -317,6 +317,11 @@ def director_match(ours, det):
     return False
 
 
+def best_query(queries, cand):
+    """Der Suchbegriff, zu dem der Kandidat am besten passt (Original- oder deutscher Titel)."""
+    return max(queries, key=lambda q: similarity(q, cand))
+
+
 def score_candidate(meta, q, cand, det, log_to=None):
     """Punkte für einen TMDB-Kandidaten. Titel allein reicht nicht: Jahr, Laufzeit und Regie
     müssen passen (sonst landet z. B. "Minotaurus" bei einem gleichnamigen Kurzfilm)."""
@@ -335,6 +340,9 @@ def score_candidate(meta, q, cand, det, log_to=None):
             info["x"] = "Jahr"
             return None
         score += 2 if cy == year else 1
+    elif not year and cy and abs(cy - datetime.now().year) <= 1:
+        # ohne Jahresangabe: aktuelle Filme sind wahrscheinlicher als gleichnamige alte
+        score += 1.5
     mine, theirs = meta.get("min"), (det or {}).get("runtime")
     if mine and theirs:
         diff = abs(mine - theirs)
@@ -393,11 +401,12 @@ def tmdb_enrich(meta, title):
                 cy = tmdb_year(c)
                 if year and not (cy and abs(cy - year) <= 1):
                     continue
-                if similarity(q, c) >= (0.6 if year else 0.85):
+                if similarity(best_query(queries, c), c) >= (0.6 if year else 0.85):
                     cands.setdefault(c["id"], (c, q))
         best, best_score, best_det = None, None, None
         meta["match_log"] = mlog = []  # Protokoll der Kandidaten, zur Kontrolle
-        for cid, (c, q) in list(cands.items())[:10]:
+        for cid, (c, _) in list(cands.items())[:12]:
+            q = best_query(queries, c)
             if similarity(q, c) < 0.6:
                 continue
             d = tmdb(f"/movie/{cid}", language="en-US", append_to_response="credits")
@@ -405,7 +414,7 @@ def tmdb_enrich(meta, title):
             if sc is not None and (best_score is None or sc > best_score):
                 best, best_score, best_det = c, sc, d
         # Mindestpunktzahl: ohne Jahr/Laufzeit/Regie als Bestätigung nur bei fast gleichem Titel
-        if best is not None and best_score >= 3.5:
+        if best is not None and best_score >= 3.0:
             res, det = best, best_det
     if res:
         meta["lang"] = res.get("original_language")
