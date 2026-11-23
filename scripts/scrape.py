@@ -20,7 +20,7 @@ CINEMA_CACHE = os.path.join(CACHE_DIR, "cinemas.json")
 FILM_CACHE = os.path.join(CACHE_DIR, "films.json")
 OUT = os.path.join(ROOT, "data.json")
 
-UA = "playtime/1.0 (private Kinoprogramm-Seite)"
+UA = "kinotime/1.0 (private Kinoprogramm-Seite)"
 TMDB_TOKEN = os.environ.get("TMDB_TOKEN", "").strip()
 
 IK = "https://www.indiekino.de"
@@ -307,7 +307,10 @@ def tmdb_enrich(meta, title):
     meta["tmdb_v"] = TMDB_VERSION
     if res:
         meta["lang"] = res.get("original_language")
-        meta.setdefault("orig", res.get("original_title"))
+        # TMDB-Originaltitel ist verlässlicher als die Angabe auf indiekino
+        if res.get("original_title"):
+            meta["orig"] = res["original_title"]
+            meta["orig_src"] = "tmdb"
         meta["tmdb"] = res.get("id")
         # Alle im Film gesprochenen Sprachen (für mehrsprachige Filme)
         det = tmdb(f"/movie/{res.get('id')}", language="en-US")
@@ -422,10 +425,14 @@ def main():
         if TMDB_TOKEN and (not meta.get("tmdb_checked") or
                            (not meta.get("tmdb") and meta.get("tmdb_v", 1) < TMDB_VERSION)):
             tmdb_enrich(meta, meta.get("title") or title)
-        elif TMDB_TOKEN and meta.get("tmdb") and "title_en" not in meta:
-            # englischer Titel nachholen (für Originaltitel in nicht-lateinischer Schrift)
+        elif TMDB_TOKEN and meta.get("tmdb") and ("title_en" not in meta or meta.get("orig_src") != "tmdb"):
+            # englischen Titel und TMDB-Originaltitel nachholen
             det = tmdb(f"/movie/{meta['tmdb']}", language="en-US")
-            meta["title_en"] = det.get("title") if det else None
+            if det:
+                meta["title_en"] = det.get("title")
+                if det.get("original_title"):
+                    meta["orig"] = det["original_title"]
+                meta["orig_src"] = "tmdb"
         films[key] = meta
     save(FILM_CACHE, films)
 
