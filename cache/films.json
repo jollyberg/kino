@@ -4072,6 +4072,44 @@
   "v": 2,
   "year": 2026
  },
+ "ik:follies_2026": {
+  "country": "Kanada",
+  "director": "Eric K. Boulianne",
+  "genre": "Komödie",
+  "imdb": "tt37537634",
+  "imdb_src": "tmdb",
+  "lang": "fr",
+  "langs": [
+   "fr"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1403189,
+    "rt": 101,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Folichonneries",
+    "y": 2026
+   }
+  ],
+  "min": 101,
+  "orig": "Folichonneries",
+  "orig_source": "Folichonneries",
+  "orig_src": "tmdb",
+  "title": "Follies - Die Lust mit der Liebe",
+  "title_en": "Follies",
+  "tmdb": 1403189,
+  "tmdb_checked": true,
+  "tmdb_runtime": 101,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "fr"
+  ],
+  "wd_checked": true,
+  "year": 2025
+ },
  "ik:forgotten_island-die_vergessene_insel": {
   "country": "USA",
   "director": "Joel Crawford , Januel Mercado",
