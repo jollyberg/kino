@@ -2,8 +2,8 @@
  "bd:10002": {
   "title": "Sneak Preview",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "bd:219460": {
   "country": "Deutschland",
@@ -26,6 +26,7 @@
   "director": "Fatih Akin",
   "genre": "Historiendrama",
   "imdb": "tt22507216",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -38,8 +39,9 @@
   "title_en": "Amrum",
   "tmdb": 1269644,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 93,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -53,8 +55,8 @@
   "min": 122,
   "title": "Der Fremde",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2026
  },
  "bd:310923": {
@@ -62,6 +64,7 @@
   "director": "Ugo Bienvenu",
   "genre": "Animation",
   "imdb": "tt14883538",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -74,8 +77,9 @@
   "title_en": "Arco",
   "tmdb": 804370,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 89,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -87,6 +91,7 @@
   "director": "Sonja Maria Kröner",
   "genre": "Jugendfilm",
   "imdb": "tt40135324",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -99,8 +104,9 @@
   "title_en": "Horse on a Stick",
   "tmdb": 1430655,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 81,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -112,6 +118,7 @@
   "director": "Kirk Jones",
   "genre": "Tragikomödie",
   "imdb": "tt31514146",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -124,8 +131,9 @@
   "title_en": "I Swear",
   "tmdb": 1317149,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 121,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -137,6 +145,7 @@
   "director": "Jan Rahbek",
   "genre": "Animation",
   "imdb": "tt33334564",
+  "imdb_src": "tmdb",
   "lang": "da",
   "langs": [
    "da"
@@ -149,8 +158,9 @@
   "title_en": "Curly Burly",
   "tmdb": 1583409,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 80,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -160,6 +170,7 @@
   "director": "Helena Hufnagel",
   "genre": "Tragikomödie",
   "imdb": "tt43598591",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -172,8 +183,9 @@
   "title_en": "Agnes & Amir",
   "tmdb": 1185542,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 108,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -185,6 +197,7 @@
   "director": "Marc Rothemund",
   "genre": "Komödie",
   "imdb": "tt37800509",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -197,8 +210,9 @@
   "title_en": "Das gewisse Etwas",
   "tmdb": 1553672,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -226,6 +240,7 @@
   "director": "Gregor Schnitzler",
   "genre": "Familienfilm",
   "imdb": "tt42205677",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -238,8 +253,9 @@
   "title_en": "Bibi Blocksberg - Die total verhexte Zeitreise",
   "tmdb": 1492574,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 91,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -251,6 +267,7 @@
   "director": "David Ayer",
   "genre": "Actionthriller",
   "imdb": "tt7526136",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -263,8 +280,9 @@
   "title_en": "Heart of the Beast",
   "tmdb": 1263337,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 102,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -276,6 +294,7 @@
   "director": "David Dietl",
   "genre": "Kinderkrimi",
   "imdb": "tt39381622",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -288,8 +307,9 @@
   "title_en": "Emil and the Detectives",
   "tmdb": 1426805,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 101,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -301,6 +321,7 @@
   "director": "Steve Cox, Matthew Walker",
   "genre": "Familienkomödie",
   "imdb": "tt36841161",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -313,8 +334,9 @@
   "title_en": "Shaun the Sheep: The Beast of Mossy Bottom",
   "tmdb": 1477104,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 81,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -326,6 +348,7 @@
   "director": "Michael Showalter",
   "genre": "Psychothriller",
   "imdb": "tt32261958",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -338,8 +361,9 @@
   "title_en": "Verity",
   "tmdb": 1283515,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 117,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -351,6 +375,7 @@
   "director": "Mazen Ashraf",
   "genre": "Komödie",
   "imdb": "tt43638234",
+  "imdb_src": "tmdb",
   "lang": "ar",
   "langs": [
    "ar"
@@ -363,8 +388,9 @@
   "title_en": "Hadoota",
   "tmdb": 1658555,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 120,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -374,6 +400,7 @@
   "director": "Mike P. Nelson",
   "genre": "Horrorthriller",
   "imdb": "tt10377864",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -387,8 +414,9 @@
   "title_en": "Beware Boiúna",
   "tmdb": 1244523,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 103,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -400,6 +428,7 @@
   "director": "David Leitch",
   "genre": "Actionkomödie",
   "imdb": "tt35866986",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -412,8 +441,9 @@
   "title_en": "How to Rob a Bank",
   "tmdb": 1437511,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 122,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -421,32 +451,17 @@
   "year": 2026
  },
  "bd:316259": {
-  "imdb": "tt35672862",
-  "lang": "en",
-  "langs": [
-   "en",
-   "es"
-  ],
-  "min": 108,
-  "orig": "Hokum",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Hokum",
-  "title_en": "Hokum",
-  "tmdb": 1430077,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "en"
-  ],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "bd:316398": {
   "country": "Deutschland",
   "director": "Volker Schlöndorff",
   "genre": "Historiendrama",
   "imdb": "tt38805050",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -459,8 +474,9 @@
   "title_en": "Visitation",
   "tmdb": 1477572,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 118,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -472,6 +488,7 @@
   "director": "Georgia Oakley",
   "genre": "Drama",
   "imdb": "tt13609648",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -484,8 +501,9 @@
   "title_en": "Sense and Sensibility",
   "tmdb": 1503762,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 132,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -497,6 +515,7 @@
   "director": "James Watkins",
   "genre": "Horrorthriller",
   "imdb": "tt34890576",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -509,8 +528,9 @@
   "title_en": "Clayface",
   "tmdb": 1400940,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 109,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -522,6 +542,7 @@
   "director": "Bora Dagtekin",
   "genre": "Komödie",
   "imdb": "tt37801321",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -534,8 +555,9 @@
   "title_en": "The Perfect Holiday",
   "tmdb": 1525072,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -547,6 +569,7 @@
   "director": "Rob Savage",
   "genre": "Horror",
   "imdb": "tt36586020",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -559,8 +582,9 @@
   "title_en": "Other Mommy",
   "tmdb": 1400837,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 93,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -572,6 +596,7 @@
   "director": "Florian Moch",
   "genre": "Familienfilm",
   "imdb": "tt43632661",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -584,8 +609,9 @@
   "title_en": "The Rainbow Fish",
   "tmdb": 1625344,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 68,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -597,6 +623,7 @@
   "director": "Anton Corbijn",
   "genre": "Krimidrama",
   "imdb": "tt14129116",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -609,8 +636,9 @@
   "title_en": "A Talent for Murder",
   "tmdb": 1084409,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 106,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -622,6 +650,7 @@
   "director": "Fatih Akin",
   "genre": "Drama",
   "imdb": "tt36501204",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -634,8 +663,9 @@
   "title_en": "Ghost Song",
   "tmdb": 1447206,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 106,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -647,6 +677,7 @@
   "director": "Takashi Yamazaki",
   "genre": "Action",
   "imdb": "tt34384661",
+  "imdb_src": "tmdb",
   "lang": "ja",
   "langs": [
    "ja",
@@ -660,8 +691,9 @@
   "title_en": "Godzilla Minus Zero",
   "tmdb": 1381071,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 135,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "ja"
   ],
@@ -690,6 +722,7 @@
   "director": "Travis Knight",
   "genre": "Animation",
   "imdb": "tt2056785",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -702,8 +735,9 @@
   "title_en": "Wildwood",
   "tmdb": 791523,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 132,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -715,6 +749,7 @@
   "director": "Ti West",
   "genre": "Fantasy",
   "imdb": "tt38773219",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -727,8 +762,9 @@
   "title_en": "Ebenezer",
   "tmdb": 1567605,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 115,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -740,6 +776,7 @@
   "director": "Martin McDonagh",
   "genre": "Schwarze Komödie",
   "imdb": "tt15799564",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -753,8 +790,9 @@
   "title_en": "Wild Horse Nine",
   "tmdb": 891621,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 117,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en",
    "es"
@@ -767,6 +805,7 @@
   "director": "Mark Baker, Neville Astley",
   "genre": "Animation",
   "imdb": "tt46666063",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -779,8 +818,9 @@
   "title_en": "Festive Fun with Peppa",
   "tmdb": 1778515,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 60,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -790,6 +830,7 @@
   "director": "Francis Lawrence",
   "genre": "Action",
   "imdb": "tt32558705",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -802,8 +843,9 @@
   "title_en": "The Hunger Games: Sunrise on the Reaping",
   "tmdb": 1300968,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 158,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -815,6 +857,7 @@
   "director": "Noah Segan",
   "genre": "Krimidrama",
   "imdb": "tt36482679",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -827,8 +870,9 @@
   "title_en": "The Only Living Pickpocket in New York",
   "tmdb": 1458099,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 88,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -842,8 +886,8 @@
   "min": 120,
   "title": "Puella Magi Madoka Magica Der Film - Walpurgisnacht: Rising",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2026
  },
  "bd:317602": {
@@ -851,6 +895,7 @@
   "director": "Nitesh Tiwari",
   "genre": "Fantasy",
   "imdb": "tt27988879",
+  "imdb_src": "tmdb",
   "lang": "hi",
   "langs": [
    "hi",
@@ -864,8 +909,9 @@
   "title_en": "Ramayana: Rise of a Legend",
   "tmdb": 656908,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 195,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "hi"
   ],
@@ -889,6 +935,7 @@
   "director": "Peter Farrelly",
   "genre": "Drama",
   "imdb": "tt11995650",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -902,8 +949,9 @@
   "title_en": "I Play Rocky",
   "tmdb": 1286656,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 128,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -915,6 +963,7 @@
   "director": "John Hamburg",
   "genre": "Komödie",
   "imdb": "tt34966140",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -927,8 +976,9 @@
   "title_en": "Focker In-Law",
   "tmdb": 1400336,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 105,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -938,8 +988,8 @@
  "bd:317808": {
   "title": "#HockeyDeutschland. Durch Liebe zum Titel",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "bd:317998": {
   "lang": "ta",
@@ -955,35 +1005,16 @@
   "v": 2
  },
  "bd:318057": {
-  "lang": "de",
-  "langs": [
-   "de"
-  ],
-  "orig": "Akte Vuskovic – Doping. Skandal. Zweifel",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
-  "title_en": "Akte Vuskovic – Doping. Skandal. Zweifel",
-  "tmdb": 1825589,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "bd:318058": {
-  "lang": "pl",
-  "langs": [
-   "pl",
-   "en"
-  ],
-  "orig": "Dzień Dziecka księdza Jana Kaczkowskiego",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Dzien dziecka ksiedza Jana Kaczkowskiego",
-  "title_en": "Dzień Dziecka księdza Jana Kaczkowskiego",
-  "tmdb": 1707378,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "bd:318194": {
   "country": "Polen In diesen Kinos wird der Film gezeigt CinemaxX Berlin (Tiergarten) \" Nasza Rewolucja - Our Revolution \" läuft im \" CinemaxX Berlin \" zu folgenden",
@@ -1018,6 +1049,7 @@
   "director": "Hannu Salonen",
   "genre": "Drama, Historienfilm, Sportfilm",
   "imdb": "tt8758494",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1030,8 +1062,9 @@
   "title_en": "Adam's Eight",
   "tmdb": 1564324,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 124,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -1041,6 +1074,7 @@
   "director": "Andreas Dresen",
   "genre": "Drama, Tragikomödie",
   "imdb": "tt44112686",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1053,8 +1087,9 @@
   "title_en": "Love, After All",
   "tmdb": 1477576,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 110,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -1077,8 +1112,9 @@
   "title_en": "Mountain Miracle",
   "tmdb": 433763,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 97,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1107,6 +1143,7 @@
   "director": "Jonatan Etzler",
   "genre": "Schwarze Komödie, Satire",
   "imdb": "tt29714073",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -1119,8 +1156,9 @@
   "title_en": "Bad Apples",
   "tmdb": 1198654,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 100,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -1158,6 +1196,7 @@
   "director": "Krysianna B. Papadakis , Stergios Dinopoulos",
   "genre": "Drama, Geschichte einer Freundschaft, Queer Cinema",
   "imdb": "tt33400312",
+  "imdb_src": "tmdb",
   "lang": "el",
   "langs": [
    "el"
@@ -1170,8 +1209,9 @@
   "title_en": "Bearcave",
   "tmdb": 1518731,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 121,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -1187,6 +1227,7 @@
   "director": "Mike P. Nelson",
   "genre": "Horror, Thriller, Action",
   "imdb": "tt10377864",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -1200,8 +1241,9 @@
   "title_en": "Beware Boiúna",
   "tmdb": 1244523,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 103,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -1213,6 +1255,7 @@
   "director": "Gregor Schnitzler",
   "genre": "Fantasy, Jugendfilm",
   "imdb": "tt42205677",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1225,8 +1268,9 @@
   "title_en": "Bibi Blocksberg - Die total verhexte Zeitreise",
   "tmdb": 1492574,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 91,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1238,6 +1282,7 @@
   "director": "Jens Meurer",
   "genre": "Dokumentarfilm, Porträt",
   "imdb": "tt40205719",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1250,8 +1295,9 @@
   "title_en": "Biermann",
   "tmdb": 1512629,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1263,6 +1309,7 @@
   "director": "Marcus O. Rosenmüller",
   "genre": "Drama, Historienfilm",
   "imdb": "tt38640121",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1275,8 +1322,9 @@
   "title_en": "Block 10",
   "tmdb": 1540151,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 108,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1288,6 +1336,7 @@
   "director": "Howard Hawks",
   "genre": "Komödie",
   "imdb": "tt0045810",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -1301,8 +1350,9 @@
   "title_en": "Gentlemen Prefer Blondes",
   "tmdb": 759,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 91,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -1314,6 +1364,7 @@
   "director": "Jane Pollard , Iain Forsyth",
   "genre": "Dokumentarischer Film",
   "imdb": "tt37660889",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -1326,8 +1377,9 @@
   "title_en": "Broken English",
   "tmdb": 1517161,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 99,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -1339,6 +1391,7 @@
   "director": "Harald Sicheritz",
   "genre": "Biografie, Drama, Historienfilm",
   "imdb": "tt36472663",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1351,8 +1404,9 @@
   "title_en": "Bruno - Der junge Kreisky",
   "tmdb": 1468757,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 116,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1364,6 +1418,7 @@
   "director": "Marcel Walz",
   "genre": "Horror",
   "imdb": "tt35716526",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -1376,8 +1431,9 @@
   "title_en": "Brute 1986",
   "tmdb": 1433854,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -1386,21 +1442,26 @@
   "country": "Norwegen/Schweden/Großbritannien",
   "director": "Itonje Søimer Guttormsen",
   "genre": "Drama",
-  "imdb": "tt43625959",
-  "lang": "ja",
+  "imdb": "tt37496603",
+  "imdb_src": "tmdb",
+  "lang": "no",
   "langs": [
-   "ja"
+   "no",
+   "en",
+   "es",
+   "de"
   ],
   "min": 120,
-  "orig": "Unanswered//butterfly",
+  "orig": "Butterfly",
   "orig_source": "Butterfly",
   "orig_src": "tmdb",
   "title": "Butterfly - Rückkehr nach Gran Canaria",
-  "title_en": "Unanswered//butterfly",
-  "tmdb": 1654313,
+  "title_en": "Butterfly",
+  "tmdb": 1261032,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 117,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -1410,6 +1471,7 @@
   "director": "Elegance Bratton",
   "genre": "Krimi, Thriller",
   "imdb": "tt34379051",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -1422,8 +1484,9 @@
   "title_en": "By Any Means",
   "tmdb": 1380417,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 107,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -1435,6 +1498,7 @@
   "director": "Antonia Simm",
   "genre": "Dokumentarfilm, Jugendfilm",
   "imdb": "tt39104671",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1447,8 +1511,9 @@
   "title_en": "Curious Tobi and the Secret Ruler of the Earth",
   "tmdb": 1427836,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 94,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -1458,6 +1523,7 @@
   "director": "Michal Kwiecinski",
   "genre": "Biografie, Drama, Musikfilm",
   "imdb": "tt33305572",
+  "imdb_src": "tmdb",
   "lang": "pl",
   "langs": [
    "pl",
@@ -1472,8 +1538,9 @@
   "title_en": "Chopin, a Sonata in Paris",
   "tmdb": 1299799,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 114,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "es",
    "fr",
@@ -1486,14 +1553,15 @@
   "genre": "Überraschungsfilm",
   "title": "Classic Sneak",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ik:clayface_2026": {
   "country": "USA",
   "director": "James Watkins",
   "genre": "Action, Comic-Verfilmung, Thriller",
   "imdb": "tt34890576",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -1506,8 +1574,9 @@
   "title_en": "Clayface",
   "tmdb": 1400940,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 109,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -1518,6 +1587,7 @@
   "country": "Frankreich",
   "director": "Martin Darondeau , Bertrand Usclat",
   "imdb": "tt37846373",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -1530,8 +1600,9 @@
   "title_en": "Comédie-Française",
   "tmdb": 1496491,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 75,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -1558,6 +1629,7 @@
   "director": "Lena Stahl",
   "genre": "Drama, Literaturverfilmung, Thriller",
   "imdb": "tt37804242",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1570,8 +1642,9 @@
   "title_en": "Corpus Delicti",
   "tmdb": 1477583,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 103,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1614,8 +1687,9 @@
   "title_en": "The Fifth Element",
   "tmdb": 18,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 126,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -1627,6 +1701,7 @@
   "director": "Nancy MacGranaky-Quaye",
   "genre": "Abenteuer, Jugendfilm",
   "imdb": "tt42677406",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1639,8 +1714,9 @@
   "title_en": "Das Geheimnis der gestohlenen Maske",
   "tmdb": 1185537,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 100,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1652,6 +1728,7 @@
   "director": "Valeska Grisebach",
   "genre": "Drama",
   "imdb": "tt21188986",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de",
@@ -1665,8 +1742,9 @@
   "title_en": "The Dreamed Adventure",
   "tmdb": 1013822,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 164,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "bg"
   ],
@@ -1678,6 +1756,7 @@
   "director": "Marc Rothemund",
   "genre": "Komödie",
   "imdb": "tt37800509",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1690,8 +1769,9 @@
   "title_en": "Das gewisse Etwas",
   "tmdb": 1553672,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1714,6 +1794,7 @@
   "director": "Joe May",
   "genre": "Mystery, Drama",
   "imdb": "tt0012314",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1726,8 +1807,9 @@
   "title_en": "The Indian Tomb, Part I: The Mission of the Yoghi",
   "tmdb": 175360,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 127,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 1921
@@ -1737,6 +1819,7 @@
   "director": "Antonin Baudry",
   "genre": "Biografie, Historienfilm",
   "imdb": "tt28553375",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr",
@@ -1750,8 +1833,9 @@
   "title_en": "De Gaulle: Résistance",
   "tmdb": 1165366,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 160,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -1779,6 +1863,7 @@
   "director": "Jan Rahbek",
   "genre": "Animation, Kinderfilm, Abenteuer",
   "imdb": "tt33334564",
+  "imdb_src": "tmdb",
   "lang": "da",
   "langs": [
    "da"
@@ -1791,8 +1876,9 @@
   "title_en": "Curly Burly",
   "tmdb": 1583409,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 80,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -1813,6 +1899,7 @@
   "director": "Wim Wenders",
   "genre": "Drama",
   "imdb": "tt0093191",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de",
@@ -1831,8 +1918,9 @@
   "title_en": "Wings of Desire",
   "tmdb": 144,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 128,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de",
    "en",
@@ -1867,6 +1955,7 @@
   "director": "Reza Memari",
   "genre": "Animation, Abenteuer, Familienfilm",
   "imdb": "tt13518550",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -1879,8 +1968,9 @@
   "title_en": "The Last Whale Singer",
   "tmdb": 677558,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 91,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -1892,6 +1982,7 @@
   "director": "Bora Dağtekin",
   "genre": "Komödie",
   "imdb": "tt37801321",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1904,8 +1995,9 @@
   "title_en": "The Perfect Holiday",
   "tmdb": 1525072,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1917,6 +2009,7 @@
   "director": "Florian Moch",
   "genre": "Puppentrick, Familienfilm, Literaturverfilmung",
   "imdb": "tt43632661",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1929,8 +2022,9 @@
   "title_en": "The Rainbow Fish",
   "tmdb": 1625344,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 68,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1942,6 +2036,7 @@
   "director": "Kurt Maetzig",
   "genre": "Science-Fiction",
   "imdb": "tt0053250",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de",
@@ -1955,8 +2050,9 @@
   "title_en": "The Silent Star",
   "tmdb": 17938,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 93,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1968,6 +2064,7 @@
   "director": "Lars Jessen",
   "genre": "Drama, Literaturverfilmung, Reisefilm",
   "imdb": "tt43598697",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -1980,8 +2077,9 @@
   "title_en": "A Stroll to Syracuse",
   "tmdb": 1410202,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 97,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -1992,28 +2090,12 @@
   "country": "Österreich/Luxemburg",
   "director": "Ulrike Ottinger",
   "genre": "Drama",
-  "imdb": "tt28151657",
-  "lang": "de",
-  "langs": [
-   "de",
-   "fr",
-   "ru"
-  ],
   "min": 119,
-  "orig": "Die Blutgräfin",
-  "orig_source": "Die Blutgräfin – The Blood Countess",
-  "orig_src": "tmdb",
+  "orig": "Die Blutgräfin – The Blood Countess",
   "title": "Die Blutgräfin",
-  "title_en": "The Blood Countess",
-  "tmdb": 1251608,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "de",
-   "en"
-  ],
-  "wd_checked": true,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2026
  },
  "ik:die_drei_von_der_tankstelle_1930": {
@@ -2033,8 +2115,9 @@
   "title_en": "The Three from the Filling Station",
   "tmdb": 906,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 90,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -2046,6 +2129,7 @@
   "director": "Christopher Nolan",
   "genre": "Abenteuer, Action, Literaturverfilmung",
   "imdb": "tt33764258",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -2058,8 +2142,9 @@
   "title_en": "The Odyssey",
   "tmdb": 1368337,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 173,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -2071,6 +2156,7 @@
   "director": "Paul Martin",
   "genre": "Komödie, Literaturverfilmung",
   "imdb": "tt0046211",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -2083,8 +2169,9 @@
   "title_en": "Die Privatsekretärin",
   "tmdb": 311601,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -2096,6 +2183,7 @@
   "director": "Antoine Lanciaux",
   "genre": "Animation, Familienfilm",
   "imdb": "tt29497084",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr",
@@ -2109,8 +2197,9 @@
   "title_en": "The Songbirds' Secret",
   "tmdb": 989246,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 76,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -2122,6 +2211,7 @@
   "director": "Irina Probost",
   "genre": "Animation, Zeichentrick",
   "imdb": "tt1845789",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -2134,8 +2224,9 @@
   "title_en": "Die Tigerentenbande - Der Film",
   "tmdb": 734812,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -2147,6 +2238,7 @@
   "director": "Francis Lawrence",
   "genre": "Abenteuer, Science Fiction",
   "imdb": "tt32558705",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -2159,8 +2251,9 @@
   "title_en": "The Hunger Games: Sunrise on the Reaping",
   "tmdb": 1300968,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 158,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -2198,6 +2291,7 @@
   "director": "Alejandro González Iñárritu",
   "genre": "Komödie, Drama",
   "imdb": "tt31450459",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -2213,8 +2307,9 @@
   "title_en": "Digger",
   "tmdb": 1248832,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 129,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -2225,24 +2320,12 @@
   "country": "Tschad/ Frankreich/ Deutschland/ Elfenbeinküste",
   "director": "Achille Ronaїmou Adoumbaye",
   "genre": "Drama",
-  "imdb": "tt36154131",
-  "lang": "ar",
-  "langs": [
-   "ar",
-   "fr"
-  ],
   "min": 90,
-  "orig": "Diya, le prix du sang",
-  "orig_source": "Diya",
-  "orig_src": "tmdb",
+  "orig": "Diya",
   "title": "Preview: Diya - Blutgeld",
-  "title_en": "Diya",
-  "tmdb": 1430865,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2025
  },
  "ik:dog_of_god": {
@@ -2250,6 +2333,7 @@
   "director": "Lauris Abele , Raitis Abele",
   "genre": "Animation, Horror, Mystery",
   "imdb": "tt33738802",
+  "imdb_src": "tmdb",
   "lang": "lv",
   "langs": [
    "lv",
@@ -2263,8 +2347,9 @@
   "title_en": "Dog of God",
   "tmdb": 1282280,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 95,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de",
    "lv"
@@ -2277,6 +2362,7 @@
   "director": "Valérie Donzelli",
   "genre": "Drama",
   "imdb": "tt37660587",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -2289,8 +2375,9 @@
   "title_en": "At Work",
   "tmdb": 1430820,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 92,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -2302,6 +2389,7 @@
   "director": "Milena Aboyan",
   "genre": "Drama",
   "imdb": "tt43548654",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -2314,8 +2402,9 @@
   "title_en": "Drei Kameradinnen",
   "tmdb": 1452242,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 93,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -2325,6 +2414,7 @@
   "director": "Alexandre Koberidze",
   "genre": "Roadmovie",
   "imdb": "tt37537636",
+  "imdb_src": "tmdb",
   "lang": "ka",
   "langs": [
    "ka",
@@ -2338,8 +2428,9 @@
   "title_en": "Dry Leaf",
   "tmdb": 1057888,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 187,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "ka"
   ],
@@ -2351,6 +2442,7 @@
   "director": "Blerta Basholli",
   "genre": "Drama",
   "imdb": "tt38765198",
+  "imdb_src": "tmdb",
   "lang": "sq",
   "langs": [
    "sq",
@@ -2364,8 +2456,9 @@
   "title_en": "Dua",
   "tmdb": 1472825,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 101,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "sq"
   ],
@@ -2376,23 +2469,12 @@
   "country": "USA",
   "director": "Ti West",
   "genre": "Komödie, Drama, Fantasy",
-  "imdb": "tt44071505",
-  "lang": "en",
-  "langs": [
-   "en"
-  ],
   "min": 116,
-  "orig": "Ebenezer Scrooge: A Christmas Carol Horror",
-  "orig_source": "Ebenezer: A Christmas Carol",
-  "orig_src": "tmdb",
+  "orig": "Ebenezer: A Christmas Carol",
   "title": "Ebenezer - Eine Weihnachtsgeschichte",
-  "title_en": "Ebenezer Scrooge: A Christmas Carol Horror",
-  "tmdb": 1749825,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2026
  },
  "ik:edmund_und_luzie-winterabenteuer_": {
@@ -2411,8 +2493,9 @@
   "title_en": "L'Hiver d'Edmond et Lucy",
   "tmdb": 1202205,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2023
  },
  "ik:ein_talent_fuers_morden_": {
@@ -2420,6 +2503,7 @@
   "director": "Anton Corbijn",
   "genre": "Drama, Krimi",
   "imdb": "tt14129116",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -2432,8 +2516,9 @@
   "title_en": "A Talent for Murder",
   "tmdb": 1084409,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 106,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -2445,6 +2530,7 @@
   "director": "Sandra Prechtel",
   "genre": "Dokumentarfilm",
   "imdb": "tt39383370",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -2457,8 +2543,9 @@
   "title_en": "Einar Schleef - No Germany Did I Find",
   "tmdb": 1616868,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 93,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -2470,6 +2557,7 @@
   "director": "David Ayer",
   "genre": "Action, Drama, Abenteuer",
   "imdb": "tt7526136",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -2482,8 +2570,9 @@
   "title_en": "Heart of the Beast",
   "tmdb": 1263337,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 102,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -2507,8 +2596,9 @@
   "title_en": "Elio",
   "tmdb": 1022787,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 98,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -2520,6 +2610,7 @@
   "director": "David Dietl",
   "genre": "Familienfilm, Krimi, Literaturverfilmung",
   "imdb": "tt39381622",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -2532,8 +2623,9 @@
   "title_en": "Emil and the Detectives",
   "tmdb": 1426805,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 101,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -2556,8 +2648,9 @@
   "title_en": "Eternity",
   "tmdb": 1769694,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 75,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2026
  },
  "ik:everytime_": {
@@ -2565,6 +2658,7 @@
   "director": "Sandra Wollner",
   "genre": "Drama",
   "imdb": "tt41592057",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de",
@@ -2579,8 +2673,9 @@
   "title_en": "Everytime",
   "tmdb": 1655419,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 124,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -2591,26 +2686,12 @@
   "country": "Japan",
   "director": "Genki Kawamura",
   "genre": "Horror, Thriller",
-  "imdb": "tt35222590",
-  "lang": "ja",
-  "langs": [
-   "ja",
-   "en"
-  ],
   "min": 95,
-  "orig": "８番出口",
-  "orig_source": "8-ban deguchi",
-  "orig_src": "tmdb",
+  "orig": "8-ban deguchi",
   "title": "Exit 8",
-  "title_en": "Exit 8",
-  "tmdb": 1408208,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "ja"
-  ],
-  "wd_checked": true,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2025
  },
  "ik:extrawurst_2025": {
@@ -2618,6 +2699,7 @@
   "director": "Marcus H. Rosenmüller",
   "genre": "Komödie",
   "imdb": "tt36586751",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -2630,8 +2712,9 @@
   "title_en": "The Holy Grill",
   "tmdb": 1427838,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -2665,6 +2748,7 @@
   "country": "GB",
   "genre": "Animation, Kurzfilm-Programm, Weihnachtsfilm",
   "imdb": "tt46666063",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -2677,8 +2761,9 @@
   "title_en": "Festive Fun with Peppa",
   "tmdb": 1778515,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 60,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -2706,8 +2791,8 @@
   "min": 69,
   "title": "Filme von Robert Beavers",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2013
  },
  "ik:fjord_2026": {
@@ -2734,6 +2819,7 @@
   "director": "Joel Crawford , Januel Mercado",
   "genre": "Animation, Abenteuer, Fantasy",
   "imdb": "tt36583977",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -2747,8 +2833,9 @@
   "title_en": "Forgotten Island",
   "tmdb": 1465063,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 109,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -2760,6 +2847,7 @@
   "director": "Doris Dörrie",
   "genre": "Drama",
   "imdb": "tt39400348",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -2772,8 +2860,9 @@
   "title_en": "How Can I Help",
   "tmdb": 1176971,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 112,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -2801,6 +2890,7 @@
   "director": "Frank Beyer",
   "genre": "Drama, Kriegsfilm",
   "imdb": "tt0053846",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -2813,8 +2903,9 @@
   "title_en": "Five Cartridges",
   "tmdb": 2216,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 90,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -2846,8 +2937,8 @@
   "orig": "Fukushu suruwa ware niari",
   "title": "Vengeance is Mine",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 1979
  },
  "ik:future_council_": {
@@ -2855,6 +2946,7 @@
   "director": "Damon Gameau",
   "genre": "Dokumentarfilm",
   "imdb": "tt32757385",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -2867,8 +2959,9 @@
   "title_en": "Future Council",
   "tmdb": 1319849,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 81,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -2880,6 +2973,7 @@
   "director": "Fatih Akin",
   "genre": "Drama, Fantasy",
   "imdb": "tt36501204",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -2892,8 +2986,9 @@
   "title_en": "Ghost Song",
   "tmdb": 1447206,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 106,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -2938,25 +3033,12 @@
   "country": "J",
   "director": "Mamoru Oshii",
   "genre": "Action, Animation, Science Fiction",
-  "imdb": "tt0113568",
-  "lang": "ja",
-  "langs": [
-   "ja"
-  ],
   "min": 79,
-  "orig": "GHOST IN THE SHELL / 攻殻機動隊",
-  "orig_source": "Kokaku kidotai",
-  "orig_src": "tmdb",
+  "orig": "Kokaku kidotai",
   "title": "Ghost in the Shell",
-  "title_en": "Ghost in the Shell",
-  "tmdb": 9323,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "ja"
-  ],
-  "wd_checked": true,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 1995
  },
  "ik:glaube_2026": {
@@ -2964,6 +3046,7 @@
   "director": "Alauda Ruiz de Azúa",
   "genre": "Drama, Coming of Age",
   "imdb": "tt35513027",
+  "imdb_src": "tmdb",
   "lang": "es",
   "langs": [
    "es"
@@ -2976,8 +3059,9 @@
   "title_en": "Sundays",
   "tmdb": 1443576,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 112,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "es"
   ],
@@ -2989,6 +3073,7 @@
   "director": "Takashi Yamazaki",
   "genre": "Action, Abenteuer, Katastrophenfilm",
   "imdb": "tt34384661",
+  "imdb_src": "tmdb",
   "lang": "ja",
   "langs": [
    "ja",
@@ -3002,8 +3087,9 @@
   "title_en": "Godzilla Minus Zero",
   "tmdb": 1381071,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 135,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "ja"
   ],
@@ -3031,6 +3117,7 @@
   "director": "Andreas Dresen",
   "genre": "Drama",
   "imdb": "tt1780856",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -3043,8 +3130,9 @@
   "title_en": "Stopped on Track",
   "tmdb": 78313,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 110,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -3056,6 +3144,7 @@
   "director": "Takeshi Kitano",
   "genre": "Drama",
   "imdb": "tt0119250",
+  "imdb_src": "tmdb",
   "lang": "ja",
   "langs": [
    "ja"
@@ -3068,8 +3157,9 @@
   "title_en": "Fireworks",
   "tmdb": 5910,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 103,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "ja"
   ],
@@ -3099,6 +3189,7 @@
   "director": "Volker Schlöndorff",
   "genre": "Drama",
   "imdb": "tt38805050",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -3111,8 +3202,9 @@
   "title_en": "Visitation",
   "tmdb": 1477572,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 118,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -3135,8 +3227,9 @@
   "title_en": "Helene Weigel - Revolutionärin im Rampenlicht",
   "tmdb": 1675935,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 0,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2026
  },
  "ik:her_private_hell_2026": {
@@ -3144,6 +3237,7 @@
   "director": "Nicolas Winding Refn",
   "genre": "Drama, Horror, Thriller",
   "imdb": "tt36629665",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -3157,8 +3251,9 @@
   "title_en": "Her Private Hell",
   "tmdb": 1469342,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 109,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en",
    "ja"
@@ -3171,6 +3266,7 @@
   "director": "Annekatrin Hendel",
   "genre": "Dokumentarfilm",
   "imdb": "tt43549602",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -3183,8 +3279,9 @@
   "title_en": "Hiddensee",
   "tmdb": 1700888,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 119,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -3196,6 +3293,7 @@
   "director": "Léa Mysius",
   "genre": "Action, Thriller, Krimi, Drama",
   "imdb": "tt30495381",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -3208,8 +3306,9 @@
   "title_en": "The Birthday Party",
   "tmdb": 1191818,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 114,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -3221,6 +3320,7 @@
   "director": "Damian McCarthy",
   "genre": "Horror, Thriller",
   "imdb": "tt35672862",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -3234,8 +3334,9 @@
   "title_en": "Hokum",
   "tmdb": 1430077,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 108,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -3247,6 +3348,7 @@
   "director": "David Leitch",
   "genre": "Action, Thriller, Krimi",
   "imdb": "tt35866986",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -3259,8 +3361,9 @@
   "title_en": "How to Rob a Bank",
   "tmdb": 1437511,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 122,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -3323,6 +3426,7 @@
   "director": "Boots Riley",
   "genre": "Abenteuer, Komödie, Science Fiction",
   "imdb": "tt30827810",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -3336,8 +3440,9 @@
   "title_en": "I Love Boosters",
   "tmdb": 1227877,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 113,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -3349,6 +3454,7 @@
   "director": "Peter Farrelly",
   "genre": "Drama, Biografie, Film übers Filmemachen",
   "imdb": "tt11995650",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -3362,8 +3468,9 @@
   "title_en": "I Play Rocky",
   "tmdb": 1286656,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 128,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -3386,6 +3493,7 @@
   "director": "Randa Chahoud",
   "genre": "Drama",
   "imdb": "tt36290176",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de",
@@ -3399,8 +3507,9 @@
   "title_en": "Identitti",
   "tmdb": 1466007,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 103,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -3410,6 +3519,7 @@
   "director": "Louís Clichy",
   "genre": "Animation, Drama, Familienfilm",
   "imdb": "tt36639956",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -3422,8 +3532,9 @@
   "title_en": "Iron Boy",
   "tmdb": 947493,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 90,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -3435,6 +3546,7 @@
   "director": "Ian de la Rosa",
   "genre": "Drama, Queer Cinema",
   "imdb": "tt27219371",
+  "imdb_src": "tmdb",
   "lang": "es",
   "langs": [
    "es",
@@ -3448,8 +3560,9 @@
   "title_en": "Iván & Hadoum",
   "tmdb": 1514847,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 100,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "es"
   ],
@@ -3494,6 +3607,7 @@
   "director": "Olivier Nakache , Eric Toledano",
   "genre": "Tragikomödie, Drama",
   "imdb": "tt36842933",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr",
@@ -3509,8 +3623,9 @@
   "title_en": "Just an Illusion",
   "tmdb": 1404684,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 119,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -3549,6 +3664,7 @@
   "director": "Taika Waititi",
   "genre": "Drama, Science Fiction",
   "imdb": "tt14371256",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -3561,8 +3677,9 @@
   "title_en": "Klara and the Sun",
   "tmdb": 858035,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 116,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -3600,6 +3717,7 @@
   "director": "Javier Calvo , Javier Ambrossi",
   "genre": "Drama",
   "imdb": "tt35511966",
+  "imdb_src": "tmdb",
   "lang": "es",
   "langs": [
    "es",
@@ -3614,8 +3732,9 @@
   "title_en": "LA BOLA NEGRA",
   "tmdb": 1422041,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 159,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "es"
   ],
@@ -3627,6 +3746,7 @@
   "director": "Paolo Sorrentino",
   "genre": "Drama, Komödie, Politfilm",
   "imdb": "tt34886821",
+  "imdb_src": "tmdb",
   "lang": "it",
   "langs": [
    "it"
@@ -3639,8 +3759,9 @@
   "title_en": "La Grazia",
   "tmdb": 1397364,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 133,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "it"
   ],
@@ -3652,6 +3773,7 @@
   "director": "Bérenger Thouin",
   "genre": "Drama, Historienfilm",
   "imdb": "tt42191881",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -3664,8 +3786,9 @@
   "title_en": "The Golden Age",
   "tmdb": 1049439,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 112,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -3677,6 +3800,7 @@
   "director": "Francesco Sossai",
   "genre": "Drama, Roadmovie",
   "imdb": "tt36491632",
+  "imdb_src": "tmdb",
   "lang": "it",
   "langs": [
    "it",
@@ -3690,8 +3814,9 @@
   "title_en": "The Last One for the Road",
   "tmdb": 1462322,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 98,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "it"
   ],
@@ -3717,8 +3842,9 @@
   "title_en": "Leica – A Century of Vision",
   "tmdb": 1689091,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 92,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2026
  },
  "ik:les_miserables": {
@@ -3726,6 +3852,7 @@
   "director": "Fred Cavayé",
   "genre": "Drama, Historienfilm, Literaturverfilmung",
   "imdb": "tt35518109",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -3738,8 +3865,9 @@
   "title_en": "Les Misérables",
   "tmdb": 1241803,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 178,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -3751,6 +3879,7 @@
   "director": "Éric Besnard",
   "genre": "Drama",
   "imdb": "tt35363310",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -3763,8 +3892,9 @@
   "title_en": "Jean Valjean",
   "tmdb": 1376439,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 99,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -3776,6 +3906,7 @@
   "director": "Helena Hufnagel",
   "genre": "Tragikomödie, Drama, Geschichte einer Freundschaft",
   "imdb": "tt43598591",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -3788,8 +3919,9 @@
   "title_en": "Agnes & Amir",
   "tmdb": 1185542,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 108,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -3804,8 +3936,8 @@
   "orig": "Llueve sobre Babel",
   "title": "Rains over Babel",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2024
  },
  "ik:luegen_ueber_meine_mutter_2026": {
@@ -3813,6 +3945,7 @@
   "director": "Aron Lehmann",
   "genre": "Drama, Literaturverfilmung",
   "imdb": "tt36985296",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -3825,8 +3958,9 @@
   "title_en": "Lügen über meine Mutter",
   "tmdb": 1452237,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 102,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -3855,6 +3989,7 @@
   "director": "Jens Schanze",
   "genre": "Dokumentarfilm",
   "imdb": "tt40601764",
+  "imdb_src": "tmdb",
   "lang": "es",
   "langs": [
    "es",
@@ -3870,8 +4005,9 @@
   "title_en": "Materia Prima",
   "tmdb": 1635401,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 89,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en",
    "es",
@@ -3885,6 +4021,7 @@
   "director": "Markus Welter",
   "genre": "Abenteuer, Geschichte einer Freundschaft, Tierfilm",
   "imdb": "tt36230671",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -3897,8 +4034,9 @@
   "title_en": "Barry & Me",
   "tmdb": 1494724,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 97,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -3927,6 +4065,7 @@
   "director": "Pierre Coffin",
   "genre": "Animation, Abenteuer, Komödie",
   "imdb": "tt32890033",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -3940,8 +4079,9 @@
   "title_en": "Minions & Monsters",
   "tmdb": 1315772,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 90,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -3952,20 +4092,28 @@
   "country": "Frankreich/Deutschland/Lettland",
   "director": "Andrej Swjaginzew",
   "genre": "Drama",
-  "lang": "en",
+  "imdb": "tt37118301",
+  "imdb_src": "tmdb",
+  "lang": "fr",
   "langs": [
-   "en"
+   "fr",
+   "ru"
   ],
   "min": 140,
-  "orig": "The Minotaur",
+  "orig": "Minotaure",
   "orig_source": "Minotaur",
   "orig_src": "tmdb",
   "title": "Minotaurus",
-  "title_en": "The Minotaur",
-  "tmdb": 1781858,
+  "title_en": "Minotaur",
+  "tmdb": 848700,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 142,
+  "tmdb_v": 5,
+  "v": 4,
+  "wd": [
+   "ru"
+  ],
+  "wd_checked": true,
   "year": 2026
  },
  "ik:mo_papa": {
@@ -3987,6 +4135,7 @@
   "director": "Verena Fels",
   "genre": "Animation, Kinderfilm",
   "imdb": "tt38807889",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -3999,8 +4148,9 @@
   "title_en": "Monster Mia",
   "tmdb": 1572116,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 82,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de",
    "en",
@@ -4015,6 +4165,7 @@
   "director": "Luise Donschen",
   "genre": "Drama",
   "imdb": "tt43666042",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -4027,8 +4178,9 @@
   "title_en": "Tomorrow a Long Time Ago",
   "tmdb": 1431129,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 93,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -4055,6 +4207,7 @@
   "director": "Fernando Eimbcke",
   "genre": "Drama, Komödie",
   "imdb": "tt35854741",
+  "imdb_src": "tmdb",
   "lang": "es",
   "langs": [
    "es"
@@ -4067,8 +4220,9 @@
   "title_en": "Flies",
   "tmdb": 1437703,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 101,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "es"
   ],
@@ -4132,6 +4286,7 @@
   "director": "Stine Marie Buhl , Karsten Kiilerich",
   "genre": "Animation, Abenteuer, Kinderfilm",
   "imdb": "tt28942997",
+  "imdb_src": "tmdb",
   "lang": "da",
   "langs": [
    "da"
@@ -4144,8 +4299,9 @@
   "title_en": "Mumbo Jumbo",
   "tmdb": 1218067,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 83,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "da"
   ],
@@ -4156,25 +4312,26 @@
   "genre": "Musikfilm",
   "title": "Music For Cinemas",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ik:mutant_2025": {
   "country": "CL",
-  "lang": "en",
+  "lang": "es",
   "langs": [
-   "en"
+   "es"
   ],
   "min": 80,
-  "orig": "Mutant Fish!",
+  "orig": "La Mutante",
   "orig_source": "Mutant",
   "orig_src": "tmdb",
   "title": "Mutant",
-  "title_en": "Mutant Fish!",
-  "tmdb": 1478046,
+  "title_en": "Mutant",
+  "tmdb": 1416866,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 80,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2025
  },
  "ik:naza_2026": {
@@ -4182,6 +4339,7 @@
   "director": "Yuval Abraham , Rachel Szor",
   "genre": "Dokumentarfilm, Kriegsfilm",
   "imdb": "tt44766123",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -4196,8 +4354,9 @@
   "title_en": "NAZA",
   "tmdb": 1755291,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 77,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en",
    "he"
@@ -4226,6 +4385,7 @@
   "director": "Ana Urushadze",
   "genre": "Drama",
   "imdb": "tt31326337",
+  "imdb_src": "tmdb",
   "lang": "ka",
   "langs": [
    "ka"
@@ -4238,8 +4398,9 @@
   "title_en": "Supporting Role",
   "tmdb": 1306247,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 139,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -4261,8 +4422,9 @@
   "title_en": "The Nightmare Before Christmas",
   "tmdb": 9479,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 76,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -4274,6 +4436,7 @@
   "director": "Kani Lapuerta",
   "genre": "Dokumentarfilm",
   "imdb": "tt28727524",
+  "imdb_src": "tmdb",
   "lang": "es",
   "langs": [
    "es"
@@ -4286,8 +4449,9 @@
   "title_en": "Niñxs",
   "tmdb": 1447567,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 86,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "es"
   ],
@@ -4299,6 +4463,7 @@
   "director": "Shahrbanoo Sadat",
   "genre": "Biografie, Komödie, Liebesfilm",
   "imdb": "tt13868840",
+  "imdb_src": "tmdb",
   "lang": "ps",
   "langs": [
    "ps",
@@ -4312,8 +4477,9 @@
   "title_en": "No Good Men",
   "tmdb": 1241574,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 103,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -4351,8 +4517,9 @@
   "title_en": "The Trip to Panama",
   "tmdb": 29283,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 70,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -4364,6 +4531,7 @@
   "director": "Helen Walsh",
   "genre": "Drama",
   "imdb": "tt31936369",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4376,8 +4544,9 @@
   "title_en": "On the Sea",
   "tmdb": 1507796,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 115,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -4389,6 +4558,7 @@
   "director": "Rob Savage",
   "genre": "Horror",
   "imdb": "tt36586020",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4401,8 +4571,9 @@
   "title_en": "Other Mommy",
   "tmdb": 1400837,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 93,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -4432,6 +4603,7 @@
   "director": "Asghar Farhadi",
   "genre": "Drama, Mystery",
   "imdb": "tt36646880",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -4444,8 +4616,9 @@
   "title_en": "Parallel Tales",
   "tmdb": 1157869,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 139,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -4472,6 +4645,7 @@
   "director": "Cal Brunker",
   "genre": "Animation, Kinderfilm, Abenteuer",
   "imdb": "tt29356163",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4484,8 +4658,9 @@
   "title_en": "PAW Patrol: The Dino Movie",
   "tmdb": 1185806,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 88,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -4529,6 +4704,7 @@
   "director": "Svatopluk Innemann , Vladislav Vancura",
   "genre": "Drama",
   "imdb": "tt0187416",
+  "imdb_src": "tmdb",
   "lang": "cs",
   "langs": [
    "cs"
@@ -4541,8 +4717,9 @@
   "title_en": "Before Graduation",
   "tmdb": 431333,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 92,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "cs"
   ],
@@ -4554,6 +4731,7 @@
   "director": "Lance Oppenheim",
   "genre": "Drama, Krimi",
   "imdb": "tt34206385",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4566,8 +4744,9 @@
   "title_en": "Primetime",
   "tmdb": 1375441,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 110,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -4579,6 +4758,7 @@
   "director": "Yukihiro Miyamoto , Akiyuki Shinbo",
   "genre": "Anime, Horror, Psychothriller",
   "imdb": "tt14523706",
+  "imdb_src": "tmdb",
   "lang": "ja",
   "langs": [
    "ja"
@@ -4591,8 +4771,9 @@
   "title_en": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising-",
   "tmdb": 822653,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 120,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -4602,6 +4783,7 @@
   "director": "Tina Romero",
   "genre": "Komödie, Horror, Queer Cinema",
   "imdb": "tt32986431",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4614,8 +4796,9 @@
   "title_en": "Queens of the Dead",
   "tmdb": 1318435,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 101,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -4630,8 +4813,8 @@
   "orig": "Ramayana",
   "title": "Ramayana - Birth of a Legend",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2026
  },
  "ik:resident_evil_2026_2026": {
@@ -4639,6 +4822,7 @@
   "director": "Zach Cregger",
   "genre": "Horror, Science Fiction",
   "imdb": "tt35538033",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4651,8 +4835,9 @@
   "title_en": "Resident Evil",
   "tmdb": 1423191,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 94,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -4703,7 +4888,8 @@
   "country": "Großbritannien/Griechenland",
   "director": "Romain Gavras",
   "genre": "Satire, Thriller, Schwarze Komödie",
-  "imdb": "tt41616826",
+  "imdb": "tt32268992",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4714,11 +4900,14 @@
   "orig_src": "tmdb",
   "title": "Sacrifice",
   "title_en": "Sacrifice",
-  "tmdb": 1182831,
+  "tmdb": 1284186,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
+  "tmdb_runtime": 100,
+  "tmdb_v": 5,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
   "wd_checked": true,
   "year": 2025
  },
@@ -4744,6 +4933,7 @@
   "director": "Lutz Pehnert",
   "genre": "Dokumentarfilm, Biografie",
   "imdb": "tt42340559",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -4756,8 +4946,9 @@
   "title_en": "Scherbenland",
   "tmdb": 1424255,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 100,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -4794,8 +4985,9 @@
   "title_en": "Black Sugar, Red Blood",
   "tmdb": 1279169,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 95,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2024
  },
  "ik:shaun_das_schaf_spuk_im_kuerbisfeld": {
@@ -4803,6 +4995,7 @@
   "director": "Steve Cox , Matthew Walker",
   "genre": "Animation, Komödie",
   "imdb": "tt36841161",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4815,8 +5008,9 @@
   "title_en": "Shaun the Sheep: The Beast of Mossy Bottom",
   "tmdb": 1477104,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 81,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -4827,7 +5021,7 @@
   "country": "USA",
   "director": "Maria Schrader",
   "genre": "Drama",
-  "imdb": "tt11198810",
+  "imdb": "tt14807308",
   "lang": "en",
   "langs": [
    "en",
@@ -4842,11 +5036,10 @@
   "title_en": "She Said",
   "tmdb": 837881,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "en"
-  ],
+  "tmdb_runtime": 129,
+  "tmdb_v": 5,
+  "v": 4,
+  "wd": [],
   "wd_checked": true,
   "year": 2022
  },
@@ -4862,6 +5055,7 @@
   "director": "Selina Miles",
   "genre": "Dokumentarfilm",
   "imdb": "tt39087873",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4874,8 +5068,9 @@
   "title_en": "Silenced",
   "tmdb": 1596286,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 97,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -4885,6 +5080,7 @@
   "director": "Georgia Oakley",
   "genre": "Drama, Historienfilm, Literaturverfilmung",
   "imdb": "tt13609648",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4897,8 +5093,9 @@
   "title_en": "Sense and Sensibility",
   "tmdb": 1503762,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 132,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -4910,14 +5107,15 @@
   "orig": "Sneakpreview",
   "title": "Sneak Preview",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ik:spa_weekend-entspannung_auf_eigene_gefahr": {
   "country": "USA",
   "director": "Jon Lucas , Scott Moore",
   "genre": "Komödie",
   "imdb": "tt33305867",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4930,8 +5128,9 @@
   "title_en": "Spa Weekend",
   "tmdb": 1341138,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 97,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -4943,6 +5142,7 @@
   "director": "Destin Daniel Cretton",
   "genre": "Action, Comic-Verfilmung",
   "imdb": "tt22084616",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -4955,8 +5155,9 @@
   "title_en": "Spider-Man: Brand New Day",
   "tmdb": 969681,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 145,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -4968,6 +5169,7 @@
   "director": "Faraz Shariat",
   "genre": "Drama, Thriller",
   "imdb": "tt39213126",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de",
@@ -4981,8 +5183,9 @@
   "title_en": "Prosecution",
   "tmdb": 1599784,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 113,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de",
    "ko"
@@ -5011,6 +5214,7 @@
   "director": "Kitao Sakurai",
   "genre": "Action, Fantasy",
   "imdb": "tt27419420",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -5023,8 +5227,9 @@
   "title_en": "Street Fighter",
   "tmdb": 1153576,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 120,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5036,6 +5241,7 @@
   "director": "Juzo Itami",
   "genre": "Komödie",
   "imdb": "tt0092048",
+  "imdb_src": "tmdb",
   "lang": "ja",
   "langs": [
    "ja"
@@ -5048,8 +5254,9 @@
   "title_en": "Tampopo",
   "tmdb": 11830,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 115,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "ja"
   ],
@@ -5096,6 +5303,7 @@
   "director": "Martin Scorsese",
   "genre": "Dokumentarfilm, Musikfilm",
   "imdb": "tt0077838",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -5108,8 +5316,9 @@
   "title_en": "The Last Waltz",
   "tmdb": 13963,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 117,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5121,6 +5330,7 @@
   "director": "Ken Russell",
   "genre": "Historienfilm",
   "imdb": "tt0066993",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -5134,8 +5344,9 @@
   "title_en": "The Devils",
   "tmdb": 31767,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 112,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5147,6 +5358,7 @@
   "director": "Olivia Wilde",
   "genre": "Komödie, Beziehungsfilm, Theateradaption",
   "imdb": "tt14173636",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -5161,8 +5373,9 @@
   "title_en": "The Invite",
   "tmdb": 950028,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 107,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5174,6 +5387,7 @@
   "director": "Rubika Shah",
   "genre": "Dokumentarfilm",
   "imdb": "tt38236278",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -5186,8 +5400,9 @@
   "title_en": "The Mad Dog of Europe",
   "tmdb": 1446080,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 80,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5215,6 +5430,7 @@
   "director": "Noah Segan",
   "genre": "Drama",
   "imdb": "tt36482679",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -5227,8 +5443,9 @@
   "title_en": "The Only Living Pickpocket in New York",
   "tmdb": 1458099,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 88,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5240,6 +5457,7 @@
   "director": "Aaron Sorkin",
   "genre": "Drama, Thriller, Biografie",
   "imdb": "tt37510326",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -5252,8 +5470,9 @@
   "title_en": "The Social Reckoning",
   "tmdb": 1281331,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 113,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5265,6 +5484,7 @@
   "director": "Padraic McKinley",
   "genre": "Drama, Krimi",
   "imdb": "tt10794054",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -5277,8 +5497,9 @@
   "title_en": "The Weight",
   "tmdb": 1433583,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 112,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5303,8 +5524,9 @@
   "title_en": "The Wolf of Wall Street",
   "tmdb": 106646,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 180,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5329,8 +5551,9 @@
   "title_en": "Tokyo Story",
   "tmdb": 18148,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 137,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "ja"
   ],
@@ -5353,6 +5576,7 @@
   "director": "Friedrich Rackwitz",
   "genre": "Dokumentarfilm",
   "imdb": "tt44784282",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -5365,8 +5589,9 @@
   "title_en": "Take It or Leave It",
   "tmdb": 1764309,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 102,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -5388,6 +5613,7 @@
   "director": "Peter Badel , Chris Wright",
   "genre": "Dokumentarischer Film, Essayistischer Film",
   "imdb": "tt43666082",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -5400,8 +5626,9 @@
   "title_en": "Transition",
   "tmdb": 1731354,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 120,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -5418,20 +5645,28 @@
   "country": "Deutschland/Österreich",
   "director": "Thomas Sieben",
   "genre": "Krimi, Thriller",
-  "lang": "en",
+  "imdb": "tt41337362",
+  "imdb_src": "tmdb",
+  "lang": "de",
   "langs": [
+   "de",
    "en"
   ],
   "min": 90,
-  "orig": "SAFE",
+  "orig": "Unsafe",
   "orig_source": "Safe",
   "orig_src": "tmdb",
   "title": "Unsafe",
-  "title_en": "SAFE",
-  "tmdb": 1786620,
+  "title_en": "Unsafe",
+  "tmdb": 1685339,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 93,
+  "tmdb_v": 5,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
   "year": 2026
  },
  "ik:vaterland_2026": {
@@ -5439,6 +5674,7 @@
   "director": "Pawel Pawlikowski",
   "genre": "Drama, Biografie, Historienfilm",
   "imdb": "tt37304295",
+  "imdb_src": "tmdb",
   "lang": "pl",
   "langs": [
    "pl",
@@ -5455,8 +5691,9 @@
   "title_en": "Fatherland",
   "tmdb": 1437696,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 82,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -5468,6 +5705,7 @@
   "director": "Michael Showalter",
   "genre": "Thriller, Literaturverfilmung",
   "imdb": "tt32261958",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -5480,8 +5718,9 @@
   "title_en": "Verity",
   "tmdb": 1283515,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 117,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5533,8 +5772,9 @@
   "title_en": "Ware für Katalonien",
   "tmdb": 276741,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 99,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -5546,6 +5786,7 @@
   "director": "Daniela Magnani Hüller",
   "genre": "Dokumentarfilm",
   "imdb": "tt39383613",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de",
@@ -5559,8 +5800,9 @@
   "title_en": "Sometimes, I Imagine Them All at a Party",
   "tmdb": 1616782,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 91,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -5572,6 +5814,7 @@
   "director": "Eva Müller , Isabel Schneider",
   "genre": "Dokumentarfilm",
   "imdb": "tt43509005",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -5584,8 +5827,9 @@
   "title_en": "Was haben wir gelacht",
   "tmdb": 1698323,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 96,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -5597,6 +5841,7 @@
   "director": "Ulrike Franke , Michael Loeken",
   "genre": "Dokumentarfilm, Tierfilm",
   "imdb": "tt14031106",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -5609,8 +5854,9 @@
   "title_en": "Watching People Watching Birds",
   "tmdb": 1322333,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 97,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -5650,6 +5896,7 @@
   "director": "Brian Duffield",
   "genre": "Thriller, Abenteuer, Drama",
   "imdb": "tt28535715",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -5662,8 +5909,9 @@
   "title_en": "Whalefall",
   "tmdb": 1255833,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 106,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5675,6 +5923,7 @@
   "director": "Marc Bauder",
   "genre": "Dokumentarfilm",
   "imdb": "tt41691705",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de"
@@ -5687,8 +5936,9 @@
   "title_en": "Whistleblower",
   "tmdb": 1675931,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 90,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de",
    "en",
@@ -5714,8 +5964,9 @@
   "title_en": "Wholetrain",
   "tmdb": 14231,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 82,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -5727,6 +5978,7 @@
   "director": "Tizza Covi , Rainer Frimmel",
   "genre": "Drama",
   "imdb": "tt39382808",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de",
@@ -5740,8 +5992,9 @@
   "title_en": "The Loneliest Man in Town",
   "tmdb": 1426957,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 86,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "de"
   ],
@@ -5753,6 +6006,7 @@
   "director": "Martin McDonagh",
   "genre": "Schwarze Komödie, Agentenfilm",
   "imdb": "tt15799564",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en",
@@ -5766,8 +6020,9 @@
   "title_en": "Wild Horse Nine",
   "tmdb": 891621,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 117,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en",
    "es"
@@ -5780,6 +6035,7 @@
   "director": "Ingmar Bergman",
   "genre": "Drama",
   "imdb": "tt0050986",
+  "imdb_src": "tmdb",
   "lang": "sv",
   "langs": [
    "sv",
@@ -5793,8 +6049,9 @@
   "title_en": "Wild Strawberries",
   "tmdb": 614,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 91,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "sv"
   ],
@@ -5806,6 +6063,7 @@
   "director": "Travis Knight",
   "genre": "Animation, Fantasy, Abenteuer",
   "imdb": "tt2056785",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -5818,8 +6076,9 @@
   "title_en": "Wildwood",
   "tmdb": 791523,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 132,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5847,6 +6106,7 @@
   "director": "Nathan Fielder , Lance Oppenheim",
   "genre": "Crime, Dokumentarfilm",
   "imdb": "tt45368240",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
@@ -5859,8 +6119,9 @@
   "title_en": "You Can See Everything",
   "tmdb": 1765072,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 175,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "en"
   ],
@@ -5872,6 +6133,7 @@
   "director": "Marcello Fondato",
   "genre": "Action",
   "imdb": "tt0069697",
+  "imdb_src": "tmdb",
   "lang": "it",
   "langs": [
    "it",
@@ -5885,8 +6147,9 @@
   "title_en": "Watch Out, We're Mad",
   "tmdb": 6916,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 102,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "it"
   ],
@@ -5894,42 +6157,16 @@
   "year": 1973
  },
  "ikt:a girl s story": {
-  "imdb": "tt39088978",
-  "lang": "fr",
-  "langs": [
-   "fr"
-  ],
-  "min": 117,
-  "orig": "Mémoire de fille",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "A Girl's Story",
-  "title_en": "A Girl’s Story",
-  "tmdb": 1514891,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:al mahatta the station": {
-  "imdb": "tt9680050",
-  "lang": "ar",
-  "langs": [
-   "ar"
-  ],
-  "min": 16,
-  "orig": "Al Mahatta",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Al Mahatta - The Station",
-  "title_en": "The Station",
-  "tmdb": 609753,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:amuleto 2026": {
   "lang": "es",
@@ -5944,28 +6181,16 @@
   "title_en": "Amuleto",
   "tmdb": 1765296,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 9,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2026
  },
  "ikt:aqui nao entra luz": {
-  "imdb": "tt42254052",
-  "lang": "pt",
-  "langs": [
-   "pt"
-  ],
-  "min": 80,
-  "orig": "Aqui Não Entra Luz",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Aqui nao entra luz",
-  "title_en": "No Sunshine in Here",
-  "tmdb": 1539301,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:blood money 2026": {
   "lang": "en",
@@ -5980,43 +6205,22 @@
   "year": 2026
  },
  "ikt:burning voice": {
-  "lang": "da",
-  "langs": [
-   "da",
-   "ar"
-  ],
-  "min": 84,
-  "orig": "Burning Voice",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Burning Voice",
-  "title_en": "Burning Voice",
-  "tmdb": 1635605,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:cakallarla dans viii": {
   "title": "Cakallarla Dans VIII",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:cartas para": {
-  "lang": "pt",
-  "langs": [
-   "pt"
-  ],
-  "min": 89,
-  "orig": "Cartas para...",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Cartas para...",
-  "title_en": "Cartas para...",
-  "tmdb": 1541289,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:checkout": {
   "lang": "en",
@@ -6030,54 +6234,28 @@
   "tmdb_checked": true
  },
  "ikt:colors of white rock": {
-  "imdb": "tt14056540",
-  "lang": "mn",
-  "langs": [
-   "mn"
-  ],
-  "min": 83,
-  "orig": "Colors of White Rock",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Colors of White Rock",
-  "title_en": "Colors of White Rock",
-  "tmdb": 874510,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:d box preview mein frau unsere schwiegertochter und ich": {
   "title": "D-Box, Preview: Mein Frau, unsere Schwiegertochter und ich",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:das fest im botanischen garten": {
   "title": "Das Fest im Botanischen Garten",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:die miserable mutter": {
-  "imdb": "tt43258259",
-  "lang": "de",
-  "langs": [
-   "de"
-  ],
-  "min": 82,
-  "orig": "Die miserable Mutter",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Die miserable Mutter",
-  "title_en": "The Miserable Mother",
-  "tmdb": 1404124,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:eisfrauen": {
   "lang": "en",
@@ -6105,29 +6283,18 @@
  "ikt:flesh fuel": {
   "title": "Flesh & Fuel",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:follies die lust mit der liebe": {
-  "imdb": "tt1172993",
-  "lang": "en",
-  "langs": [
-   "en"
-  ],
-  "orig": "Follies",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Follies - Die Lust mit der Liebe",
-  "title_en": "Follies",
-  "tmdb": 1075525,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:gabin 2026": {
   "imdb": "tt41829787",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -6140,8 +6307,9 @@
   "title_en": "Gabin",
   "tmdb": 1312310,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 105,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -6149,27 +6317,14 @@
  "ikt:geschichte von spaten chrysanthemen": {
   "title": "Geschichte von späten Chrysanthemen",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:hadoota": {
-  "imdb": "tt43638234",
-  "lang": "ar",
-  "langs": [
-   "ar"
-  ],
-  "min": 120,
-  "orig": "حدوتة",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Hadoota",
-  "title_en": "Hadoota",
-  "tmdb": 1658555,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:herbstromanze": {
   "lang": "de",
@@ -6185,8 +6340,8 @@
  "ikt:herr der ringe quiz ein quiz sie zu knechten": {
   "title": "Herr der Ringe Quiz: Ein Quiz, sie zu knechten",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:il cattivo poeta bad poet": {
   "lang": "it",
@@ -6200,118 +6355,46 @@
   "tmdb_checked": true
  },
  "ikt:imax the further mis adventures of cliff booth": {
-  "imdb": "tt36408401",
-  "lang": "en",
-  "langs": [
-   "en"
-  ],
-  "min": 141,
-  "orig": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "IMAX: The Further Mis-Adventures of Cliff Booth",
-  "title_en": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
-  "tmdb": 1457866,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "en"
-  ],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:jodeln is ka sund": {
-  "imdb": "tt0253161",
-  "lang": "de",
-  "langs": [
-   "de"
-  ],
-  "min": 73,
-  "orig": "Jodeln is ka Sünd",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Jodeln is ka Sünd",
-  "title_en": "Jodeln is ka Sünd",
-  "tmdb": 353583,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "de"
-  ],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:killing anna": {
-  "imdb": "tt40443746",
-  "lang": "en",
-  "langs": [
-   "en",
-   "ar"
-  ],
-  "min": 76,
-  "orig": "Killing Anna",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Killing Anna",
-  "title_en": "Killing Anna",
-  "tmdb": 1635607,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:kino kaffee im kiez": {
   "title": "Kino & Kaffee im Kiez",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:kokurojo the samurai and the prisoner": {
   "title": "Kokurojo - The Samurai and the Prisoner",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:l affaire marie claire der fall marie claire": {
-  "imdb": "tt35494574",
-  "lang": "fr",
-  "langs": [
-   "fr"
-  ],
-  "min": 102,
-  "orig": "L’Affaire Marie-Claire",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "L'affaire Marie Claire - Der Fall Marie-Claire",
-  "title_en": "Women on Trial",
-  "tmdb": 1003494,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "fr"
-  ],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:l espece explosive too many beasts": {
-  "imdb": "tt38841455",
-  "lang": "fr",
-  "langs": [
-   "fr"
-  ],
-  "min": 95,
-  "orig": "L'Espèce explosive",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "L'espece explosive - Too Many Beasts",
-  "title_en": "Too Many Beasts",
-  "tmdb": 1001405,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:mariage au gout d orange orange flavoured wedding": {
   "lang": "fr",
@@ -6327,40 +6410,24 @@
  "ikt:mein frau unsere schwiegertochter und ich": {
   "title": "Mein Frau, unsere Schwiegertochter und ich",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:mother there is star in me": {
   "title": "Mother, There is Star in Me",
   "tmdb_checked": true
  },
  "ikt:moulin": {
-  "imdb": "tt36899180",
-  "lang": "fr",
-  "langs": [
-   "fr",
-   "de"
-  ],
-  "min": 132,
-  "orig": "Moulin",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Moulin",
-  "title_en": "Moulin",
-  "tmdb": 1437925,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "fr"
-  ],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:muganga der heiler": {
   "title": "Muganga – Der Heiler",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:my live in versailles the movie": {
   "title": "My Live in Versailles - The Movie",
@@ -6369,8 +6436,8 @@
  "ikt:nagi daiari nagi notes": {
   "title": "Nagi daiari - Nagi Notes",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:narciso": {
   "lang": "es",
@@ -6412,41 +6479,16 @@
   "year": 2025
  },
  "ikt:nos povo das ilhas": {
-  "lang": "pt",
-  "langs": [
-   "pt"
-  ],
-  "min": 80,
-  "orig": "Nós, Povo das Ilhas",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Nos, Povo das Ilhas",
-  "title_en": "We, People of the Islands",
-  "tmdb": 1474302,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:notre salut ein mann seiner zeit": {
-  "imdb": "tt41593304",
-  "lang": "fr",
-  "langs": [
-   "fr"
-  ],
-  "min": 155,
-  "orig": "Notre salut",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Notre salut - Ein Mann seiner Zeit",
-  "title_en": "A Man of His Time",
-  "tmdb": 1318864,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "fr"
-  ],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:nuns vs the vatican": {
   "lang": "en",
@@ -6462,28 +6504,14 @@
  "ikt:o samba que mora aqui": {
   "title": "O samba que mora aqui",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:om chapter 1 udhiram the blood wood": {
-  "imdb": "tt34515768",
-  "lang": "ta",
-  "langs": [
-   "ta",
-   "te"
-  ],
-  "min": 178,
-  "orig": "ஓ.ம்: ஆபரேஷன் மோல்",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "OM - Chapter 1: Udhiram - The Blood Wood",
-  "title_en": "O.M: Operation Mole",
-  "tmdb": 1384528,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:one in a million 2026": {
   "lang": "en",
@@ -6502,35 +6530,20 @@
  "ikt:os braig brothers kurzfilmprogramm": {
   "title": "Os Braig Brothers-Kurzfilmprogramm",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:premiere ein helles funkeln": {
-  "imdb": "tt29010529",
-  "lang": "no",
-  "langs": [
-   "no"
-  ],
-  "min": 90,
-  "orig": "Stargate - en julefortelling",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Premiere: Ein Helles Funkeln",
-  "title_en": "Brightly Shining",
-  "tmdb": 1173147,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "no"
-  ],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:preview mein frau unsere schwiegertochter und ich": {
   "title": "Preview: Mein Frau, unsere Schwiegertochter und ich",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:quatro meninas": {
   "lang": "pt",
@@ -6546,34 +6559,19 @@
  "ikt:quizkino live": {
   "title": "QuizKino Live",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:renoir 2026": {
-  "imdb": "tt30220107",
-  "lang": "ja",
-  "langs": [
-   "ja",
-   "en"
-  ],
-  "min": 120,
-  "orig": "ルノワール",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Renoir",
-  "title_en": "Renoir",
-  "tmdb": 1392527,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "ja"
-  ],
-  "wd_checked": true,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2026
  },
  "ikt:replica 2026": {
   "imdb": "tt39949892",
+  "imdb_src": "tmdb",
   "lang": "zh",
   "langs": [
    "zh",
@@ -6587,8 +6585,9 @@
   "title_en": "Replica",
   "tmdb": 1643483,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 91,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [],
   "wd_checked": true,
   "year": 2026
@@ -6596,29 +6595,14 @@
  "ikt:sansho the bailiff": {
   "title": "Sansho the Bailiff",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:sarah bernhardt la divine": {
-  "imdb": "tt33298403",
-  "lang": "fr",
-  "langs": [
-   "fr"
-  ],
-  "min": 98,
-  "orig": "Sarah Bernhardt, La Divine",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Sarah Bernhardt, la divine",
-  "title_en": "The Divine Sarah Bernhardt",
-  "tmdb": 1228322,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "fr"
-  ],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:scene 2026": {
   "lang": "ta",
@@ -6645,6 +6629,7 @@
  },
  "ikt:shana 2026": {
   "imdb": "tt39172310",
+  "imdb_src": "tmdb",
   "lang": "fr",
   "langs": [
    "fr"
@@ -6657,8 +6642,9 @@
   "title_en": "Shana",
   "tmdb": 1483319,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_runtime": 83,
+  "tmdb_v": 5,
+  "v": 4,
   "wd": [
    "fr"
   ],
@@ -6668,8 +6654,8 @@
  "ikt:shumei the living legacy of kabuki": {
   "title": "Shumei - The Living Legacy of Kabuki",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:spatzenkino klingende geschichten": {
   "title": "Spatzenkino: Klingende Geschichten",
@@ -6735,31 +6721,16 @@
   "tmdb_checked": true
  },
  "ikt:velhos bandidos": {
-  "imdb": "tt34382332",
-  "lang": "pt",
-  "langs": [
-   "pt"
-  ],
-  "min": 93,
-  "orig": "Velhos Bandidos",
-  "orig_source": null,
-  "orig_src": "tmdb",
   "title": "Velhos bandidos",
-  "title_en": "Old Bandits",
-  "tmdb": 1362786,
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
-  "wd": [
-   "pt"
-  ],
-  "wd_checked": true
+  "tmdb_v": 5,
+  "v": 4
  },
  "ikt:wadja 2024": {
   "title": "Wadja",
   "tmdb_checked": true,
-  "tmdb_v": 4,
-  "v": 3,
+  "tmdb_v": 5,
+  "v": 4,
   "year": 2024
  },
  "ikt:woman demon human": {
