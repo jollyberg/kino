@@ -3721,6 +3721,31 @@
   "v": 3,
   "year": 2026
  },
+ "ik:les_miserables": {
+  "country": "Frankreich",
+  "director": "Fred Cavayé",
+  "genre": "Drama, Historienfilm, Literaturverfilmung",
+  "imdb": "tt35518109",
+  "lang": "fr",
+  "langs": [
+   "fr"
+  ],
+  "min": 180,
+  "orig": "Les Misérables",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Preview: Les Miserablés",
+  "title_en": "Les Misérables",
+  "tmdb": 1241803,
+  "tmdb_checked": true,
+  "tmdb_v": 4,
+  "v": 3,
+  "wd": [
+   "fr"
+  ],
+  "wd_checked": true,
+  "year": 2026
+ },
  "ik:les_miserables_die_geschichte_von_jean_valjean_2026": {
   "country": "Frankreich",
   "director": "Éric Besnard",
