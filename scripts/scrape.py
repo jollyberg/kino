@@ -29,7 +29,7 @@ BERLIN_DE_EXTRA = {
     "30176": {"name": "CinemaxX Potsdamer Platz", "web": "https://www.cinemaxx.de"},
 }
 
-META_VERSION = 3  # erhöhen, wenn neue Felder von den Filmseiten gelesen werden sollen
+META_VERSION = 4  # erhöhen, wenn neue Felder von den Filmseiten gelesen werden sollen
 GERMAN_COUNTRIES = {"deutschland", "brd", "ddr", "österreich", "schweiz", "d", "a", "ch"}
 
 
@@ -255,7 +255,7 @@ def tmdb(path, **params):
         return None
 
 
-TMDB_VERSION = 4  # erhöhen, damit Filme neu bei TMDB gesucht werden
+TMDB_VERSION = 5  # erhöhen, damit Filme neu bei TMDB gesucht werden
 
 PREFIX = re.compile(r"^(?:atmos|dolby atmos|imax|d-box|4dx|3d|ov|omu|preview|premiere|vorpremiere|"
                     r"sneak|classic sneak|sneak preview)\s*[:,]\s*", re.I)
@@ -293,6 +293,59 @@ def similarity(query, cand):
     return best
 
 
+def name_key(n):
+    """Nachname vereinfacht und transliterationsneutral (Swjaginzew ~ Zvyagintsev)."""
+    n = unicodedata.normalize("NFKD", (n or "").lower())
+    n = "".join(c for c in n if not unicodedata.combining(c))
+    parts = [p for p in re.findall(r"[a-z]+", n) if p not in ("jr", "sr", "ii", "iii")]
+    last = parts[-1] if parts else ""
+    for a, b in (("tsch", "ch"), ("sch", "sh"), ("w", "v"), ("j", "y"), ("ts", "z"), ("tz", "z")):
+        last = last.replace(a, b)
+    return last
+
+
+def director_match(ours, det):
+    """True/False, ob die Regie übereinstimmt; None, wenn eine Seite keine Angabe hat."""
+    names = [c.get("name") for c in ((det.get("credits") or {}).get("crew") or []) if c.get("job") == "Director"]
+    mine = [x for x in re.split(r",|/| und | & ", ours or "") if x.strip()]
+    if not names or not mine:
+        return None
+    for a in mine:
+        for b in names:
+            if difflib.SequenceMatcher(None, name_key(a), name_key(b)).ratio() >= 0.75:
+                return True
+    return False
+
+
+def score_candidate(meta, q, cand, det):
+    """Punkte für einen TMDB-Kandidaten. Titel allein reicht nicht: Jahr, Laufzeit und Regie
+    müssen passen (sonst landet z. B. "Minotaurus" bei einem gleichnamigen Kurzfilm)."""
+    sim = similarity(q, cand)
+    if sim < 0.6:
+        return None
+    score = 2 * sim
+    year, cy = meta.get("year"), tmdb_year(cand)
+    if year and cy:
+        if abs(cy - year) > 1:
+            return None
+        score += 2 if cy == year else 1
+    mine, theirs = meta.get("min"), (det or {}).get("runtime")
+    if mine and theirs:
+        diff = abs(mine - theirs)
+        if diff <= 5:
+            score += 3
+        elif diff <= 15:
+            score += 1
+        elif diff > 30:
+            return None  # z. B. Kurzfilm statt Spielfilm
+    dm = director_match(meta.get("director"), det or {})
+    if dm is True:
+        score += 3
+    elif dm is False:
+        score -= 2
+    return score
+
+
 def tmdb_enrich(meta, title):
     """Sucht den Film bei TMDB. Lieber kein Treffer als ein falscher."""
     meta["tmdb_checked"] = True
@@ -302,40 +355,48 @@ def tmdb_enrich(meta, title):
     if meta.get("orig_src") == "tmdb":
         meta["orig"] = meta.get("orig_source")
     meta.pop("orig_src", None)
+    if meta.get("imdb_src") == "tmdb":
+        meta.pop("imdb", None)  # IMDb-ID stammte von einem früheren (evtl. falschen) TMDB-Treffer
+    meta.pop("imdb_src", None)
     if GENERIC.search(title or ""):
         return
-    res = None
+    res, det = None, None
     if meta.get("imdb"):
+        # IMDb-Nummer von indiekino: eindeutig
         r = tmdb(f"/find/{meta['imdb']}", external_source="imdb_id")
         if r and r.get("movie_results"):
             res = r["movie_results"][0]
-    queries = []
-    for q in (meta.get("orig"), title, (title or "").split(" - ")[0]):
-        q = clean_title(q)
-        if q and q not in queries:
-            queries.append(q)
-    year = meta.get("year")
-    for q in queries:
-        if res:
-            break
-        if year:
-            # Erstveröffentlichung im Jahr (nicht Wiederaufführungen)
-            r = tmdb("/search/movie", query=q, primary_release_year=year, language="de-DE")
-            for cand in (r or {}).get("results", [])[:5]:
-                if similarity(q, cand) >= 0.6:
-                    res = cand
-                    break
-            if res:
-                break
-        # Ohne Jahresfilter: nur sehr ähnliche Titel, bei bekanntem Jahr mit passendem Jahr (±1)
-        r = tmdb("/search/movie", query=q, language="de-DE")
-        for cand in (r or {}).get("results", [])[:8]:
-            cy = tmdb_year(cand)
-            if year and not (cy and abs(cy - year) <= 1):
+    if res is None:
+        queries = []
+        for q in (meta.get("orig"), title, (title or "").split(" - ")[0]):
+            q = clean_title(q)
+            if q and q not in queries:
+                queries.append(q)
+        year = meta.get("year")
+        cands = {}  # id -> (Kandidat, Suchbegriff)
+        for q in queries:
+            if year:
+                r = tmdb("/search/movie", query=q, primary_release_year=year, language="de-DE")
+                for c in (r or {}).get("results", [])[:5]:
+                    cands.setdefault(c["id"], (c, q))
+            r = tmdb("/search/movie", query=q, language="de-DE")
+            for c in (r or {}).get("results", [])[:8]:
+                cy = tmdb_year(c)
+                if year and not (cy and abs(cy - year) <= 1):
+                    continue
+                if similarity(q, c) >= (0.6 if year else 0.85):
+                    cands.setdefault(c["id"], (c, q))
+        best, best_score, best_det = None, None, None
+        for cid, (c, q) in list(cands.items())[:10]:
+            if similarity(q, c) < 0.6:
                 continue
-            if similarity(q, cand) >= 0.85:
-                res = cand
-                break
+            d = tmdb(f"/movie/{cid}", language="en-US", append_to_response="credits")
+            sc = score_candidate(meta, q, c, d)
+            if sc is not None and (best_score is None or sc > best_score):
+                best, best_score, best_det = c, sc, d
+        # Mindestpunktzahl: ohne Jahr/Laufzeit/Regie als Bestätigung nur bei fast gleichem Titel
+        if best is not None and best_score >= 3.5:
+            res, det = best, best_det
     if res:
         meta["lang"] = res.get("original_language")
         if res.get("original_title"):
@@ -343,11 +404,14 @@ def tmdb_enrich(meta, title):
             meta["orig"] = res["original_title"]
             meta["orig_src"] = "tmdb"
         meta["tmdb"] = res.get("id")
-        det = tmdb(f"/movie/{res.get('id')}", language="en-US")
+        if det is None:
+            det = tmdb(f"/movie/{res.get('id')}", language="en-US", append_to_response="credits")
         if det:
             meta["title_en"] = det.get("title")
-            if det.get("imdb_id"):
+            meta["tmdb_runtime"] = det.get("runtime")
+            if det.get("imdb_id") and not meta.get("imdb"):
                 meta["imdb"] = det["imdb_id"]
+                meta["imdb_src"] = "tmdb"
             langs = [l.get("iso_639_1") for l in det.get("spoken_languages") or []
                      if l.get("iso_639_1") and l.get("iso_639_1") != "xx"]
             lang = meta["lang"] if meta["lang"] != "xx" else None
@@ -551,9 +615,14 @@ def main():
             de_orig = "yes"
             if "de" not in langs:
                 langs = ["de"] + langs
-        if de_orig == "yes" and len(wd) == 1:
+        if len(wd) == 1:
+            # Wikidata nennt genau eine Originalsprache: die zuerst anzeigen
             langs = wd + [l for l in langs if l not in wd]
         orig = m.get("orig")
+        if len(wd) == 1 and m.get("lang") and wd[0] != m["lang"] and wd[0] != "de" and m.get("orig_src") == "tmdb":
+            # TMDB-Originalsprache widerspricht Wikidata (z. B. französische Koproduktion eines russischen
+            # Films): dann ist auch der TMDB-Originaltitel fragwürdig -> Titel der Quelle bzw. englischer Titel
+            orig = m.get("orig_source") or m.get("title_en") or orig
         if de_orig == "yes" and m.get("lang") and m.get("lang") != "de":
             # deutschsprachiger Film, den TMDB einem anderen Land zuordnet: deutscher Titel ist der Originaltitel
             orig = clean_title(m.get("title") or "") or orig
