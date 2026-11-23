@@ -47,7 +47,7 @@
   .t small{display:block;font-size:11px;color:var(--muted);font-weight:500;margin-top:4px}
   .title{font-weight:600;font-size:16px;margin:0}
   .orig{color:var(--muted);font-size:13px;margin:1px 0 6px}
-  .title{margin-bottom:6px}
+  .title{margin-bottom:2px}
   .meta{display:flex;flex-wrap:wrap;gap:5px 10px;font-size:12.5px;color:var(--muted)}
   .row2{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:8px}
   .row2 .meta{margin:0}
@@ -55,7 +55,7 @@
   .tk.direct{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)!important}
   .title a{color:inherit;text-decoration:underline;text-decoration-color:var(--muted);text-decoration-thickness:1px;text-underline-offset:4px}
   .title a::after{content:" \2197";font-size:.8em;color:var(--muted)}
-  .credits{font-size:12.5px;color:var(--muted);margin-top:5px}
+  .credits{font-size:12.5px;color:var(--muted);margin-top:2px}
   .warn{margin-top:8px;font-size:12.5px;color:var(--accent-ink);background:var(--accent);border-radius:8px;padding:6px 10px}
   .badge.unsure{border-style:dashed;opacity:.8}
   .badge.dub{border-color:var(--muted);color:var(--muted)}
@@ -251,7 +251,9 @@ function renderList(){
     const lang=(f.langs||[]).map(langName).filter(Boolean).join(", ");
     const end=f.min?`<small>bis ${fmt(m+f.min+15)}</small>`:"";
     const href=safeUrl(s.tk)||safeUrl(c.web)||safeUrl(c.url);
-    const credits=[f.dir?"R: "+f.dir:"",f.year].filter(Boolean).join(" · ");
+    // Regie · Jahr · Dauer · Genre (Genre gekürzt auf die ersten zwei Angaben)
+    const genre=(f.genre||"").split(",").map(x=>x.trim()).filter(Boolean).slice(0,2).join(", ");
+    const credits=[f.dir?"R: "+f.dir:"",f.year,f.min?f.min+" Min":"",genre].filter(Boolean).join(" · ");
     // Letterboxd: über TMDB-Nummer direkt zum Film, sonst Suche
     const lb=f.tmdb?`https://letterboxd.com/tmdb/${f.tmdb}/`:`https://letterboxd.com/search/films/${encodeURIComponent(showTitle(f).replace(/^((atmos|imax|d-box|4dx|3d|preview|premiere|vorpremiere|sneak)\s*[:,]\s*)+/i,""))}/`;
     const link=href?`<a class="tk${s.tkd?" direct":""}" href="${esc(href)}" target="_blank" rel="noopener">${s.tkd?"Tickets":"Zum Kino"}</a>`:"";
@@ -259,16 +261,14 @@ function renderList(){
       <div class="t">${esc(s.t)}${end}</div>
       <div>
         <p class="title"><a href="${esc(lb)}" target="_blank" rel="noopener">${esc(showTitle(f))}</a></p>
-        <div class="meta">
+        ${credits?`<div class="credits">${esc(credits)}</div>`:""}
+        <div class="meta" style="margin-top:6px">
           ${cats.length?cats.map(x=>`<span class="badge${x.unsure?" unsure":""}"${x.unsure?' title="Fassung nicht angegeben, vermutlich deutschsprachiges Original"':""}>${x.v}${x.unsure?"?":""}</span>`).join(""):'<span class="badge dub">Synchro</span>'}
           ${lang?`<span>${esc(lang)}</span>`:""}
-          ${f.min?`<span>${f.min} Min</span>`:""}
         </div>
-        ${credits?`<div class="credits">${esc(credits)}</div>`:""}
         <div class="row2">
           <div class="meta">
             <span class="cinema">${esc(c.name)}</span>
-            <span>${d.toFixed(1).replace(".",",")} km</span>
           </div>
           ${link}
         </div>
