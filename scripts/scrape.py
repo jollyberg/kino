@@ -108,6 +108,9 @@ def norm_labels(raw):
 def parse_indiekino_program(page):
     """Liefert (kinos, vorstellungen) aus der Programmseite (alle Tage)."""
     cinemas, shows = {}, []
+    # indiekino-Filter "OV deutsch" (f_1000): Liste der Termin-Nummern deutschsprachiger Originale
+    m = re.search(r"'f_1000'\s*:\s*\[([\d,\s]*)\]", page)
+    ov_de = {int(x) for x in m.group(1).split(",") if x.strip()} if m else set()
     days = re.split(r"<div\s+id='gp_\d+' class='gp\s+d d_", page)[1:]
     for block in days:
         day = block[:10]
@@ -119,7 +122,7 @@ def parse_indiekino_program(page):
             cid = url.rstrip("/").split("/")[-1]
             cinemas[cid] = {"name": html.unescape(name).strip(), "url": IK + url,
                             "multiplex": "multiplex" in cls, "source": "indiekino"}
-            for t in re.findall(r"<div class='termin[^']*' id='i\d+'>(.*?)</div>", pa, re.S):
+            for tid, t in re.findall(r"<div class='termin[^']*' id='i(\d+)'>(.*?)</div>", pa, re.S):
                 tm = re.search(r"class='zi[^']*'>(\d{1,2}:\d{2})<", t)
                 if not tm:
                     continue
@@ -131,7 +134,8 @@ def parse_indiekino_program(page):
                 tk = re.search(r"class='res_box'[^>]*>[^<]*<a href='(https?://[^']+)'", t)
                 shows.append({"d": day, "t": tm.group(1).zfill(5), "c": cid, "f": film_key,
                               "title": title, "raw": fas.group(1) if fas else "",
-                              "tk": html.unescape(tk.group(1)) if tk else None})
+                              "tk": html.unescape(tk.group(1)) if tk else None,
+                              "ovde": int(tid) in ov_de})
     return cinemas, shows
 
 
@@ -534,6 +538,8 @@ def main():
         used_c.add(s["c"]); used_f.add(s["f"])
     out_shows.sort(key=lambda x: (x["d"], x["t"]))
 
+    # Filme, die indiekino als "OV deutsch" führt, gelten immer als deutschsprachig
+    ik_ov_de = {s["f"] for s in shows if s.get("ovde")}
     out_films = {}
     for k in used_f:
         m = films.get(k, {})
@@ -541,6 +547,10 @@ def main():
         langs = [l for l in (m.get("langs") or ([m["lang"]] if m.get("lang") else [])) if l != "xx"]
         wd = m.get("wd") or []
         de_orig = german_original(lang if m.get("lang") else None, langs, wd, m.get("country"))
+        if k in ik_ov_de:
+            de_orig = "yes"
+            if "de" not in langs:
+                langs = ["de"] + langs
         if de_orig == "yes" and len(wd) == 1:
             langs = wd + [l for l in langs if l not in wd]
         orig = m.get("orig")
