@@ -10,7 +10,7 @@ Quellen:
 
 Nur Python-Standardbibliothek, damit es überall ohne Installation läuft.
 """
-import html, json, os, re, sys, time, unicodedata
+import difflib, html, json, os, re, sys, time, unicodedata
 import urllib.parse, urllib.request
 from datetime import date, datetime, timedelta
 
@@ -29,7 +29,7 @@ BERLIN_DE_EXTRA = {
     "30176": {"name": "CinemaxX Potsdamer Platz", "web": "https://www.cinemaxx.de"},
 }
 
-META_VERSION = 2  # erhöhen, wenn neue Felder von den Filmseiten gelesen werden sollen
+META_VERSION = 3  # erhöhen, wenn neue Felder von den Filmseiten gelesen werden sollen
 GERMAN_COUNTRIES = {"deutschland", "brd", "ddr", "österreich", "schweiz", "d", "a", "ch"}
 
 
@@ -48,7 +48,8 @@ def fetch(url, headers=None, tries=3):
                 return r.read().decode("utf-8", errors="replace")
         except Exception as e:
             log(f"  Fehler bei {url}: {e}")
-            time.sleep(2 * (i + 1))
+            # bei "Too Many Requests" deutlich länger warten
+            time.sleep(15 * (i + 1) if "429" in str(e) else 2 * (i + 1))
     return None
 
 
@@ -250,12 +251,15 @@ def tmdb(path, **params):
         return None
 
 
-TMDB_VERSION = 2  # erhöhen, damit Filme ohne Treffer neu gesucht werden
+TMDB_VERSION = 4  # erhöhen, damit Filme neu bei TMDB gesucht werden
 
 PREFIX = re.compile(r"^(?:atmos|dolby atmos|imax|d-box|4dx|3d|ov|omu|preview|premiere|vorpremiere|"
                     r"sneak|classic sneak|sneak preview)\s*[:,]\s*", re.I)
 SUFFIX = re.compile(r"\s*(?:\b3D\b|\(director'?s cut\)|-\s*extended version|-\s*das kinoerlebnis|"
                     r"\(\d{4}\))\s*$", re.I)
+# Veranstaltungen ohne festen Film: nicht bei TMDB suchen (sonst Zufallstreffer)
+GENERIC = re.compile(r"sneak|überraschungsfilm|\bquiz|kurzfilm|shorts attack|showcase|best of|kino & kaffee|"
+                     r"spatzenkino|^filme von|filmprogramm|\blive\s*:|nt live|national theatre|met opera", re.I)
 
 
 def clean_title(t):
@@ -275,8 +279,27 @@ def tmdb_year(r):
         return None
 
 
+def similarity(query, cand):
+    """Ähnlichkeit 0..1 zwischen Suchbegriff und TMDB-Titel/Originaltitel."""
+    q = norm_title(query)
+    best = 0.0
+    for t in (cand.get("title"), cand.get("original_title")):
+        if t:
+            best = max(best, difflib.SequenceMatcher(None, q, norm_title(t)).ratio())
+    return best
+
+
 def tmdb_enrich(meta, title):
-    """Ergänzt lang/langs/orig über IMDB-ID oder Titelsuche (Originaltitel zuerst)."""
+    """Sucht den Film bei TMDB. Lieber kein Treffer als ein falscher."""
+    meta["tmdb_checked"] = True
+    meta["tmdb_v"] = TMDB_VERSION
+    for k in ("lang", "langs", "tmdb", "title_en", "wd", "wd_checked"):
+        meta.pop(k, None)
+    if meta.get("orig_src") == "tmdb":
+        meta["orig"] = meta.get("orig_source")
+    meta.pop("orig_src", None)
+    if GENERIC.search(title or ""):
+        return
     res = None
     if meta.get("imdb"):
         r = tmdb(f"/find/{meta['imdb']}", external_source="imdb_id")
@@ -292,34 +315,41 @@ def tmdb_enrich(meta, title):
         if res:
             break
         if year:
-            r = tmdb("/search/movie", query=q, year=year, language="de-DE")
-            if r and r.get("results"):
-                res = r["results"][0]
+            # Erstveröffentlichung im Jahr (nicht Wiederaufführungen)
+            r = tmdb("/search/movie", query=q, primary_release_year=year, language="de-DE")
+            for cand in (r or {}).get("results", [])[:5]:
+                if similarity(q, cand) >= 0.6:
+                    res = cand
+                    break
+            if res:
                 break
-        # ohne Jahr, aber nur Treffer mit passendem Jahr (±1) übernehmen
+        # Ohne Jahresfilter: nur sehr ähnliche Titel, bei bekanntem Jahr mit passendem Jahr (±1)
         r = tmdb("/search/movie", query=q, language="de-DE")
-        for cand in (r or {}).get("results", [])[:5]:
+        for cand in (r or {}).get("results", [])[:8]:
             cy = tmdb_year(cand)
-            if not year or (cy and abs(cy - year) <= 1):
+            if year and not (cy and abs(cy - year) <= 1):
+                continue
+            if similarity(q, cand) >= 0.85:
                 res = cand
                 break
-    meta["tmdb_checked"] = True
-    meta["tmdb_v"] = TMDB_VERSION
     if res:
         meta["lang"] = res.get("original_language")
-        # TMDB-Originaltitel ist verlässlicher als die Angabe auf indiekino
         if res.get("original_title"):
+            meta["orig_source"] = meta.get("orig")
             meta["orig"] = res["original_title"]
             meta["orig_src"] = "tmdb"
         meta["tmdb"] = res.get("id")
-        # Alle im Film gesprochenen Sprachen (für mehrsprachige Filme)
         det = tmdb(f"/movie/{res.get('id')}", language="en-US")
         if det:
             meta["title_en"] = det.get("title")
-            langs = [l.get("iso_639_1") for l in det.get("spoken_languages") or [] if l.get("iso_639_1")]
-            if meta["lang"] in langs:
-                langs.remove(meta["lang"])
-            meta["langs"] = ([meta["lang"]] if meta["lang"] else []) + langs
+            if det.get("imdb_id"):
+                meta["imdb"] = det["imdb_id"]
+            langs = [l.get("iso_639_1") for l in det.get("spoken_languages") or []
+                     if l.get("iso_639_1") and l.get("iso_639_1") != "xx"]
+            lang = meta["lang"] if meta["lang"] != "xx" else None
+            if lang in langs:
+                langs.remove(lang)
+            meta["langs"] = ([lang] if lang else []) + langs
             if not meta.get("min") and det.get("runtime"):
                 meta["min"] = det["runtime"]
 
@@ -336,6 +366,57 @@ def is_direct_booking(url):
     """True, wenn der Link zu einer bestimmten Vorstellung führt (nicht nur zur Kinoseite)."""
     return bool(re.search(r"kinoheld\.de/.*/vorstellung/\d+|cinetixx\.de/.*eventList/\d+|"
                           r"[?&](show|showId|event|eventId|vorstellung)=\d+|/(event|show|booking|ticket)s?/\d+", url, re.I))
+
+
+# ---------------------------------------------------------------- Wikidata
+def wikidata_languages(imdb_ids):
+    """Originalsprache(n) laut Wikidata (Eigenschaft P364) je IMDb-ID, als ISO-Codes."""
+    out = {}
+    ids = sorted(set(imdb_ids))
+    for i in range(0, len(ids), 80):
+        values = " ".join(f'"{x}"' for x in ids[i:i + 80])
+        q = ("SELECT ?imdb ?code WHERE { VALUES ?imdb { " + values + " } "
+             "?film wdt:P345 ?imdb; wdt:P364 ?lang. ?lang wdt:P218 ?code. }")
+        body = fetch("https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": q, "format": "json"}),
+                     {"Accept": "application/sparql-results+json"})
+        if body is None:
+            return None  # Wikidata nicht erreichbar: nichts ändern
+        try:
+            for b in json.loads(body)["results"]["bindings"]:
+                out.setdefault(b["imdb"]["value"], set()).add(b["code"]["value"])
+        except Exception:
+            return None
+        time.sleep(1)
+    return {k: sorted(v) for k, v in out.items()}
+
+
+def german_countries(country):
+    """Alle genannten Produktionsländer deutschsprachig? (None = keine Angabe)"""
+    c = (country or "").lower()
+    parts = {p.strip() for p in re.split(r"[/,]| und ", c) if p.strip()}
+    if not parts:
+        return None, False
+    return parts <= GERMAN_COUNTRIES, bool(parts & GERMAN_COUNTRIES)
+
+
+def german_original(tmdb_lang, langs, wd, country):
+    """Ist ein Film ohne Fassungsangabe vermutlich im deutschen Original?
+    "yes"   = sicher deutschsprachig  -> Badge OV
+    "maybe" = Deutsch kommt vor oder es gibt keine Sprachinfo -> Badge OV?
+    "no"    = alle Quellen nennen eine andere Sprache -> Synchronfassung"""
+    only_de_country, some_de_country = german_countries(country)
+    if wd:
+        if wd == ["de"] or ("de" in wd and tmdb_lang == "de"):
+            return "yes"
+    elif tmdb_lang == "de":
+        return "yes"
+    elif tmdb_lang is None and only_de_country:
+        return "yes"
+    if "de" in wd or "de" in (langs or []) or tmdb_lang == "de" or some_de_country:
+        return "maybe"
+    if not wd and not tmdb_lang and only_de_country is None:
+        return "maybe"  # gar keine Sprachinfo
+    return "no"
 
 
 # ---------------------------------------------------------------- Geocoding
@@ -364,6 +445,10 @@ def main():
         sys.exit("indiekino nicht erreichbar – Abbruch, alte data.json bleibt bestehen.")
     ik_cinemas, shows = parse_indiekino_program(page)
     log(f"  {len(ik_cinemas)} Kinos, {len(shows)} Vorstellungen")
+    if len(ik_cinemas) < 30 or len(shows) < 300:
+        # Seite kaputt oder Layout geändert: lieber alte Daten behalten als eine leere App
+        sys.exit(f"Zu wenig Daten von indiekino ({len(ik_cinemas)} Kinos, {len(shows)} Vorstellungen) – "
+                 "Abbruch, alte data.json bleibt bestehen.")
 
     for cid, c in ik_cinemas.items():
         old = cinemas.get(cid, {})
@@ -400,40 +485,35 @@ def main():
         needed.setdefault(s["f"], s["title"])
     for key, title in needed.items():
         meta = films.get(key)
-        if meta is not None and meta.get("v", 1) < META_VERSION and not key.startswith("ikt:"):
-            keep = {k: meta[k] for k in ("lang", "langs", "tmdb", "tmdb_checked") if k in meta}
-            if "orig" in meta and meta.get("tmdb"):
-                keep["orig"] = meta["orig"]
-            meta = None
-        else:
-            keep = {}
+        if meta is not None and meta.get("v", 1) < META_VERSION:
+            meta = None  # Quellseiten neu lesen und neu bei TMDB suchen
         if meta is None:
             log(f"Film: {title}")
             if key.startswith("ik:"):
                 meta = indiekino_film_meta(key[3:])
             elif key.startswith("bd:"):
                 meta = berlin_de_film_meta(key[3:])
+                time.sleep(1)  # berlin.de begrenzt die Abfragefrequenz
             else:
-                meta = {}
+                meta = {"v": META_VERSION}
                 y = re.search(r"\((\d{4})\)\s*$", title)
                 if y:
                     meta["year"] = int(y.group(1))
             meta.setdefault("title", re.sub(r"\s*\(\d{4}\)\s*$", "", title))
-            for k, v in keep.items():
-                meta.setdefault(k, v)
             time.sleep(0.15)
-        if TMDB_TOKEN and (not meta.get("tmdb_checked") or
-                           (not meta.get("tmdb") and meta.get("tmdb_v", 1) < TMDB_VERSION)):
+        if TMDB_TOKEN and meta.get("tmdb_v", 1) < TMDB_VERSION:
             tmdb_enrich(meta, meta.get("title") or title)
-        elif TMDB_TOKEN and meta.get("tmdb") and ("title_en" not in meta or meta.get("orig_src") != "tmdb"):
-            # englischen Titel und TMDB-Originaltitel nachholen
-            det = tmdb(f"/movie/{meta['tmdb']}", language="en-US")
-            if det:
-                meta["title_en"] = det.get("title")
-                if det.get("original_title"):
-                    meta["orig"] = det["original_title"]
-                meta["orig_src"] = "tmdb"
         films[key] = meta
+    # Originalsprache laut Wikidata ergänzen (zuverlässiger als TMDB bei Koproduktionen)
+    todo = [m["imdb"] for k, m in films.items() if k in needed and m.get("imdb") and not m.get("wd_checked")]
+    if todo:
+        log(f"Wikidata: {len(todo)} Filme …")
+        wd = wikidata_languages(todo)
+        if wd is not None:
+            for k, m in films.items():
+                if m.get("imdb") in todo:
+                    m["wd"] = wd.get(m["imdb"], [])
+                    m["wd_checked"] = True
     save(FILM_CACHE, films)
 
     # Ausgabe zusammenbauen
@@ -458,8 +538,17 @@ def main():
     for k in used_f:
         m = films.get(k, {})
         lang = m.get("lang") or guess_lang_from_country(m)
-        out_films[k] = {"title": m.get("title") or needed.get(k, ""), "orig": m.get("orig"),
-                        "lang": lang, "langs": m.get("langs") or ([m["lang"]] if m.get("lang") else []),
+        langs = [l for l in (m.get("langs") or ([m["lang"]] if m.get("lang") else [])) if l != "xx"]
+        wd = m.get("wd") or []
+        de_orig = german_original(lang if m.get("lang") else None, langs, wd, m.get("country"))
+        if de_orig == "yes" and len(wd) == 1:
+            langs = wd + [l for l in langs if l not in wd]
+        orig = m.get("orig")
+        if de_orig == "yes" and m.get("lang") and m.get("lang") != "de":
+            # deutschsprachiger Film, den TMDB einem anderen Land zuordnet: deutscher Titel ist der Originaltitel
+            orig = clean_title(m.get("title") or "") or orig
+        out_films[k] = {"title": m.get("title") or needed.get(k, ""), "orig": orig,
+                        "lang": lang, "de": de_orig, "langs": langs,
                         "min": m.get("min"), "year": m.get("year"), "dir": m.get("director"),
                         "genre": m.get("genre"), "tmdb": m.get("tmdb"), "en": m.get("title_en")}
 
