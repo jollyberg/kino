@@ -255,7 +255,7 @@ def tmdb(path, **params):
         return None
 
 
-TMDB_VERSION = 7  # erhöhen, damit Filme neu bei TMDB gesucht werden
+TMDB_VERSION = 8  # erhöhen, damit Filme neu bei TMDB gesucht werden
 
 PREFIX = re.compile(r"^(?:atmos|dolby atmos|imax|d-box|4dx|3d|ov|omu|preview|premiere|vorpremiere|"
                     r"sneak|classic sneak|sneak preview)\s*[:,]\s*", re.I)
@@ -293,26 +293,42 @@ def similarity(query, cand):
     return best
 
 
-def name_key(n):
-    """Nachname vereinfacht und transliterationsneutral (Swjaginzew ~ Zvyagintsev)."""
-    n = unicodedata.normalize("NFKD", (n or "").lower())
+TRANSLIT = str.maketrans({"ł": "l", "ø": "o", "đ": "d", "ß": "ss", "æ": "ae", "œ": "oe", "і": "i", "ї": "i", "ı": "i"})
+
+
+def name_tokens(n):
+    """Namensteile vereinfacht und transliterationsneutral (Swjaginzew ~ Zvyagintsev)."""
+    n = unicodedata.normalize("NFKD", (n or "").lower().translate(TRANSLIT))
     n = "".join(c for c in n if not unicodedata.combining(c))
-    parts = [p for p in re.findall(r"[a-z]+", n) if p not in ("jr", "sr", "ii", "iii")]
-    last = parts[-1] if parts else ""
-    for a, b in (("tsch", "ch"), ("sch", "sh"), ("w", "v"), ("j", "y"), ("ts", "z"), ("tz", "z")):
-        last = last.replace(a, b)
-    return last
+    out = []
+    for p in re.findall(r"[a-z]+", n):
+        if p in ("jr", "sr", "ii", "iii", "de", "da", "van", "von", "la", "le"):
+            continue
+        for a, b in (("tsch", "ch"), ("sch", "sh"), ("w", "v"), ("j", "y"), ("ts", "z"), ("tz", "z")):
+            p = p.replace(a, b)
+        out.append(p)
+    return out
+
+
+def name_key(n):
+    t = name_tokens(n)
+    return t[-1] if t else ""
 
 
 def director_match(ours, det):
-    """True/False, ob die Regie übereinstimmt; None, wenn eine Seite keine Angabe hat."""
+    """True/False, ob die Regie übereinstimmt; None, wenn eine Seite keine Angabe hat.
+    Es reicht ein übereinstimmender Namensteil (Nachnamen werden unterschiedlich angegeben)."""
     names = [c.get("name") for c in ((det.get("credits") or {}).get("crew") or []) if c.get("job") == "Director"]
     mine = [x for x in re.split(r",|/| und | & ", ours or "") if x.strip()]
     if not names or not mine:
         return None
     for a in mine:
+        ta = [t for t in name_tokens(a) if len(t) >= 4]
         for b in names:
+            tb = [t for t in name_tokens(b) if len(t) >= 4]
             if difflib.SequenceMatcher(None, name_key(a), name_key(b)).ratio() >= 0.75:
+                return True
+            if any(difflib.SequenceMatcher(None, x, y).ratio() >= 0.85 for x in ta for y in tb):
                 return True
     return False
 
@@ -413,7 +429,14 @@ def tmdb_enrich(meta, title):
             sc = score_candidate(meta, q, c, d, mlog)
             if sc is not None and (best_score is None or sc > best_score):
                 best, best_score, best_det = c, sc, d
-        # Mindestpunktzahl: ohne Jahr/Laufzeit/Regie als Bestätigung nur bei fast gleichem Titel
+        # Einziger Kandidat mit (fast) identischem Titel und bekanntem Jahr: kleiner Bonus,
+        # damit z. B. ältere Repertoire-Filme ohne weitere Angaben nicht verloren gehen
+        close = [x for x in mlog if x.get("sim", 0) >= 0.9 and "x" not in x]
+        if best is not None and len(close) == 1 and close[0]["id"] == best["id"] and close[0]["sim"] >= 0.97 \
+                and tmdb_year(best):
+            best_score += 1
+            close[0]["score"] = round(best_score, 2)
+        # Mindestpunktzahl
         if best is not None and best_score >= 3.0:
             res, det = best, best_det
     if res:
@@ -499,7 +522,9 @@ def german_original(tmdb_lang, langs, wd, country):
         return "yes"
     elif tmdb_lang is None and only_de_country:
         return "yes"
-    if "de" in wd or "de" in (langs or []) or tmdb_lang == "de" or some_de_country:
+    # Produktionsland nur heranziehen, wenn Wikidata keine Sprache kennt
+    # (eine deutsche Koproduktion eines russischen Films ist kein deutscher Film)
+    if "de" in wd or "de" in (langs or []) or tmdb_lang == "de" or (some_de_country and not wd):
         return "maybe"
     if not wd and not tmdb_lang and only_de_country is None:
         return "maybe"  # gar keine Sprachinfo
