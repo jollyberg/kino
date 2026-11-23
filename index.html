@@ -56,6 +56,8 @@
   .title a{color:inherit;text-decoration:underline;text-decoration-color:var(--muted);text-decoration-thickness:1px;text-underline-offset:4px}
   .title a::after{content:" \2197";font-size:.8em;color:var(--muted)}
   .credits{font-size:12.5px;color:var(--muted);margin-top:5px}
+  .warn{margin-top:8px;font-size:12.5px;color:var(--accent-ink);background:var(--accent);border-radius:8px;padding:6px 10px}
+  .badge.unsure{border-style:dashed;opacity:.8}
   .badge.dub{border-color:var(--muted);color:var(--muted)}
   .badge{font:600 11px "IBM Plex Mono",monospace;padding:2px 6px;border-radius:5px;border:1px solid var(--accent);color:var(--accent)}
   .cinema{color:var(--text)}
@@ -107,6 +109,7 @@
   </section>
   <div class="summary"><span><strong id="count">0</strong> Vorstellungen</span><span id="hiddenInfo"></span></div>
  </div>
+  <div class="warn hidden" id="warn"></div>
   <div class="list" id="list"></div>
   <p class="foot" id="foot"></p>
 </div>
@@ -137,7 +140,8 @@ function km(a,b){
   return 2*R*Math.asin(Math.sqrt(h));
 }
 let langNames=null;try{langNames=new Intl.DisplayNames(["de"],{type:"language"})}catch(e){}
-const langName=c=>{if(!c)return"";try{return langNames?langNames.of(c):c}catch(e){return c}};
+// Sprachname auf Deutsch; unbekannte Codes (z. B. "xx" = ohne Sprache) weglassen
+const langName=c=>{if(!c||c==="xx")return"";try{const n=langNames?langNames.of(c):"";return n&&n!==c?n:""}catch(e){return""}};
 const isoLocal=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 const dayShort=["So","Mo","Di","Mi","Do","Fr","Sa"];
 
@@ -151,11 +155,20 @@ const showTitle=f=>{
 
 // ---------- Fassungslogik ----------
 // Ergebnis: Liste der Kategorien (OV/OmU/OmeU) oder [] = Synchronfassung
+// Kategorien einer Vorstellung: [{v:"OV"|"OmU"|"OmeU", unsure:true|false}], leer = Synchronfassung
 function categories(show,film){
-  const isDe=film&&film.lang==="de";
-  if(!show.v.length) return isDe?["OV"]:[];
+  // Script-Einschätzung: "yes" sicher deutschsprachig, "maybe" unsicher, "no" fremdsprachig
+  let de=film&&film.de; if(de===true)de="yes"; if(de===false||de===undefined)de=(film&&film.lang==="de")?"yes":"no";
+  if(!show.v.length){
+    if(de==="yes") return [{v:"OV",unsure:false}];
+    if(de==="maybe") return [{v:"OV",unsure:true}];
+    return [];
+  }
   const out=[];
-  show.v.forEach(v=>{ if(v==="DFmeU"){ if(isDe) out.push("OmeU"); } else out.push(v); });
+  show.v.forEach(v=>{
+    if(v==="DFmeU"){ if(de!=="no") out.push({v:"OmeU",unsure:de==="maybe"}); }
+    else out.push({v,unsure:false});
+  });
   return out;
 }
 
@@ -166,14 +179,20 @@ let S=Object.assign({},DEFAULT);
 try{const saved=JSON.parse(localStorage.getItem("kino-jetzt")||"null");if(saved)S=Object.assign(S,saved)}catch(e){}
 if(!ORIGINS.some(o=>o.id===S.origin))S.origin=DEFAULT.origin;
 // Beim Öffnen immer: heute, jetzige Uhrzeit auf die nächste Viertelstunde aufgerundet
-{const n=new Date();const m=Math.ceil((n.getHours()*60+n.getMinutes())/15)*15;S.time=fmt(m);S.day=0;}
+// (kurz vor Mitternacht: morgen 00:00, das Zeitfenster reicht dann in den heutigen Abend zurück)
+let START_PLUS_DAY=0;
+{const n=new Date();let m=Math.ceil((n.getHours()*60+n.getMinutes())/15)*15;if(m>=1440){m-=1440;START_PLUS_DAY=1;}S.time=fmt(m);S.day=0;}
 function save(){try{localStorage.setItem("kino-jetzt",JSON.stringify(S))}catch(e){}}
 
+// Tage seit heute für ein ISO-Datum (für Zeitfenster über Mitternacht)
+const dayDiff=iso=>Math.round((new Date(iso+"T12:00")-new Date(isoLocal(new Date())+"T12:00"))/864e5);
 function dayLabel(i){
-  if(i===0)return"Heute"; if(i===1)return"Morgen";
+  const diff=dayDiff(DATES[i]);
+  if(diff===0)return"Heute"; if(diff===1)return"Morgen";
   const d=new Date(DATES[i]+"T12:00");
   return dayShort[d.getDay()]+", "+d.getDate()+"."+(d.getMonth()+1)+".";
 }
+const safeUrl=u=>/^https?:\/\//i.test(u||"")?u:"";
 function segButtons(el,items,isOn,onClick){
   el.innerHTML="";
   items.forEach(it=>{
@@ -194,31 +213,31 @@ function renderControls(){
   $("radius").value=S.radius;
   $("radLbl").textContent=S.radius>15?"ganz Berlin":String(S.radius).replace(".",",")+" km";
   const c=toMin(S.time);
-  $("winLbl").textContent=fmt(Math.max(0,c-S.tol))+"–"+fmt(c+S.tol);
+  $("winLbl").textContent=fmt((c-S.tol+1440)%1440)+"–"+fmt(c+S.tol);
   $("more").classList.toggle("hidden",S.collapsed);
   $("moreBtn").textContent=S.collapsed?"Fassung & Ort anzeigen":"Filter einklappen";
 }
 function renderList(){
   const L=$("list");
   if(!DATA){return}
-  const center=toMin(S.time), day=DATES[S.day];
+  // absolute Minuten ab heute 0:00, damit das Zeitfenster über Mitternacht reicht
+  const center=dayDiff(DATES[S.day])*1440+toMin(S.time);
   const o=ORIGINS.find(x=>x.id===S.origin)||ORIGINS[0];
   let dub=0; const res=[];
   DATA.shows.forEach(s=>{
-    if(s.d!==day) return;
-    const m=toMin(s.t);
-    if(Math.abs(m-center)>S.tol) return;
+    const m=toMin(s.t), abs=dayDiff(s.d)*1440+m;
+    if(Math.abs(abs-center)>S.tol) return;
     const c=DATA.cinemas[s.c]; if(!c||c.lat==null) return;
     const d=km(o,c); if(S.radius<=15&&d>S.radius) return;
     const f=DATA.films[s.f]||{};
     const cats=categories(s,f);
     if(S.vers.length){
       if(!cats.length){dub++;return}
-      if(!cats.some(x=>S.vers.includes(x))) return;
+      if(!cats.some(x=>S.vers.includes(x.v))) return;
     }
-    res.push({s,m,c,d,f,cats});
+    res.push({s,m,abs,c,d,f,cats});
   });
-  res.sort((a,b)=>a.m-b.m||a.d-b.d);
+  res.sort((a,b)=>a.abs-b.abs||a.d-b.d);
   $("count").textContent=res.length;
   $("hiddenInfo").textContent=dub?dub+" Synchronfassung"+(dub>1?"en":"")+" ausgeblendet":"";
   L.innerHTML="";
@@ -231,7 +250,7 @@ function renderList(){
     // Nur gesicherte Sprachangaben (TMDB) anzeigen, kein Produktionsland
     const lang=(f.langs||[]).map(langName).filter(Boolean).join(", ");
     const end=f.min?`<small>bis ${fmt(m+f.min+15)}</small>`:"";
-    const href=s.tk||c.web||c.url;
+    const href=safeUrl(s.tk)||safeUrl(c.web)||safeUrl(c.url);
     const credits=[f.dir?"R: "+f.dir:"",f.year].filter(Boolean).join(" · ");
     // Letterboxd: über TMDB-Nummer direkt zum Film, sonst Suche
     const lb=f.tmdb?`https://letterboxd.com/tmdb/${f.tmdb}/`:`https://letterboxd.com/search/films/${encodeURIComponent(showTitle(f).replace(/^((atmos|imax|d-box|4dx|3d|preview|premiere|vorpremiere|sneak)\s*[:,]\s*)+/i,""))}/`;
@@ -241,7 +260,7 @@ function renderList(){
       <div>
         <p class="title"><a href="${esc(lb)}" target="_blank" rel="noopener">${esc(showTitle(f))}</a></p>
         <div class="meta">
-          ${cats.length?cats.map(x=>`<span class="badge">${x}</span>`).join(""):'<span class="badge dub">Synchro</span>'}
+          ${cats.length?cats.map(x=>`<span class="badge${x.unsure?" unsure":""}"${x.unsure?' title="Fassung nicht angegeben, vermutlich deutschsprachiges Original"':""}>${x.v}${x.unsure?"?":""}</span>`).join(""):'<span class="badge dub">Synchro</span>'}
           ${lang?`<span>${esc(lang)}</span>`:""}
           ${f.min?`<span>${f.min} Min</span>`:""}
         </div>
@@ -263,9 +282,11 @@ function update(){renderControls();renderList();save()}
 function init(data){
   DATA=data;
   const today=isoLocal(new Date());
-  DATES=[...new Set(data.shows.map(s=>s.d))].filter(d=>d>=today).sort().slice(0,8);
-  if(!DATES.length) DATES=[today];
-  if(!(S.day>=0&&S.day<DATES.length)) S.day=0;
+  DATES=[...new Set([today,...data.shows.map(s=>s.d)])].filter(d=>d>=today).sort().slice(0,8);
+  S.day=Math.min(START_PLUS_DAY,DATES.length-1);
+  // Warnung, wenn das Programm länger nicht aktualisiert wurde
+  const ageH=(Date.now()-new Date(data.generated))/36e5;
+  if(ageH>30){$("warn").textContent="Achtung: Programm zuletzt aktualisiert am "+new Date(data.generated).toLocaleString("de-DE",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"})+" Uhr";$("warn").classList.remove("hidden");}
   $("dayMore").innerHTML=DATES.slice(2).map((d,i)=>`<option value="${i+2}">${dayLabel(i+2)}</option>`).join("");
   const g=new Date(data.generated);
   $("foot").innerHTML='Stand: '+g.getDate()+"."+(g.getMonth()+1)+". "+fmt(g.getHours()*60+g.getMinutes())+' Uhr. Programmdaten: <a href="https://www.indiekino.de" target="_blank" rel="noopener">indiekino.de</a> und <a href="https://www.berlin.de/kino/" target="_blank" rel="noopener">berlin.de</a>.'+
