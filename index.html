@@ -63,6 +63,7 @@
   .cinema{color:var(--text)}
   .empty{color:var(--muted);text-align:center;padding:40px 10px;border:1px dashed var(--line);border-radius:12px}
   .hidden{display:none}
+  .hint{font-size:12.5px;color:var(--accent)}
   .sheet{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;flex-direction:column;max-width:640px;margin:0 auto}
   .sheet.hidden{display:none}
   .sheetHead{display:flex;gap:6px;padding:10px 12px;border-bottom:1px solid var(--line)}
@@ -108,6 +109,7 @@
       <div class="row">
         <div class="lbl">Kinos <b id="cinLbl"></b></div>
         <div class="seg" id="cgroups"></div>
+        <div class="hint hidden" id="cinHint"></div>
       </div>
       <div class="two">
         <div class="row">
@@ -116,7 +118,7 @@
         </div>
         <div class="row">
           <div class="lbl">Umkreis <b id="radLbl"></b></div>
-          <input type="range" id="radius" min="1" max="15.5" step="0.5" value="3">
+          <input type="range" id="radius" min="1" max="15.1" step="0.1" value="3">
         </div>
       </div>
     </div>
@@ -201,6 +203,7 @@ const DEFAULT={day:0,time:"20:00",tol:30,vers:["OV","OmU","OmeU"],origin:"nk-nor
 let S=Object.assign({},DEFAULT);
 try{const saved=JSON.parse(localStorage.getItem("kino-jetzt")||"null");if(saved)S=Object.assign(S,saved)}catch(e){}
 if(!ORIGINS.some(o=>o.id===S.origin))S.origin=DEFAULT.origin;
+S.radius=Math.min(15.1,Math.round(Number(S.radius||DEFAULT.radius)*10)/10);
 // Kinoauswahl: ältere Speicherformen übernehmen (cin bzw. add als Einzelauswahl)
 if(S.sel===undefined) S.sel=(Array.isArray(S.cin)&&S.cin.length)?S.cin:(Array.isArray(S.add)&&S.add.length&&!(S.grp||[]).length)?S.add:null;
 if(S.sel!==null&&!Array.isArray(S.sel)) S.sel=null;
@@ -266,6 +269,17 @@ function renderCinemaControls(){
   const add=groupButtons($("cgroups"),update);
   add("Liste …",false,openSheet);
   $("cinLbl").textContent=cinemaSet().size+" ausgewählt";
+  // Hinweis, wenn gezielt gewählte Kinos wegen des Umkreises nicht angezeigt werden
+  let out=0;
+  // nur bei eigener Auswahl (nicht, wenn die Auswahl genau aus ganzen Gruppen besteht)
+  const sel=cinemaSet(), fromGroups=new Set(GROUPS.filter(groupOn).flatMap(groupIds));
+  const custom=sel.size!==fromGroups.size||[...sel].some(k=>!fromGroups.has(k));
+  if(!allSelected()&&custom&&S.radius<=15){
+    const o=ORIGINS.find(x=>x.id===S.origin)||ORIGINS[0];
+    out=S.sel.filter(k=>{const c=DATA.cinemas[k];return c&&c.lat!=null&&km(o,c)>S.radius}).length;
+  }
+  $("cinHint").textContent=out===1?"1 ausgewähltes Kino liegt außerhalb des Umkreises":out+" ausgewählte Kinos liegen außerhalb des Umkreises";
+  $("cinHint").classList.toggle("hidden",!out);
 }
 function openSheet(){$("sheet").classList.remove("hidden");$("cinSearch").value="";renderSheet();document.body.style.overflow="hidden"}
 function closeSheet(){$("sheet").classList.add("hidden");document.body.style.overflow="";update()}
@@ -317,7 +331,7 @@ function renderControls(){
     S.vers=S.vers.includes(v)?S.vers.filter(x=>x!==v):[...S.vers,v];update()});
   $("time").value=S.time;
   $("radius").value=S.radius;
-  $("radLbl").textContent=S.radius>15?"ganz Berlin":String(S.radius).replace(".",",")+" km";
+  $("radLbl").textContent=S.radius>15?"ganz Berlin":S.radius.toFixed(1).replace(".",",")+" km";
   const c=toMin(S.time);
   $("winLbl").textContent=fmt((c-S.tol+1440)%1440)+"–"+fmt(c+S.tol);
   $("more").classList.toggle("hidden",S.collapsed);
