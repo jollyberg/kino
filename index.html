@@ -230,41 +230,42 @@ function segButtons(el,items,isOn,onClick){
 }
 // ---------- Kinoauswahl ----------
 // Schnellwahl-Gruppen; die Zuordnung kommt aus den Daten (indiekino bzw. Website des Kinos)
+// Die Kinos sind in drei Teile aufgeteilt, jeder Button steuert seinen Teil:
+// Programmkinos (ohne Yorck), Yorck, Multiplexe. "Programmkinos" einschalten wählt Yorck mit aus.
 const GROUPS=[
-  {id:"pk",label:"Programmkinos",test:c=>!c.multiplex},
+  {id:"pk",label:"Programmkinos",test:c=>!c.multiplex&&c.chain!=="yorck",with:["yorck"]},
   {id:"mp",label:"Multiplexe",test:c=>c.multiplex},
   {id:"yorck",label:"Yorck",test:c=>c.chain==="yorck"},
 ];
 const groupIds=g=>Object.keys(DATA.cinemas).filter(k=>g.test(DATA.cinemas[k]));
-// Auswahl: S.sel = null (alle Kinos) oder Liste der gewählten Kinos.
-// Ein Gruppen-Button leuchtet, wenn alle Kinos der Gruppe gewählt sind (Yorck ist Teil der Programmkinos).
 const allIds=()=>Object.keys(DATA.cinemas);
+// S.sel = null (alle Kinos, auch künftig neue) oder Liste der gewählten Kinos (leer = keins)
 function cinemaSet(){return new Set(S.sel===null?allIds():S.sel)}
 const allSelected=()=>S.sel===null;
-function setSel(set){
-  const all=allIds();
-  S.sel=(set.size===0||all.every(k=>set.has(k)))?null:[...set];
-}
-const groupOn=g=>{const s=cinemaSet();return groupIds(g).every(k=>s.has(k))};
+function setSel(set){S.sel=allIds().every(k=>set.has(k))?null:[...set]}
+const groupOn=g=>{const s=cinemaSet(),ids=groupIds(g);return ids.length>0&&ids.every(k=>s.has(k))};
 function toggleGroup(g){
-  const s=cinemaSet(), ids=groupIds(g);
-  if(groupOn(g)) ids.forEach(k=>s.delete(k)); else ids.forEach(k=>s.add(k));
+  const s=cinemaSet();
+  if(groupOn(g)) groupIds(g).forEach(k=>s.delete(k));
+  else{
+    groupIds(g).forEach(k=>s.add(k));
+    (g.with||[]).forEach(id=>groupIds(GROUPS.find(x=>x.id===id)).forEach(k=>s.add(k)));
+  }
   setSel(s);
 }
 function groupButtons(el,after){
   el.innerHTML="";
   const add=(label,on,fn)=>{const b=document.createElement("button");b.type="button";b.textContent=label;b.setAttribute("aria-pressed",on);b.onclick=fn;el.appendChild(b)};
-  add("Alle",allSelected(),()=>{S.sel=null;after()});
+  add("Alle",allSelected(),()=>{S.sel=allSelected()?[]:null;after()});
   GROUPS.forEach(g=>add(g.label,groupOn(g),()=>{toggleGroup(g);after()}));
   return add;
 }
 function renderCinemaControls(){
   if(!DATA) return;
-  if(S.sel!==null){S.sel=S.sel.filter(k=>DATA.cinemas[k]); if(!S.sel.length) S.sel=null;}
+  if(S.sel!==null) S.sel=S.sel.filter(k=>DATA.cinemas[k]);
   const add=groupButtons($("cgroups"),update);
   add("Liste …",false,openSheet);
-  const n=cinemaSet().size;
-  $("cinLbl").textContent=allSelected()?"":n+" ausgewählt";
+  $("cinLbl").textContent=cinemaSet().size+" ausgewählt";
 }
 function openSheet(){$("sheet").classList.remove("hidden");$("cinSearch").value="";renderSheet();document.body.style.overflow="hidden"}
 function closeSheet(){$("sheet").classList.add("hidden");document.body.style.overflow="";update()}
@@ -282,7 +283,7 @@ function districtOrder(byD){
 function renderSheet(){
   groupButtons($("sheetGroups"),()=>{save();renderSheet();renderCinemaControls()});
   const sel=cinemaSet();
-  $("sheetCount").textContent=allSelected()?"Alle Kinos":sel.size+" von "+Object.keys(DATA.cinemas).length+" ausgewählt";
+  $("sheetCount").textContent=sel.size+" von "+allIds().length+" ausgewählt";
   const q=$("cinSearch").value.trim().toLowerCase();
   const byD={};
   Object.entries(DATA.cinemas).forEach(([k,c])=>{
@@ -349,7 +350,7 @@ function renderList(){
   $("hiddenInfo").textContent=dub?dub+" Synchronfassung"+(dub>1?"en":"")+" ausgeblendet":"";
   L.innerHTML="";
   if(!res.length){
-    L.innerHTML='<div class="empty">Nichts im Zeitfenster und Umkreis.<br>Spielraum oder Radius vergrößern.</div>';return;
+    L.innerHTML=(cset&&!cset.size)?'<div class="empty">Kein Kino ausgewählt.</div>':'<div class="empty">Nichts im Zeitfenster und Umkreis.<br>Spielraum oder Radius vergrößern.</div>';return;
   }
   const frag=document.createDocumentFragment();
   res.forEach(({s,m,c,d,f,cats})=>{
