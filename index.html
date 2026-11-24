@@ -63,6 +63,16 @@
   .cinema{color:var(--text)}
   .empty{color:var(--muted);text-align:center;padding:40px 10px;border:1px dashed var(--line);border-radius:12px}
   .hidden{display:none}
+  .sheet{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;flex-direction:column;max-width:640px;margin:0 auto}
+  .sheet.hidden{display:none}
+  .sheetHead{display:flex;gap:6px;padding:10px 12px;border-bottom:1px solid var(--line)}
+  .sheetHead input{flex:1;min-width:0;background:var(--chip);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font:inherit}
+  .chip.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+  .sheetBody{overflow-y:auto;padding:4px 12px 40px;-webkit-overflow-scrolling:touch}
+  .dist{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:14px 0 4px}
+  .cin{display:flex;align-items:center;gap:10px;padding:8px 2px;border-bottom:1px solid var(--line);font-size:15px;cursor:pointer}
+  .cin input{width:18px;height:18px;accent-color:var(--accent)}
+  .cin small{color:var(--muted);font-size:12px;margin-left:auto}
   .card a{color:inherit;text-decoration:none}
   .foot{color:var(--muted);font-size:11.5px;margin-top:28px;line-height:1.5}
   .foot a{color:var(--muted)}
@@ -93,6 +103,10 @@
         <div class="lbl">Fassung</div>
         <div class="seg" id="vers"></div>
       </div>
+      <div class="row">
+        <div class="lbl">Kinos <b id="cinLbl"></b></div>
+        <div class="seg" id="cgroups"></div>
+      </div>
       <div class="two">
         <div class="row">
           <div class="lbl">Startpunkt</div>
@@ -113,6 +127,14 @@
   <p class="foot" id="foot"></p>
 </div>
 
+<div class="sheet hidden" id="sheet" role="dialog" aria-label="Kinos auswählen">
+  <div class="sheetHead">
+    <input type="search" id="cinSearch" placeholder="Kino suchen" autocomplete="off">
+    <button type="button" class="chip" id="cinNone">Alle abwählen</button>
+    <button type="button" class="chip on" id="cinDone">Fertig</button>
+  </div>
+  <div class="sheetBody" id="cinList"></div>
+</div>
 <script>
 // ---------- Startpunkte ----------
 const ORIGINS = [
@@ -173,10 +195,11 @@ function categories(show,film){
 
 // ---------- Zustand ----------
 let DATA=null, DATES=[];
-const DEFAULT={day:0,time:"20:00",tol:30,vers:["OV","OmU","OmeU"],origin:"nk-nord",radius:3,collapsed:false};
+const DEFAULT={day:0,time:"20:00",tol:30,vers:["OV","OmU","OmeU"],origin:"nk-nord",radius:3,collapsed:false,cin:[]};
 let S=Object.assign({},DEFAULT);
 try{const saved=JSON.parse(localStorage.getItem("kino-jetzt")||"null");if(saved)S=Object.assign(S,saved)}catch(e){}
 if(!ORIGINS.some(o=>o.id===S.origin))S.origin=DEFAULT.origin;
+if(!Array.isArray(S.cin))S.cin=[];
 // Beim Öffnen immer: heute, jetzige Uhrzeit auf die nächste Viertelstunde aufgerundet
 // (kurz vor Mitternacht: morgen 00:00, das Zeitfenster reicht dann in den heutigen Abend zurück)
 let START_PLUS_DAY=0;
@@ -200,7 +223,56 @@ function segButtons(el,items,isOn,onClick){
     b.onclick=()=>onClick(it.value);el.appendChild(b);
   });
 }
+// ---------- Kinoauswahl ----------
+// Schnellwahl-Gruppen; die Zuordnung kommt aus den Daten (indiekino bzw. Website des Kinos)
+const GROUPS=[
+  {id:"pk",label:"Programmkinos",test:c=>!c.multiplex},
+  {id:"mp",label:"Multiplexe",test:c=>c.multiplex},
+  {id:"yorck",label:"Yorck",test:c=>c.chain==="yorck"},
+];
+const groupIds=g=>Object.keys(DATA.cinemas).filter(k=>g.test(DATA.cinemas[k]));
+function renderCinemaControls(){
+  if(!DATA) return;
+  S.cin=S.cin.filter(k=>DATA.cinemas[k]);  // nicht mehr vorhandene Kinos entfernen
+  const el=$("cgroups"); el.innerHTML="";
+  const add=(label,on,fn)=>{const b=document.createElement("button");b.type="button";b.textContent=label;b.setAttribute("aria-pressed",on);b.onclick=fn;el.appendChild(b)};
+  add("Alle",!S.cin.length,()=>{S.cin=[];update()});
+  GROUPS.forEach(g=>{
+    const ids=groupIds(g); const on=S.cin.length>0&&ids.every(k=>S.cin.includes(k));
+    add(g.label,on,()=>{
+      S.cin=on?S.cin.filter(k=>!ids.includes(k)):[...new Set([...S.cin,...ids])];
+      update();
+    });
+  });
+  add("Liste …",false,openSheet);
+  $("cinLbl").textContent=S.cin.length?S.cin.length+" ausgewählt":"";
+}
+function openSheet(){$("sheet").classList.remove("hidden");$("cinSearch").value="";renderSheet();document.body.style.overflow="hidden"}
+function closeSheet(){$("sheet").classList.add("hidden");document.body.style.overflow="";update()}
+function renderSheet(){
+  const q=$("cinSearch").value.trim().toLowerCase();
+  const byD={};
+  Object.entries(DATA.cinemas).forEach(([k,c])=>{
+    if(q&&!(c.name.toLowerCase().includes(q)||(c.district||"").toLowerCase().includes(q))) return;
+    (byD[c.district||"Sonstige"]=byD[c.district||"Sonstige"]||[]).push([k,c]);
+  });
+  const L=$("cinList"); L.innerHTML="";
+  Object.keys(byD).sort((a,b)=>a.localeCompare(b,"de")).forEach(d=>{
+    const h=document.createElement("div");h.className="dist";h.textContent=d;L.appendChild(h);
+    byD[d].sort((a,b)=>a[1].name.localeCompare(b[1].name,"de")).forEach(([k,c])=>{
+      const row=document.createElement("label");row.className="cin";
+      row.innerHTML=`<input type="checkbox" ${S.cin.includes(k)?"checked":""}><span>${esc(c.name)}</span><small>${c.multiplex?"Multiplex":""}</small>`;
+      row.querySelector("input").onchange=e=>{
+        S.cin=e.target.checked?[...S.cin,k]:S.cin.filter(x=>x!==k); save(); renderCinemaControls();
+      };
+      L.appendChild(row);
+    });
+  });
+  if(!L.children.length) L.innerHTML='<div class="empty" style="margin-top:12px">Kein Kino gefunden.</div>';
+}
+
 function renderControls(){
+  renderCinemaControls();
   segButtons($("days"),[0,1].filter(i=>i<DATES.length).map(i=>({label:dayLabel(i),value:i})),v=>S.day===v,v=>{S.day=v;update()});
   const dm=$("dayMore");
   dm.classList.toggle("hidden",DATES.length<3);
@@ -227,6 +299,7 @@ function renderList(){
     const m=toMin(s.t), abs=dayDiff(s.d)*1440+m;
     if(Math.abs(abs-center)>S.tol) return;
     const c=DATA.cinemas[s.c]; if(!c||c.lat==null) return;
+    if(S.cin.length&&!S.cin.includes(s.c)) return;
     const d=km(o,c); if(S.radius<=15&&d>S.radius) return;
     const f=DATA.films[s.f]||{};
     const cats=categories(s,f);
@@ -302,6 +375,9 @@ $("origin").onchange=e=>{S.origin=e.target.value;update()};
 $("time").oninput=e=>{if(e.target.value){S.time=e.target.value;update()}};
 $("radius").oninput=e=>{S.radius=Number(e.target.value);update()};
 $("moreBtn").onclick=()=>{S.collapsed=!S.collapsed;update()};
+$("cinSearch").oninput=renderSheet;
+$("cinDone").onclick=closeSheet;
+$("cinNone").onclick=()=>{S.cin=[];save();renderSheet();renderCinemaControls()};
 renderControls();
 
 fetch("data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(init).catch(e=>{

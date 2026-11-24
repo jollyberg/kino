@@ -26,7 +26,7 @@ TMDB_TOKEN = os.environ.get("TMDB_TOKEN", "").strip()
 IK = "https://www.indiekino.de"
 # Kinos, die bei indiekino fehlen und von berlin.de kommen: berlin.de-ID -> Name
 BERLIN_DE_EXTRA = {
-    "30176": {"name": "CinemaxX Potsdamer Platz", "web": "https://www.cinemaxx.de"},
+    "30176": {"name": "CinemaxX Potsdamer Platz", "web": "https://www.cinemaxx.de", "district": "Tiergarten"},
 }
 
 META_VERSION = 4  # erhöhen, wenn neue Felder von den Filmseiten gelesen werden sollen
@@ -114,14 +114,20 @@ def parse_indiekino_program(page):
     days = re.split(r"<div\s+id='gp_\d+' class='gp\s+d d_", page)[1:]
     for block in days:
         day = block[:10]
-        for pa in re.split(r"<div class='pa [^']*' id='pp_\d+_\d+'>", block)[1:]:
+        # Ortsteil-Überschriften (Adlershof, Kreuzberg …) merken
+        heads = [(m.start(), html.unescape(m.group(1))) for m in
+                 re.finditer(r"<div class='headline_bezirk' id='[^']*'><h2 class='bezirk'>([^<]+)</h2>", block)]
+        for pm in re.finditer(r"<div class='pa [^']*' id='pp_\d+_\d+'>", block):
+            nxt = re.compile(r"<div class='pa [^']*' id='pp_\d+_\d+'>").search(block, pm.end())
+            pa = block[pm.end():nxt.start() if nxt else len(block)]
+            district = next((n for pos, n in reversed(heads) if pos < pm.start()), None)
             m = re.search(r"<h3 class='kino ([^']*)'><a href='([^']+)'>([^<]+)</a>", pa)
             if not m:
                 continue
             cls, url, name = m.groups()
             cid = url.rstrip("/").split("/")[-1]
             cinemas[cid] = {"name": html.unescape(name).strip(), "url": IK + url,
-                            "multiplex": "multiplex" in cls, "source": "indiekino"}
+                            "multiplex": "multiplex" in cls, "source": "indiekino", "district": district}
             for tid, t in re.findall(r"<div class='termin[^']*' id='i(\d+)'>(.*?)</div>", pa, re.S):
                 tm = re.search(r"class='zi[^']*'>(\d{1,2}:\d{2})<", t)
                 if not tm:
@@ -578,7 +584,7 @@ def main():
         old = cinemas.get(cid, {})
         cinemas[cid] = {"name": name, "url": f"https://www.berlin.de/kino/_bin/kinodetail.php/{bid}",
                         "multiplex": True, "source": "berlin.de", "addr": old.get("addr") or addr,
-                        "web": cfg.get("web"),
+                        "web": cfg.get("web"), "district": cfg.get("district"),
                         "lat": old.get("lat"), "lng": old.get("lng")}
         if bpage:
             s = parse_berlin_de_cinema(bid, bpage)
@@ -675,8 +681,23 @@ def main():
                         "min": m.get("min"), "year": m.get("year"), "dir": m.get("director"),
                         "genre": m.get("genre"), "tmdb": m.get("tmdb"), "en": m.get("title_en")}
 
+    links = {}
+    for x in shows:
+        if x.get("tk"):
+            links.setdefault(x["c"], set()).add(x["tk"].lower())
+
+    def chain(k, c):
+        """Kinokette, erkannt an Website oder Ticketlinks (für die Schnellauswahl in der App)."""
+        w = " ".join([(c.get("web") or "").lower(), *links.get(k, ())])
+        for key, dom in (("yorck", "yorck.de"), ("uci", "uci-kinowelt.de"), ("cinestar", "cinestar.de"),
+                         ("cineplex", "cineplex.de")):
+            if dom in w:
+                return key
+        return None
+
     out_cinemas = {k: {"name": c["name"], "addr": c.get("addr"), "lat": c.get("lat"), "lng": c.get("lng"),
-                       "multiplex": c.get("multiplex", False), "url": c.get("url"), "web": c.get("web")}
+                       "multiplex": c.get("multiplex", False), "url": c.get("url"), "web": c.get("web"),
+                       "district": c.get("district"), "chain": chain(k, c)}
                    for k, c in cinemas.items() if k in used_c}
 
     save(OUT, {"generated": datetime.now().isoformat(timespec="minutes"),
