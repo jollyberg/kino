@@ -68,6 +68,8 @@
   .sheetHead{display:flex;gap:6px;padding:10px 12px;border-bottom:1px solid var(--line)}
   .sheetHead input{flex:1;min-width:0;background:var(--chip);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font:inherit}
   .chip.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+  .sheetGroups{padding:8px 12px;border-bottom:1px solid var(--line);display:grid;gap:6px}
+  .sheetCount{font-size:12px;color:var(--muted)}
   .sheetBody{overflow-y:auto;padding:4px 12px 40px;-webkit-overflow-scrolling:touch}
   .dist{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:14px 0 4px}
   .cin{display:flex;align-items:center;gap:10px;padding:8px 2px;border-bottom:1px solid var(--line);font-size:15px;cursor:pointer}
@@ -130,9 +132,9 @@
 <div class="sheet hidden" id="sheet" role="dialog" aria-label="Kinos auswählen">
   <div class="sheetHead">
     <input type="search" id="cinSearch" placeholder="Kino suchen" autocomplete="off">
-    <button type="button" class="chip" id="cinNone">Alle abwählen</button>
     <button type="button" class="chip on" id="cinDone">Fertig</button>
   </div>
+  <div class="sheetGroups"><div class="seg" id="sheetGroups"></div><div class="sheetCount" id="sheetCount"></div></div>
   <div class="sheetBody" id="cinList"></div>
 </div>
 <script>
@@ -195,11 +197,13 @@ function categories(show,film){
 
 // ---------- Zustand ----------
 let DATA=null, DATES=[];
-const DEFAULT={day:0,time:"20:00",tol:30,vers:["OV","OmU","OmeU"],origin:"nk-nord",radius:3,collapsed:false,cin:[]};
+const DEFAULT={day:0,time:"20:00",tol:30,vers:["OV","OmU","OmeU"],origin:"nk-nord",radius:3,collapsed:false,grp:[],add:[],rem:[]};
 let S=Object.assign({},DEFAULT);
 try{const saved=JSON.parse(localStorage.getItem("kino-jetzt")||"null");if(saved)S=Object.assign(S,saved)}catch(e){}
 if(!ORIGINS.some(o=>o.id===S.origin))S.origin=DEFAULT.origin;
-if(!Array.isArray(S.cin))S.cin=[];
+// Kinoauswahl: alte Speicherform (cin = Liste) übernehmen
+["grp","add","rem"].forEach(x=>{if(!Array.isArray(S[x]))S[x]=[]});
+if(Array.isArray(S.cin)&&S.cin.length&&!S.add.length){S.add=S.cin;} delete S.cin;
 // Beim Öffnen immer: heute, jetzige Uhrzeit auf die nächste Viertelstunde aufgerundet
 // (kurz vor Mitternacht: morgen 00:00, das Zeitfenster reicht dann in den heutigen Abend zurück)
 let START_PLUS_DAY=0;
@@ -231,25 +235,53 @@ const GROUPS=[
   {id:"yorck",label:"Yorck",test:c=>c.chain==="yorck"},
 ];
 const groupIds=g=>Object.keys(DATA.cinemas).filter(k=>g.test(DATA.cinemas[k]));
+// Auswahl = (aktive Gruppen ∪ einzeln hinzugefügte) − einzeln abgewählte.
+// Keine Gruppe und nichts hinzugefügt: alle Kinos (minus abgewählte).
+function cinemaSet(){
+  const all=Object.keys(DATA.cinemas);
+  let base;
+  if(!S.grp.length&&!S.add.length) base=new Set(all);
+  else{base=new Set(S.add);GROUPS.filter(g=>S.grp.includes(g.id)).forEach(g=>groupIds(g).forEach(k=>base.add(k)));}
+  S.rem.forEach(k=>base.delete(k));
+  return base;
+}
+const allSelected=()=>!S.grp.length&&!S.add.length&&!S.rem.length;
+function toggleGroup(g){
+  if(S.grp.includes(g.id)) S.grp=S.grp.filter(x=>x!==g.id);
+  else{S.grp=[...S.grp,g.id];const ids=groupIds(g);S.rem=S.rem.filter(k=>!ids.includes(k));}
+}
+function groupButtons(el,after){
+  el.innerHTML="";
+  const add=(label,on,fn)=>{const b=document.createElement("button");b.type="button";b.textContent=label;b.setAttribute("aria-pressed",on);b.onclick=fn;el.appendChild(b)};
+  add("Alle",allSelected(),()=>{S.grp=[];S.add=[];S.rem=[];after()});
+  GROUPS.forEach(g=>add(g.label,S.grp.includes(g.id),()=>{toggleGroup(g);after()}));
+  return add;
+}
 function renderCinemaControls(){
   if(!DATA) return;
-  S.cin=S.cin.filter(k=>DATA.cinemas[k]);  // nicht mehr vorhandene Kinos entfernen
-  const el=$("cgroups"); el.innerHTML="";
-  const add=(label,on,fn)=>{const b=document.createElement("button");b.type="button";b.textContent=label;b.setAttribute("aria-pressed",on);b.onclick=fn;el.appendChild(b)};
-  add("Alle",!S.cin.length,()=>{S.cin=[];update()});
-  GROUPS.forEach(g=>{
-    const ids=groupIds(g); const on=S.cin.length>0&&ids.every(k=>S.cin.includes(k));
-    add(g.label,on,()=>{
-      S.cin=on?S.cin.filter(k=>!ids.includes(k)):[...new Set([...S.cin,...ids])];
-      update();
-    });
-  });
+  ["grp","add","rem"].forEach(x=>S[x]=S[x].filter(k=>x==="grp"?GROUPS.some(g=>g.id===k):DATA.cinemas[k]));
+  const add=groupButtons($("cgroups"),update);
   add("Liste …",false,openSheet);
-  $("cinLbl").textContent=S.cin.length?S.cin.length+" ausgewählt":"";
+  const n=cinemaSet().size;
+  $("cinLbl").textContent=allSelected()?"":n+" ausgewählt";
 }
 function openSheet(){$("sheet").classList.remove("hidden");$("cinSearch").value="";renderSheet();document.body.style.overflow="hidden"}
 function closeSheet(){$("sheet").classList.add("hidden");document.body.style.overflow="";update()}
+// Ortsteile: Neukölln, Kreuzberg, Mitte zuerst, dann von innen nach außen (Entfernung zum Alexanderplatz)
+const FIRST=["Neukölln","Kreuzberg","Mitte"], CENTER={lat:52.5219,lng:13.4132};
+function districtOrder(byD){
+  const dist=d=>{const cs=byD[d].map(x=>x[1]).filter(c=>c.lat!=null);if(!cs.length)return 99;
+    return km(CENTER,{lat:cs.reduce((a,c)=>a+c.lat,0)/cs.length,lng:cs.reduce((a,c)=>a+c.lng,0)/cs.length});};
+  return Object.keys(byD).sort((a,b)=>{
+    const fa=FIRST.indexOf(a),fb=FIRST.indexOf(b);
+    if(fa>=0||fb>=0) return (fa<0?99:fa)-(fb<0?99:fb);
+    return dist(a)-dist(b);
+  });
+}
 function renderSheet(){
+  groupButtons($("sheetGroups"),()=>{save();renderSheet();renderCinemaControls()});
+  const sel=cinemaSet();
+  $("sheetCount").textContent=allSelected()?"Alle Kinos":sel.size+" von "+Object.keys(DATA.cinemas).length+" ausgewählt";
   const q=$("cinSearch").value.trim().toLowerCase();
   const byD={};
   Object.entries(DATA.cinemas).forEach(([k,c])=>{
@@ -257,13 +289,21 @@ function renderSheet(){
     (byD[c.district||"Sonstige"]=byD[c.district||"Sonstige"]||[]).push([k,c]);
   });
   const L=$("cinList"); L.innerHTML="";
-  Object.keys(byD).sort((a,b)=>a.localeCompare(b,"de")).forEach(d=>{
+  districtOrder(byD).forEach(d=>{
     const h=document.createElement("div");h.className="dist";h.textContent=d;L.appendChild(h);
     byD[d].sort((a,b)=>a[1].name.localeCompare(b[1].name,"de")).forEach(([k,c])=>{
       const row=document.createElement("label");row.className="cin";
-      row.innerHTML=`<input type="checkbox" ${S.cin.includes(k)?"checked":""}><span>${esc(c.name)}</span><small>${c.multiplex?"Multiplex":""}</small>`;
+      row.innerHTML=`<input type="checkbox" ${sel.has(k)?"checked":""}><span>${esc(c.name)}</span><small>${c.chain==="yorck"?"Yorck":c.multiplex?"Multiplex":""}</small>`;
       row.querySelector("input").onchange=e=>{
-        S.cin=e.target.checked?[...S.cin,k]:S.cin.filter(x=>x!==k); save(); renderCinemaControls();
+        if(e.target.checked){
+          S.rem=S.rem.filter(x=>x!==k);
+          if(!cinemaSet().has(k)) S.add=[...S.add,k];
+        }else{
+          // Bei "Alle": ab jetzt nur noch die übrigen (Einzelauswahl statt Ausschluss-Liste)
+          S.add=S.add.filter(x=>x!==k);
+          if(cinemaSet().has(k)) S.rem=[...S.rem,k];
+        }
+        save(); renderSheet(); renderCinemaControls();
       };
       L.appendChild(row);
     });
@@ -295,11 +335,12 @@ function renderList(){
   const center=dayDiff(DATES[S.day])*1440+toMin(S.time);
   const o=ORIGINS.find(x=>x.id===S.origin)||ORIGINS[0];
   let dub=0; const res=[];
+  const allSel=allSelected(), cset=allSel?null:cinemaSet();
   DATA.shows.forEach(s=>{
     const m=toMin(s.t), abs=dayDiff(s.d)*1440+m;
     if(Math.abs(abs-center)>S.tol) return;
     const c=DATA.cinemas[s.c]; if(!c||c.lat==null) return;
-    if(S.cin.length&&!S.cin.includes(s.c)) return;
+    if(!allSel&&!cset.has(s.c)) return;
     const d=km(o,c); if(S.radius<=15&&d>S.radius) return;
     const f=DATA.films[s.f]||{};
     const cats=categories(s,f);
@@ -377,7 +418,7 @@ $("radius").oninput=e=>{S.radius=Number(e.target.value);update()};
 $("moreBtn").onclick=()=>{S.collapsed=!S.collapsed;update()};
 $("cinSearch").oninput=renderSheet;
 $("cinDone").onclick=closeSheet;
-$("cinNone").onclick=()=>{S.cin=[];save();renderSheet();renderCinemaControls()};
+
 renderControls();
 
 fetch("data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(init).catch(e=>{
