@@ -197,13 +197,14 @@ function categories(show,film){
 
 // ---------- Zustand ----------
 let DATA=null, DATES=[];
-const DEFAULT={day:0,time:"20:00",tol:30,vers:["OV","OmU","OmeU"],origin:"nk-nord",radius:3,collapsed:false,grp:[],add:[],rem:[]};
+const DEFAULT={day:0,time:"20:00",tol:30,vers:["OV","OmU","OmeU"],origin:"nk-nord",radius:3,collapsed:false};
 let S=Object.assign({},DEFAULT);
 try{const saved=JSON.parse(localStorage.getItem("kino-jetzt")||"null");if(saved)S=Object.assign(S,saved)}catch(e){}
 if(!ORIGINS.some(o=>o.id===S.origin))S.origin=DEFAULT.origin;
-// Kinoauswahl: alte Speicherform (cin = Liste) übernehmen
-["grp","add","rem"].forEach(x=>{if(!Array.isArray(S[x]))S[x]=[]});
-if(Array.isArray(S.cin)&&S.cin.length&&!S.add.length){S.add=S.cin;} delete S.cin;
+// Kinoauswahl: ältere Speicherformen übernehmen (cin bzw. add als Einzelauswahl)
+if(S.sel===undefined) S.sel=(Array.isArray(S.cin)&&S.cin.length)?S.cin:(Array.isArray(S.add)&&S.add.length&&!(S.grp||[]).length)?S.add:null;
+if(S.sel!==null&&!Array.isArray(S.sel)) S.sel=null;
+delete S.cin; delete S.grp; delete S.add; delete S.rem;
 // Beim Öffnen immer: heute, jetzige Uhrzeit auf die nächste Viertelstunde aufgerundet
 // (kurz vor Mitternacht: morgen 00:00, das Zeitfenster reicht dann in den heutigen Abend zurück)
 let START_PLUS_DAY=0;
@@ -235,31 +236,31 @@ const GROUPS=[
   {id:"yorck",label:"Yorck",test:c=>c.chain==="yorck"},
 ];
 const groupIds=g=>Object.keys(DATA.cinemas).filter(k=>g.test(DATA.cinemas[k]));
-// Auswahl = (aktive Gruppen ∪ einzeln hinzugefügte) − einzeln abgewählte.
-// Keine Gruppe und nichts hinzugefügt: alle Kinos (minus abgewählte).
-function cinemaSet(){
-  const all=Object.keys(DATA.cinemas);
-  let base;
-  if(!S.grp.length&&!S.add.length) base=new Set(all);
-  else{base=new Set(S.add);GROUPS.filter(g=>S.grp.includes(g.id)).forEach(g=>groupIds(g).forEach(k=>base.add(k)));}
-  S.rem.forEach(k=>base.delete(k));
-  return base;
+// Auswahl: S.sel = null (alle Kinos) oder Liste der gewählten Kinos.
+// Ein Gruppen-Button leuchtet, wenn alle Kinos der Gruppe gewählt sind (Yorck ist Teil der Programmkinos).
+const allIds=()=>Object.keys(DATA.cinemas);
+function cinemaSet(){return new Set(S.sel===null?allIds():S.sel)}
+const allSelected=()=>S.sel===null;
+function setSel(set){
+  const all=allIds();
+  S.sel=(set.size===0||all.every(k=>set.has(k)))?null:[...set];
 }
-const allSelected=()=>!S.grp.length&&!S.add.length&&!S.rem.length;
+const groupOn=g=>{const s=cinemaSet();return groupIds(g).every(k=>s.has(k))};
 function toggleGroup(g){
-  if(S.grp.includes(g.id)) S.grp=S.grp.filter(x=>x!==g.id);
-  else{S.grp=[...S.grp,g.id];const ids=groupIds(g);S.rem=S.rem.filter(k=>!ids.includes(k));}
+  const s=cinemaSet(), ids=groupIds(g);
+  if(groupOn(g)) ids.forEach(k=>s.delete(k)); else ids.forEach(k=>s.add(k));
+  setSel(s);
 }
 function groupButtons(el,after){
   el.innerHTML="";
   const add=(label,on,fn)=>{const b=document.createElement("button");b.type="button";b.textContent=label;b.setAttribute("aria-pressed",on);b.onclick=fn;el.appendChild(b)};
-  add("Alle",allSelected(),()=>{S.grp=[];S.add=[];S.rem=[];after()});
-  GROUPS.forEach(g=>add(g.label,S.grp.includes(g.id),()=>{toggleGroup(g);after()}));
+  add("Alle",allSelected(),()=>{S.sel=null;after()});
+  GROUPS.forEach(g=>add(g.label,groupOn(g),()=>{toggleGroup(g);after()}));
   return add;
 }
 function renderCinemaControls(){
   if(!DATA) return;
-  ["grp","add","rem"].forEach(x=>S[x]=S[x].filter(k=>x==="grp"?GROUPS.some(g=>g.id===k):DATA.cinemas[k]));
+  if(S.sel!==null){S.sel=S.sel.filter(k=>DATA.cinemas[k]); if(!S.sel.length) S.sel=null;}
   const add=groupButtons($("cgroups"),update);
   add("Liste …",false,openSheet);
   const n=cinemaSet().size;
@@ -295,15 +296,8 @@ function renderSheet(){
       const row=document.createElement("label");row.className="cin";
       row.innerHTML=`<input type="checkbox" ${sel.has(k)?"checked":""}><span>${esc(c.name)}</span><small>${c.chain==="yorck"?"Yorck":c.multiplex?"Multiplex":""}</small>`;
       row.querySelector("input").onchange=e=>{
-        if(e.target.checked){
-          S.rem=S.rem.filter(x=>x!==k);
-          if(!cinemaSet().has(k)) S.add=[...S.add,k];
-        }else{
-          // Bei "Alle": ab jetzt nur noch die übrigen (Einzelauswahl statt Ausschluss-Liste)
-          S.add=S.add.filter(x=>x!==k);
-          if(cinemaSet().has(k)) S.rem=[...S.rem,k];
-        }
-        save(); renderSheet(); renderCinemaControls();
+        const s=cinemaSet(); if(e.target.checked) s.add(k); else s.delete(k);
+        setSel(s); save(); renderSheet(); renderCinemaControls();
       };
       L.appendChild(row);
     });
