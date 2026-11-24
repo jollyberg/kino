@@ -1,6 +1,7 @@
 {
  "bd_30176": {
   "addr": "Potsdamer Str. 5 10785 Berlin",
+  "district": "Tiergarten",
   "lat": 52.50864,
   "lng": 13.37374,
   "multiplex": true,
@@ -11,6 +12,7 @@
  },
  "berlin_acud_kino": {
   "addr": "Veteranenstr. 21, 10119 Berlin, Telefon: 030/44 35 94 98, www.acudkino.de",
+  "district": "Mitte",
   "lat": 52.53345,
   "lng": 13.40095,
   "multiplex": false,
@@ -21,6 +23,7 @@
  },
  "berlin_adria-filmtheater": {
   "addr": "Schloßstr. 48, 12165 Berlin",
+  "district": "Steglitz",
   "lat": 52.45463,
   "lng": 13.31595,
   "multiplex": false,
@@ -31,6 +34,7 @@
  },
  "berlin_astra": {
   "addr": "Sterndamm 69, 12487 Berlin",
+  "district": "Johannisthal",
   "lat": 52.44666,
   "lng": 13.50494,
   "multiplex": true,
@@ -41,6 +45,7 @@
  },
  "berlin_b-ware_ladenkino": {
   "addr": "Gärtnerstr. 19, 10245 Berlin",
+  "district": "Friedrichshain",
   "lat": 52.51188,
   "lng": 13.46165,
   "multiplex": false,
@@ -51,6 +56,7 @@
  },
  "berlin_babylon": {
   "addr": "Rosa-Luxemburg-Str. 30, 10178 Berlin",
+  "district": "Mitte",
   "lat": 52.5261,
   "lng": 13.40962,
   "multiplex": false,
@@ -61,6 +67,7 @@
  },
  "berlin_babylon_kreuzberg": {
   "addr": "Dresdener Str. 126, 10999 Berlin",
+  "district": "Kreuzberg",
   "lat": 52.50067,
   "lng": 13.41475,
   "multiplex": false,
@@ -71,6 +78,7 @@
  },
  "berlin_bali-kino": {
   "addr": "Teltower Damm 33, 14169 Berlin, Telefon: 030/811 46 78, www.balikino-berlin.de",
+  "district": "Zehlendorf",
   "lat": 52.43185,
   "lng": 13.25969,
   "multiplex": false,
@@ -81,6 +89,7 @@
  },
  "berlin_blauer_stern_pankow": {
   "addr": "Hermann-Hesse-Str. 11, 13156 Berlin",
+  "district": "Pankow",
   "lat": 52.58027,
   "lng": 13.39932,
   "multiplex": false,
@@ -91,6 +100,7 @@
  },
  "berlin_brotfabrikkino": {
   "addr": "Caligariplatz 1, 13086 Berlin",
+  "district": "Weißensee",
   "lat": 52.55259,
   "lng": 13.43059,
   "multiplex": false,
@@ -101,6 +111,7 @@
  },
  "berlin_bundesplatz-kino": {
   "addr": "Bundesplatz 14, 10715 Berlin, Tel.: 030/ 8540 60 85, www.bundesplatz-kino.de",
+  "district": "Wilmersdorf",
   "lat": 52.47907,
   "lng": 13.32928,
   "multiplex": false,
@@ -111,6 +122,7 @@
  },
  "berlin_capitol_dahlem": {
   "addr": "Thielallee 36, 14195 Berlin",
+  "district": "Dahlem",
   "lat": 52.45305,
   "lng": 13.2846,
   "multiplex": false,
@@ -121,6 +133,7 @@
  },
  "berlin_casablanca": {
   "addr": "Friedenstr. 12-13, 12489 Berlin",
+  "district": "Adlershof",
   "lat": 52.43557,
   "lng": 13.54583,
   "multiplex": false,
@@ -131,6 +144,7 @@
  },
  "berlin_central_hackescher_markt": {
   "addr": "Rosenthaler Str. 39, 10178 Berlin",
+  "district": "Mitte",
   "lat": 52.52424,
   "lng": 13.4002,
   "multiplex": false,
@@ -141,6 +155,7 @@
  },
  "berlin_cinema_paris": {
   "addr": "Kurfürstendamm 211, 10719 Berlin",
+  "district": "Wilmersdorf",
   "lat": 52.50197,
   "lng": 13.32269,
   "multiplex": false,
@@ -151,6 +166,7 @@
  },
  "berlin_cinemotion_hohenschoenhausen": {
   "addr": "Wartenberger Str. 174, 13051 Berlin",
+  "district": "Hohenschönhausen",
   "lat": 52.56612,
   "lng": 13.50682,
   "multiplex": true,
@@ -161,6 +177,7 @@
  },
  "berlin_cineplex-spandau": {
   "addr": "Havelstr. 20, 13597 Berlin",
+  "district": "Spandau",
   "lat": 52.53848,
   "lng": 13.20423,
   "multiplex": true,
@@ -171,6 +188,7 @@
  },
  "berlin_cineplex_alhambra": {
   "addr": "Seestr. 94, 13353 Berlin",
+  "district": "Wedding",
   "lat": 52.55059,
   "lng": 13.34891,
   "multiplex": true,
@@ -181,6 +199,7 @@
  },
  "berlin_cineplex_neukoelln_arcaden": {
   "addr": "Karl-Marx-Str. 66, 12043 Berlin",
+  "district": "Neukölln",
   "lat": 52.48204,
   "lng": 13.43011,
   "multiplex": true,
@@ -191,6 +210,7 @@
  },
  "berlin_cineplex_titania_palast": {
   "addr": "Schloßstr. 5-6, 12163 Berlin",
+  "district": "Steglitz",
   "lat": 52.46397,
   "lng": 13.32453,
   "multiplex": true,
@@ -201,6 +221,7 @@
  },
  "berlin_cinestar_cubix_filmpalast_alexanderplatz": {
   "addr": "Rathausstr. 1, 10178 Berlin",
+  "district": "Mitte",
   "lat": 52.52025,
   "lng": 13.40994,
   "multiplex": true,
@@ -211,6 +232,7 @@
  },
  "berlin_cinestar_hellersdorf": {
   "addr": "Stendaler Str. 25, 12627 Berlin",
+  "district": "Hellersdorf",
   "lat": 52.53791,
   "lng": 13.60161,
   "multiplex": true,
@@ -221,6 +243,7 @@
  },
  "berlin_cinestar_tegel": {
   "addr": "Am Borsigturm 2, 13507 Berlin",
+  "district": "Reinickendorf",
   "lat": 52.586,
   "lng": 13.2845,
   "multiplex": true,
@@ -231,6 +254,7 @@
  },
  "berlin_city_kino_wedding": {
   "addr": "Im Centre Francais, Müllerstr. 74, 13349 Berlin, Telefon: (030) 120 860 370, facebook.com/citykinowedding",
+  "district": "Wedding",
   "lat": 52.55843,
   "lng": 13.33905,
   "multiplex": false,
@@ -241,6 +265,7 @@
  },
  "berlin_colosseum_filmtheater": {
   "addr": "Schönhauser Allee 123, 10437 Berlin",
+  "district": "Prenzlauer Berg",
   "lat": 52.54797,
   "lng": 13.41075,
   "multiplex": true,
@@ -251,6 +276,7 @@
  },
  "berlin_cosima-filmtheater": {
   "addr": "Sieglindestr. 10, 12159 Berlin",
+  "district": "Friedenau",
   "lat": 52.47683,
   "lng": 13.32822,
   "multiplex": false,
@@ -261,6 +287,7 @@
  },
  "berlin_delphi_filmpalast": {
   "addr": "Kantstr. 12a, 10623 Berlin",
+  "district": "Charlottenburg",
   "lat": 52.50598,
   "lng": 13.3264,
   "multiplex": false,
@@ -271,6 +298,7 @@
  },
  "berlin_delphi_lux": {
   "addr": "Kantstr. 10, 10623 Berlin",
+  "district": "Charlottenburg",
   "lat": 52.50557,
   "lng": 13.32743,
   "multiplex": false,
@@ -281,6 +309,7 @@
  },
  "berlin_eva-lichtspiele": {
   "addr": "Blissestr. 18, 10713 Berlin, Telefon: 030/92 25 53 05, www.eva-lichtspiele.de",
+  "district": "Wilmersdorf",
   "lat": 52.4847,
   "lng": 13.32011,
   "multiplex": false,
@@ -291,6 +320,7 @@
  },
  "berlin_filmrauschpalast": {
   "addr": "Lehrter Str. 35, 10557 Berlin, Telefon: 030/394 43 44, www.filmrausch.de",
+  "district": "Moabit",
   "lat": 52.53424,
   "lng": 13.35927,
   "multiplex": false,
@@ -301,6 +331,7 @@
  },
  "berlin_filmtheater_am_friedrichshain": {
   "addr": "Bötzowstr. 1-5, 10407 Berlin",
+  "district": "Friedrichshain",
   "lat": 52.52924,
   "lng": 13.42838,
   "multiplex": false,
@@ -311,6 +342,7 @@
  },
  "berlin_fsk_am_oranienplatz": {
   "addr": "Segitzdamm 2, 10969 Berlin, Telefon: 030/614 24 64, www.fsk-kino.de",
+  "district": "Kreuzberg",
   "lat": 52.50149,
   "lng": 13.41466,
   "multiplex": false,
@@ -321,6 +353,7 @@
  },
  "berlin_hackesche_hoefe_kino": {
   "addr": "Rosenthaler Str. 40/41, 10178 Berlin",
+  "district": "Mitte",
   "lat": 52.52401,
   "lng": 13.40252,
   "multiplex": false,
@@ -331,6 +364,7 @@
  },
  "berlin_il_kino_kino-bar-bistro": {
   "addr": "Nansenstr.22, 12047 Berlin, Telefon: 030/81 89 88 99, www.ilkino.de",
+  "district": "Neukölln",
   "lat": 52.4918,
   "lng": 13.43306,
   "multiplex": false,
@@ -341,6 +375,7 @@
  },
  "berlin_international": {
   "addr": "Karl-Marx-Allee 33, 10178 Berlin",
+  "district": "Mitte",
   "lat": 52.52027,
   "lng": 13.42046,
   "multiplex": false,
@@ -351,6 +386,7 @@
  },
  "berlin_kant_kino": {
   "addr": "Kantstr. 54, 10627 Berlin",
+  "district": "Charlottenburg",
   "lat": 52.50691,
   "lng": 13.30628,
   "multiplex": false,
@@ -361,6 +397,7 @@
  },
  "berlin_kino_arsenal_im_silent_green_kulturquartier": {
   "addr": "Gerichtsr. 35, 13347 Berlin",
+  "district": "Wedding",
   "lat": 52.545,
   "lng": 13.36435,
   "multiplex": false,
@@ -371,6 +408,7 @@
  },
  "berlin_kino_im_kulturhaus-spandau": {
   "addr": "Mauerstr. 6, 13597 Berlin",
+  "district": "Spandau",
   "lat": 52.53552,
   "lng": 13.20008,
   "multiplex": false,
@@ -381,6 +419,7 @@
  },
  "berlin_kino_im_zeiss-grossplanetarium": {
   "addr": "Prenzlauer Allee 80, 10405 Berlin",
+  "district": "Prenzlauer Berg",
   "lat": 52.54306,
   "lng": 13.42814,
   "multiplex": false,
@@ -391,6 +430,7 @@
  },
  "berlin_kino_in_der_kulturbrauerei": {
   "addr": "Schönhauser Allee 36, 10435 Berlin",
+  "district": "Prenzlauer Berg",
   "lat": 52.5386,
   "lng": 13.41087,
   "multiplex": true,
@@ -401,6 +441,7 @@
  },
  "berlin_kino_intimes": {
   "addr": "Boxhagener Str. 107, 10245 Berlin",
+  "district": "Friedrichshain",
   "lat": 52.51287,
   "lng": 13.45606,
   "multiplex": false,
@@ -411,6 +452,7 @@
  },
  "berlin_kino_spreehoefe": {
   "addr": "Wilhelminenhofstr. 89a, 12459 Berlin",
+  "district": "Oberschöneweide",
   "lat": 52.4623,
   "lng": 13.51081,
   "multiplex": true,
@@ -421,6 +463,7 @@
  },
  "berlin_kino_zukunft": {
   "addr": "Alt Stralau 68, 10245 Berlin",
+  "district": "Friedrichshain",
   "lat": 52.498,
   "lng": 13.4668,
   "multiplex": false,
@@ -431,6 +474,7 @@
  },
  "berlin_klick_kino": {
   "addr": "Windscheidstr. 19, 10627 Berlin",
+  "district": "Charlottenburg",
   "lat": 52.50547,
   "lng": 13.29931,
   "multiplex": false,
@@ -441,6 +485,7 @@
  },
  "berlin_krokodil": {
   "addr": "Greifenhagener Str. 32, 10437 Berlin",
+  "district": "Prenzlauer Berg",
   "lat": 52.55226,
   "lng": 13.41942,
   "multiplex": false,
@@ -451,6 +496,7 @@
  },
  "berlin_lichtblick-kino": {
   "addr": "Kastanienallee 77, 10435 Berlin",
+  "district": "Prenzlauer Berg",
   "lat": 52.53637,
   "lng": 13.40595,
   "multiplex": false,
@@ -461,6 +507,7 @@
  },
  "berlin_moviemento": {
   "addr": "Kottbusser Damm 22, 10967 Berlin",
+  "district": "Kreuzberg",
   "lat": 52.49024,
   "lng": 13.42123,
   "multiplex": false,
@@ -471,6 +518,7 @@
  },
  "berlin_neues_off": {
   "addr": "Hermannstr. 20, 12049 Berlin",
+  "district": "Neukölln",
   "lat": 52.48347,
   "lng": 13.42231,
   "multiplex": false,
@@ -481,6 +529,7 @@
  },
  "berlin_odeon": {
   "addr": "Hauptstr. 116, 10827 Berlin",
+  "district": "Schöneberg",
   "lat": 52.48214,
   "lng": 13.34727,
   "multiplex": false,
@@ -491,6 +540,7 @@
  },
  "berlin_passage": {
   "addr": "Karl-Marx-Str. 131, 12043 Berlin",
+  "district": "Neukölln",
   "lat": 52.47756,
   "lng": 13.43666,
   "multiplex": false,
@@ -501,6 +551,7 @@
  },
  "berlin_rollberg_kinos": {
   "addr": "Kindl-Boul., Rollbergstr. 70, 12049 Berlin",
+  "district": "Neukölln",
   "lat": 52.4789,
   "lng": 13.42561,
   "multiplex": false,
@@ -511,6 +562,7 @@
  },
  "berlin_sinema_transtopia": {
   "addr": "Lindower Str. 20/22, Haus C, 13347 Berlin",
+  "district": "Wedding",
   "lat": 52.54381,
   "lng": 13.36467,
   "multiplex": false,
@@ -521,6 +573,7 @@
  },
  "berlin_sputnik_suedstern": {
   "addr": "Hasenheide 54, 10967 Berlin",
+  "district": "Kreuzberg",
   "lat": 52.48907,
   "lng": 13.40997,
   "multiplex": false,
@@ -531,6 +584,7 @@
  },
  "berlin_thalia_movie_magic": {
   "addr": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+  "district": "Steglitz",
   "lat": 52.43506,
   "lng": 13.34183,
   "multiplex": true,
@@ -541,6 +595,7 @@
  },
  "berlin_tilsiter-lichtspiele": {
   "addr": "Richard-Sorge-Str. 25a, 10249 Berlin",
+  "district": "Friedrichshain",
   "lat": 52.52069,
   "lng": 13.4473,
   "multiplex": false,
@@ -551,6 +606,7 @@
  },
  "berlin_toni_und_tonino": {
   "addr": "Antonplatz 1, 13086 Berlin",
+  "district": "Weißensee",
   "lat": 52.54882,
   "lng": 13.45093,
   "multiplex": false,
@@ -561,6 +617,7 @@
  },
  "berlin_uci_east_side_gallery": {
   "addr": "Mercedes-Platz 1, 10243 Berlin",
+  "district": "Friedrichshain",
   "lat": 52.50527,
   "lng": 13.44181,
   "multiplex": true,
@@ -571,6 +628,7 @@
  },
  "berlin_uci_kinowelt_am_eastgate": {
   "addr": "Märkische Allee 176-178, 12679 Berlin",
+  "district": "Marzahn-Hellersdorf",
   "lat": 52.54168,
   "lng": 13.53991,
   "multiplex": true,
@@ -581,6 +639,7 @@
  },
  "berlin_uci_luxe_gropius_passagen": {
   "addr": "Johannisthaler Chaussee 295, 12351 Berlin",
+  "district": "Neukölln",
   "lat": 52.43035,
   "lng": 13.45517,
   "multiplex": true,
@@ -591,6 +650,7 @@
  },
  "berlin_union_filmtheater": {
   "addr": "Bölschestr. 69, 12587 Berlin, Telefon: 030/6501 3141, www.kino-union.de",
+  "district": "Friedrichshagen",
   "lat": 52.45633,
   "lng": 13.6257,
   "multiplex": false,
@@ -601,6 +661,7 @@
  },
  "berlin_wolf": {
   "addr": "Weserstr. 59, 12045 Berlin",
+  "district": "Neukölln",
   "lat": 52.48271,
   "lng": 13.43974,
   "multiplex": false,
@@ -611,6 +672,7 @@
  },
  "berlin_xenon": {
   "addr": "Kolonnenstr. 5, 10827 Berlin, Telefon: 030/78 00 15 30, www.xenon-kino.de",
+  "district": "Schöneberg",
   "lat": 52.48637,
   "lng": 13.35932,
   "multiplex": false,
@@ -621,6 +683,7 @@
  },
  "berlin_yorck-kino": {
   "addr": "Yorckstr. 86, 10965 Berlin",
+  "district": "Kreuzberg",
   "lat": 52.4931,
   "lng": 13.38308,
   "multiplex": false,
@@ -631,6 +694,7 @@
  },
  "berlin_z-inema": {
   "addr": "Bergstr. 2, 10115 Berlin",
+  "district": "Mitte",
   "lat": 52.52948,
   "lng": 13.39354,
   "multiplex": false,
@@ -641,6 +705,7 @@
  },
  "berlin_zeughauskino": {
   "addr": "Pei-Bau, Hinter dem Gießhaus 3, 10117 Berlin",
+  "district": "Mitte",
   "lat": 52.51869,
   "lng": 13.39638,
   "multiplex": false,
@@ -651,6 +716,7 @@
  },
  "berlin_zoo_palast": {
   "addr": "Hardenbergstr. 29a, 10623 Berlin",
+  "district": "Charlottenburg",
   "lat": 52.5061,
   "lng": 13.33215,
   "multiplex": true,
