@@ -2130,6 +2130,33 @@
   "tmdb_v": 8,
   "v": 4
  },
+ "ik:2001_odyssee_im_weltraum": {
+  "country": "GB 1965-",
+  "director": "Stanley Kubrick",
+  "genre": "Science-Fiction",
+  "imdb": "tt0062622",
+  "lang": "en",
+  "langs": [
+   "en",
+   "ru"
+  ],
+  "min": 141,
+  "orig": "2001: A Space Odyssey",
+  "orig_source": "2001: A Space Odyssey",
+  "orig_src": "tmdb",
+  "title": "2001: Odyssee im Weltraum",
+  "title_en": "2001: A Space Odyssey",
+  "tmdb": 62,
+  "tmdb_checked": true,
+  "tmdb_runtime": 149,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 1968
+ },
  "ik:2_quadratmeter-wo_ist_dein_platz_fuer_die_ewigkeit": {
   "country": "Belgien/Deutschland/Türkei",
   "director": "Volkan Üce",
@@ -2211,6 +2238,46 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:akira_kurosawas_traeume": {
+  "country": "J/USA",
+  "director": "Akira Kurosawa",
+  "genre": "Drama",
+  "imdb": "tt0100998",
+  "imdb_src": "tmdb",
+  "lang": "ja",
+  "langs": [
+   "ja",
+   "en",
+   "fr"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 12516,
+    "rt": 119,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Akira Kurosawas Träume",
+    "y": 1990
+   }
+  ],
+  "min": 119,
+  "orig": "夢",
+  "orig_source": "Konna yume wo mita",
+  "orig_src": "tmdb",
+  "title": "Akira Kurosawas Träume",
+  "title_en": "Dreams",
+  "tmdb": 12516,
+  "tmdb_checked": true,
+  "tmdb_runtime": 119,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "ja"
+  ],
+  "wd_checked": true,
+  "year": 1990
+ },
  "ik:alte_liebe_2026": {
   "country": "Deutschland",
   "director": "Andreas Dresen",
@@ -2285,11 +2352,56 @@
   ],
   "min": 45,
   "orig": "Antarctica",
+  "orig_source": "Antarctica",
+  "orig_src": "tmdb",
   "title": "3D: Antarctica",
+  "title_en": "Antarctica",
   "tmdb": 830704,
   "tmdb_checked": true,
-  "v": 2,
+  "tmdb_runtime": 45,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
   "year": 2020
+ },
+ "ik:asterix_und_das_koenigreich_nubien_2026": {
+  "country": "Frankreich",
+  "director": "Alexandre Heboyan",
+  "genre": "Animation, Abenteuer, Comic-Verfilmung",
+  "imdb": "tt32243339",
+  "imdb_src": "tmdb",
+  "lang": "fr",
+  "langs": [
+   "fr"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1084728,
+    "rt": 86,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Asterix und das Königreich Nubien",
+    "y": 2026
+   }
+  ],
+  "min": 86,
+  "orig": "Astérix - Le Royaume de Nubie",
+  "orig_source": "Astérix et le Royaume de Nubie",
+  "orig_src": "tmdb",
+  "title": "Preview: Asterix und das Königreich Nubien",
+  "title_en": "Asterix: The Kingdom of Nubia",
+  "tmdb": 1084728,
+  "tmdb_checked": true,
+  "tmdb_runtime": 86,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "fr"
+  ],
+  "wd_checked": true,
+  "year": 2026
  },
  "ik:auf_der_suche_nach_der_weihnachtswerkstatt_2026": {
   "country": "Norwegen",
@@ -2356,6 +2468,44 @@
   ],
   "wd_checked": true,
   "year": 2015
+ },
+ "ik:babystar_2025": {
+  "country": "Deutschland",
+  "director": "Joscha Bongard",
+  "genre": "Drama",
+  "imdb": "tt34998116",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1356474,
+    "rt": 98,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Babystar",
+    "y": 2026
+   }
+  ],
+  "min": 98,
+  "orig": "Babystar",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Babystar",
+  "title_en": "Babystar",
+  "tmdb": 1356474,
+  "tmdb_checked": true,
+  "tmdb_runtime": 98,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 2025
  },
  "ik:bad_apples_2025": {
   "country": "Großbritannien",
@@ -2495,6 +2645,99 @@
   "wd_checked": true,
   "year": 2025
  },
+ "ik:batman_robin": {
+  "country": "USA",
+  "director": "Joel Schumacher",
+  "genre": "Action",
+  "imdb": "tt0118688",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 415,
+    "rt": 125,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Batman & Robin",
+    "y": 1997
+   }
+  ],
+  "min": 125,
+  "orig": "Batman & Robin",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Batman & Robin",
+  "title_en": "Batman & Robin",
+  "tmdb": 415,
+  "tmdb_checked": true,
+  "tmdb_runtime": 125,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 1996
+ },
+ "ik:battle_royale_2000": {
+  "director": "Kinji Fukasaku",
+  "genre": "Thriller",
+  "imdb": "tt0266308",
+  "imdb_src": "tmdb",
+  "lang": "ja",
+  "langs": [
+   "ja",
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 3176,
+    "rt": 114,
+    "score": 5.0,
+    "sim": 1.0,
+    "t": "Battle Royale",
+    "y": 2000
+   },
+   {
+    "dir": true,
+    "id": 3177,
+    "rt": 155,
+    "score": 4.86,
+    "sim": 0.93,
+    "t": "Battle Royale 2",
+    "y": 2003
+   },
+   {
+    "dir": false,
+    "id": 1658254,
+    "rt": 87,
+    "score": 1.23,
+    "sim": 0.87,
+    "t": "The Battle Royale",
+    "y": 2025
+   }
+  ],
+  "min": 114,
+  "orig": "バトル・ロワイアル",
+  "orig_source": "Batoru Rowaiaru",
+  "orig_src": "tmdb",
+  "title": "Battle Royale",
+  "title_en": "Battle Royale",
+  "tmdb": 3176,
+  "tmdb_checked": true,
+  "tmdb_runtime": 114,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "ja"
+  ],
+  "wd_checked": true
+ },
  "ik:bearcave": {
   "country": "Griechenland/UK",
   "director": "Krysianna B. Papadakis , Stergios Dinopoulos",
@@ -2530,6 +2773,19 @@
   "wd": [],
   "wd_checked": true,
   "year": 2026
+ },
+ "ik:berlinized-sexy_an_eis": {
+  "country": "D",
+  "director": "Lucian Busse",
+  "genre": "Biografie, Dokumentarfilm",
+  "match_log": [],
+  "min": 79,
+  "orig": "Berlinized",
+  "title": "Berlinized - Sexy an Eis",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 2010
  },
  "ik:bernd-operation_germanenkind": {
   "country": "Deutschland",
@@ -2795,6 +3051,44 @@
   ],
   "wd_checked": true,
   "year": 1953
+ },
+ "ik:brat-brother_1997": {
+  "country": "RUS",
+  "imdb": "tt0118767",
+  "imdb_src": "tmdb",
+  "lang": "ru",
+  "langs": [
+   "ru"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 20992,
+    "rt": 96,
+    "score": 6.52,
+    "sim": 0.76,
+    "t": "Der Bruder",
+    "y": 1997
+   }
+  ],
+  "min": 96,
+  "orig": "Брат",
+  "orig_source": "Brat",
+  "orig_src": "tmdb",
+  "title": "Brat - Bruder",
+  "title_en": "Brother",
+  "tmdb": 20992,
+  "tmdb_checked": true,
+  "tmdb_runtime": 96,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en",
+   "fr",
+   "ru"
+  ],
+  "wd_checked": true,
+  "year": 1997
  },
  "ik:broken_english_": {
   "country": "Großbritannien",
@@ -3065,6 +3359,129 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:cakallarla_dans_8_sututgart_cikarmasi": {
+  "country": "TR",
+  "director": "Murat Seker",
+  "genre": "Komödie",
+  "imdb": "tt41342499",
+  "imdb_src": "tmdb",
+  "lang": "tr",
+  "langs": [
+   "tr"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1712441,
+    "rt": 0,
+    "score": 6.92,
+    "sim": 0.96,
+    "t": "Çakallarla Dans 8: Şututgart Çıkarması",
+    "y": 2026
+   }
+  ],
+  "orig": "Çakallarla Dans 8: Şututgart Çıkarması",
+  "orig_source": "Cakallarla Dans 8",
+  "orig_src": "tmdb",
+  "title": "Cakallarla Dans 8: Sututgart Cikarmasi",
+  "title_en": "Dance with the Jackals 8",
+  "tmdb": 1712441,
+  "tmdb_checked": true,
+  "tmdb_runtime": 0,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
+  "year": 2026
+ },
+ "ik:caligula_the_ultimate_cut_2023": {
+  "country": "USA/Italien",
+  "director": "Tinto Brass",
+  "genre": "Drama, Historienfilm",
+  "imdb": "tt29703523",
+  "lang": "it",
+  "langs": [
+   "it"
+  ],
+  "min": 173,
+  "orig": "Caligula: The Ultimate Cut",
+  "orig_source": "Caligula – The Ultimate Cut",
+  "orig_src": "tmdb",
+  "title": "Caligula: The Ultimate Cut",
+  "title_en": "Caligula: The Ultimate Cut",
+  "tmdb": 1834835,
+  "tmdb_checked": true,
+  "tmdb_runtime": 0,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2023
+ },
+ "ik:carmen_jones": {
+  "country": "USA",
+  "director": "Otto Preminger",
+  "genre": "Drama, Musikfilm",
+  "imdb": "tt0046828",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "min": 107,
+  "orig": "Carmen Jones",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Carmen Jones",
+  "title_en": "Carmen Jones",
+  "tmdb": 51044,
+  "tmdb_checked": true,
+  "tmdb_runtime": 105,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 1954
+ },
+ "ik:catli_ii": {
+  "country": "TR",
+  "director": "Deniz Enyüksek",
+  "genre": "Biografie, Drama",
+  "imdb": "tt49514466",
+  "imdb_src": "tmdb",
+  "lang": "tr",
+  "langs": [
+   "tr"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1786633,
+    "rt": 118,
+    "score": 9.85,
+    "sim": 0.92,
+    "t": "Çatlı 2",
+    "y": 2026
+   }
+  ],
+  "min": 118,
+  "orig": "Çatlı 2",
+  "orig_source": "Catli 2",
+  "orig_src": "tmdb",
+  "title": "Catli II",
+  "title_en": "Çatlı 2",
+  "tmdb": 1786633,
+  "tmdb_checked": true,
+  "tmdb_runtime": 118,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
+  "year": 2026
+ },
  "ik:checker_tobi_3-die_heimliche_herrscherin_der_erde_2025": {
   "country": "Deutschland",
   "director": "Antonia Simm",
@@ -3095,6 +3512,42 @@
   "tmdb": 1427836,
   "tmdb_checked": true,
   "tmdb_runtime": 94,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
+  "year": 2026
+ },
+ "ik:chicas_tristes": {
+  "country": "MEX/E/F",
+  "director": "Fernanda Tovar",
+  "genre": "Drama, Geschichte einer Freundschaft",
+  "imdb": "tt39311354",
+  "imdb_src": "tmdb",
+  "lang": "es",
+  "langs": [
+   "es"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1536433,
+    "rt": 90,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Chicas Tristes",
+    "y": 2026
+   }
+  ],
+  "min": 90,
+  "orig": "Chicas Tristes",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Chicas Tristes",
+  "title_en": "Sad Girlz",
+  "tmdb": 1536433,
+  "tmdb_checked": true,
+  "tmdb_runtime": 90,
   "tmdb_v": 8,
   "v": 4,
   "wd": [],
@@ -3311,6 +3764,90 @@
   "v": 2,
   "year": 2026
  },
+ "ik:das_ding_mit_federn": {
+  "country": "Großbritannien",
+  "director": "Dylan Southern",
+  "genre": "Drama",
+  "imdb": "tt27773954",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1127628,
+    "rt": 99,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Das Ding mit Federn",
+    "y": 2025
+   },
+   {
+    "id": 1278923,
+    "rt": 24,
+    "sim": 1.0,
+    "t": "The Thing With Feathers",
+    "x": "Laufzeit",
+    "y": 2024
+   }
+  ],
+  "min": 98,
+  "orig": "The Thing with Feathers",
+  "orig_source": "The Thing with Feathers",
+  "orig_src": "tmdb",
+  "title": "Das Ding mit Federn",
+  "title_en": "The Thing with Feathers",
+  "tmdb": 1127628,
+  "tmdb_checked": true,
+  "tmdb_runtime": 99,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2025
+ },
+ "ik:das_fluestern_der_waelder_2025": {
+  "country": "Frankreich",
+  "director": "Vincent Munier",
+  "genre": "Dokumentarfilm",
+  "imdb": "tt32368068",
+  "imdb_src": "tmdb",
+  "lang": "fr",
+  "langs": [
+   "fr"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1309373,
+    "rt": 99,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Das Flüstern der Wälder",
+    "y": 2025
+   }
+  ],
+  "min": 93,
+  "orig": "Le Chant des forêts",
+  "orig_source": "Le Chant des forêts",
+  "orig_src": "tmdb",
+  "title": "Das Flüstern der Wälder",
+  "title_en": "Whispers in the Woods",
+  "tmdb": 1309373,
+  "tmdb_checked": true,
+  "tmdb_runtime": 99,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "fr"
+  ],
+  "wd_checked": true,
+  "year": 2025
+ },
  "ik:das_fuenfte_element": {
   "country": "USA",
   "director": "Luc Besson",
@@ -3339,6 +3876,44 @@
   ],
   "wd_checked": true,
   "year": 1995
+ },
+ "ik:das_geheime_stockwerk": {
+  "country": "Österreich/Deutschland/Luxemburg",
+  "director": "Norbert Lechner",
+  "genre": "Jugendfilm, Abenteuer, Historienfilm",
+  "imdb": "tt27764052",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1427830,
+    "rt": 96,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Das geheime Stockwerk",
+    "y": 2026
+   }
+  ],
+  "min": 95,
+  "orig": "Das geheime Stockwerk",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Das geheime Stockwerk",
+  "title_en": "The Secret Floor",
+  "tmdb": 1427830,
+  "tmdb_checked": true,
+  "tmdb_runtime": 96,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 2025
  },
  "ik:das_geheimnis_der_gestohlenen_maske_": {
   "country": "Deutschland",
@@ -3538,6 +4113,33 @@
   "wd_checked": true,
   "year": 1921
  },
+ "ik:das_schweigende_klassenzimmer_2018": {
+  "country": "Deutschland",
+  "director": "Lars Kraume",
+  "genre": "Drama, Historienfilm",
+  "imdb": "tt6576556",
+  "lang": "de",
+  "langs": [
+   "de",
+   "ru"
+  ],
+  "min": 111,
+  "orig": "Das schweigende Klassenzimmer",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Das schweigende Klassenzimmer",
+  "title_en": "The Silent Revolution",
+  "tmdb": 454693,
+  "tmdb_checked": true,
+  "tmdb_runtime": 112,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 2017
+ },
  "ik:de_gaulle_zeit_des_widerstands_2026": {
   "country": "Frankreich",
   "director": "Antonin Baudry",
@@ -3727,6 +4329,44 @@
   ],
   "wd_checked": true,
   "year": 1986
+ },
+ "ik:der_kater_mit_hut_2026": {
+  "country": "USA",
+  "director": "Alessandro Carloni , Erica Rivinoja",
+  "genre": "Animation, Komödie, Kinderfilm",
+  "imdb": "tt2321555",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1117898,
+    "rt": 108,
+    "score": 8.0,
+    "sim": 1.0,
+    "t": "Der Kater mit Hut",
+    "y": 2026
+   }
+  ],
+  "min": 91,
+  "orig": "The Cat in the Hat",
+  "orig_source": "The Cat in the Hat",
+  "orig_src": "tmdb",
+  "title": "Preview: Der Kater mit Hut",
+  "title_en": "The Cat in the Hat",
+  "tmdb": 1117898,
+  "tmdb_checked": true,
+  "tmdb_runtime": 108,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2026
  },
  "ik:der_kleine_prinz_2015": {
   "country": "Frankreich",
@@ -3974,6 +4614,70 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:der_wunderweltenbaum_2026": {
+  "country": "Großbritannien",
+  "director": "Ben Gregor",
+  "genre": "Abenteuer, Fantasy",
+  "imdb": "tt7734244",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1140521,
+    "rt": 110,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Der Wunderweltenbaum",
+    "y": 2026
+   }
+  ],
+  "min": 110,
+  "orig": "The Magic Faraway Tree",
+  "orig_source": "The Magic Faraway Tree",
+  "orig_src": "tmdb",
+  "title": "Der Wunderweltenbaum",
+  "title_en": "The Magic Faraway Tree",
+  "tmdb": 1140521,
+  "tmdb_checked": true,
+  "tmdb_runtime": 110,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2026
+ },
+ "ik:die_1000_augen_des_dr_mabuse": {
+  "country": "BRD/F/I",
+  "director": "Fritz Lang",
+  "genre": "Krimi",
+  "imdb": "tt0054371",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "min": 104,
+  "orig": "Die 1000 Augen des Dr. Mabuse",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Die 1000 Augen des Dr. Mabuse",
+  "title_en": "The Thousand Eyes of Dr. Mabuse",
+  "tmdb": 19128,
+  "tmdb_checked": true,
+  "tmdb_runtime": 99,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 1960
+ },
  "ik:die_blutgraefin": {
   "country": "Österreich/Luxemburg",
   "director": "Ulrike Ottinger",
@@ -4040,6 +4744,58 @@
   ],
   "wd_checked": true,
   "year": 1930
+ },
+ "ik:die_eiskoenigin_voellig_unverfroren_2013": {
+  "country": "USA",
+  "director": "Chris Buck , Jennifer Lee",
+  "genre": "Abenteuer, Animation",
+  "imdb": "tt2294629",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "min": 101,
+  "orig": "Frozen",
+  "orig_source": "Frozen",
+  "orig_src": "tmdb",
+  "title": "Die Eiskönigin: Völlig unverfroren",
+  "title_en": "Frozen",
+  "tmdb": 109445,
+  "tmdb_checked": true,
+  "tmdb_runtime": 102,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2013
+ },
+ "ik:die_legende_vom_weihnachtsstern": {
+  "country": "N",
+  "director": "Nils Gaup",
+  "genre": "Abenteuer, Familienfilm, Weihnachtsfilm",
+  "imdb": "tt2034761",
+  "lang": "no",
+  "langs": [
+   "no"
+  ],
+  "min": 77,
+  "orig": "Reisen til julestjernen",
+  "orig_source": "Reisen til Julestjernen",
+  "orig_src": "tmdb",
+  "title": "Die Legende vom Weihnachtsstern",
+  "title_en": "Journey to the Christmas Star",
+  "tmdb": 149427,
+  "tmdb_checked": true,
+  "tmdb_runtime": 80,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "no"
+  ],
+  "wd_checked": true,
+  "year": 2013
  },
  "ik:die_odyssee_2026_2026": {
   "country": "USA",
@@ -4333,6 +5089,44 @@
   "wd_checked": true,
   "year": 1984
  },
+ "ik:die_wilde_nordsee_natur_die_sich_nicht_zaehmen_laesst": {
+  "country": "Niederlande/Belgien/Großbritannien",
+  "director": "Mark Verkerk",
+  "genre": "Dokumentarfilm, Naturfilm",
+  "imdb": "tt30264784",
+  "imdb_src": "tmdb",
+  "lang": "nl",
+  "langs": [
+   "nl"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1340711,
+    "rt": 88,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Die Wilde Nordsee - Natur, die sich nicht zähmen lässt",
+    "y": 2024
+   }
+  ],
+  "min": 88,
+  "orig": "De wilde Noordzee",
+  "orig_source": "De wilde Noordzee",
+  "orig_src": "tmdb",
+  "title": "Die wilde Nordsee - Natur, die sich nicht zähmen lässt",
+  "title_en": "North Sea – Nature Untamed",
+  "tmdb": 1340711,
+  "tmdb_checked": true,
+  "tmdb_runtime": 88,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "nl"
+  ],
+  "wd_checked": true,
+  "year": 2024
+ },
  "ik:die_wuetenden-les_miserables": {
   "country": "Frankreich",
   "director": "Ladj Ly",
@@ -4551,6 +5345,33 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:drei_nuesse_fuer_aschenbroedel": {
+  "country": "DDR/CSSR",
+  "director": "Vaclav Vorlicek",
+  "genre": "Märchenfilm",
+  "imdb": "tt0070832",
+  "lang": "cs",
+  "langs": [
+   "cs"
+  ],
+  "min": 86,
+  "orig": "Tři oříšky pro Popelku",
+  "orig_source": "Tri brisky pro Popelku",
+  "orig_src": "tmdb",
+  "title": "Drei Haselnüsse für Aschenbrödel",
+  "title_en": "Three Wishes for Cinderella",
+  "tmdb": 8703,
+  "tmdb_checked": true,
+  "tmdb_runtime": 82,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "cs",
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 1973
+ },
  "ik:dry_leaf": {
   "country": "Deutschland/Georgien",
   "director": "Alexandre Koberidze",
@@ -4706,6 +5527,82 @@
   "tmdb_v": 8,
   "v": 4,
   "year": 2023
+ },
+ "ik:ein_fast_perfekter_antrag_": {
+  "country": "Deutschland",
+  "director": "Marc Rothemund",
+  "genre": "Komödie, Liebesfilm",
+  "imdb": "tt39291213",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1223747,
+    "rt": 106,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Ein fast perfekter Antrag",
+    "y": 2026
+   }
+  ],
+  "min": 100,
+  "orig": "Ein fast perfekter Antrag",
+  "orig_source": "Ein fast perfekter Antrag (2025)",
+  "orig_src": "tmdb",
+  "title": "Ein fast perfekter Antrag",
+  "title_en": "Ein fast perfekter Antrag",
+  "tmdb": 1223747,
+  "tmdb_checked": true,
+  "tmdb_runtime": 106,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 2026
+ },
+ "ik:ein_maedchen_namens_willow_2025": {
+  "country": "Deutschland/Österreich",
+  "director": "Mike Marzuk",
+  "genre": "Fantasy, Familienfilm, Abenteuer",
+  "imdb": "tt35300281",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1176932,
+    "rt": 99,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Ein Mädchen namens Willow",
+    "y": 2025
+   }
+  ],
+  "min": 100,
+  "orig": "Ein Mädchen namens Willow",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Ein Mädchen namens Willow",
+  "title_en": "A Girl Named Willow",
+  "tmdb": 1176932,
+  "tmdb_checked": true,
+  "tmdb_runtime": 99,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 2025
  },
  "ik:ein_talent_fuers_morden_": {
   "country": "Großbritannien/Italien",
@@ -5091,6 +5988,44 @@
   "tmdb_checked": true,
   "v": 2
  },
+ "ik:fassaden_2025": {
+  "country": "Deutschland",
+  "director": "Alina Cyranek",
+  "genre": "Dokumentarfilm",
+  "imdb": "tt32594469",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1402827,
+    "rt": 87,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Fassaden",
+    "y": 2026
+   }
+  ],
+  "min": 87,
+  "orig": "Fassaden",
+  "orig_source": "Fassaden",
+  "orig_src": "tmdb",
+  "title": "Fassaden",
+  "title_en": "Curtains",
+  "tmdb": 1402827,
+  "tmdb_checked": true,
+  "tmdb_runtime": 87,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 2025
+ },
  "ik:festtagsspass_mit_peppa-das_kinoerlebnis": {
   "country": "GB",
   "genre": "Animation, Kurzfilm-Programm, Weihnachtsfilm",
@@ -5142,6 +6077,15 @@
   "tmdb_checked": true,
   "v": 2,
   "year": 2005
+ },
+ "ik:filme_von_charlie_chaplin": {
+  "country": "USA 1915-",
+  "genre": "Kurzfilm-Programm, Komödie",
+  "title": "Filme von Charlie Chaplin",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 1922
  },
  "ik:filme_von_robert_beavers": {
   "country": "USA 1975-",
@@ -5318,6 +6262,45 @@
   ],
   "wd_checked": true,
   "year": 2026
+ },
+ "ik:freibeuter_der_meere": {
+  "country": "I/E",
+  "director": "Vincenzo Gicca Palli ,",
+  "genre": "Mystery",
+  "imdb": "tt0066950",
+  "imdb_src": "tmdb",
+  "lang": "it",
+  "langs": [
+   "it",
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 52721,
+    "rt": 99,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Freibeuter der Meere",
+    "y": 1971
+   }
+  ],
+  "min": 98,
+  "orig": "Il corsaro nero",
+  "orig_source": "Il corsaro nero (1971)",
+  "orig_src": "tmdb",
+  "title": "Freibeuter der Meere",
+  "title_en": "Blackie the Pirate",
+  "tmdb": 52721,
+  "tmdb_checked": true,
+  "tmdb_runtime": 99,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "it"
+  ],
+  "wd_checked": true,
+  "year": 1971
  },
  "ik:from_inside_out-die_architektur_von_peter_zumthor": {
   "country": "Deutschland/Schweiz",
@@ -5511,34 +6494,84 @@
   "country": "Österreich/ Deutschland/ Frankreich/ Schweden",
   "director": "Marie Kreutzer",
   "genre": "Drama",
+  "imdb": "tt37020296",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de",
    "en",
    "fr"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1473148,
+    "rt": 115,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Gentle Monster",
+    "y": 2026
+   },
+   {
+    "id": 1830792,
+    "rt": 7,
+    "sim": 1.0,
+    "t": "Gentle Monster",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
   "min": 114,
   "orig": "Gentle Monster",
+  "orig_source": null,
+  "orig_src": "tmdb",
   "title": "Gentle Monster",
+  "title_en": "Gentle Monster",
   "tmdb": 1473148,
   "tmdb_checked": true,
-  "v": 2,
+  "tmdb_runtime": 115,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
   "year": 2026
  },
  "ik:george_michael_the_faith_tour_": {
   "country": "Großbritannien",
   "director": "David Austin , Andrew Morahan",
   "genre": "Musikfilm, Konzertfilm",
+  "imdb": "tt40564737",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1649403,
+    "rt": 113,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "George Michael: The Faith Tour",
+    "y": 2026
+   }
+  ],
   "min": 113,
-  "orig": "George Michael – The Faith Tour",
+  "orig": "George Michael: The Faith Tour",
+  "orig_source": "George Michael – The Faith Tour",
+  "orig_src": "tmdb",
   "title": "George Michael: The Faith Tour",
+  "title_en": "George Michael: The Faith Tour",
   "tmdb": 1649403,
   "tmdb_checked": true,
-  "v": 2,
+  "tmdb_runtime": 113,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
   "year": 2026
  },
  "ik:ghost_in_the_shell_1997": {
@@ -5664,6 +6697,83 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:goldrausch": {
+  "country": "USA",
+  "director": "Charles Chaplin",
+  "genre": "Tragikomödie",
+  "imdb": "tt0015864",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 962,
+    "rt": 95,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Goldrausch",
+    "y": 1925
+   }
+  ],
+  "min": 87,
+  "orig": "The Gold Rush",
+  "orig_source": "The Gold Rush",
+  "orig_src": "tmdb",
+  "title": "Goldrausch",
+  "title_en": "The Gold Rush",
+  "tmdb": 962,
+  "tmdb_checked": true,
+  "tmdb_runtime": 95,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 1925
+ },
+ "ik:gremlins-kleine_monster": {
+  "country": "USA",
+  "director": "Joe Dante",
+  "genre": "Horror, Komödie",
+  "imdb": "tt0087363",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en",
+   "es"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 927,
+    "rt": 106,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Gremlins - Kleine Monster",
+    "y": 1984
+   }
+  ],
+  "min": 108,
+  "orig": "Gremlins",
+  "orig_source": "Gremlins",
+  "orig_src": "tmdb",
+  "title": "Gremlins - Kleine Monster",
+  "title_en": "Gremlins",
+  "tmdb": 927,
+  "tmdb_checked": true,
+  "tmdb_runtime": 106,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 1983
+ },
  "ik:gropiusstadt_supernova": {
   "country": "Deutschland",
   "director": "Ben Voit",
@@ -5704,6 +6814,71 @@
   ],
   "wd_checked": true,
   "year": 2026
+ },
+ "ik:groupies_bleiben_nicht_zum_fruehstueck": {
+  "country": "D",
+  "director": "Marc Rothemund",
+  "genre": "Komödie",
+  "imdb": "tt1620466",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de",
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 60809,
+    "rt": 103,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Groupies bleiben nicht zum Frühstück",
+    "y": 2010
+   }
+  ],
+  "min": 104,
+  "orig": "Groupies bleiben nicht zum Frühstück",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Groupies bleiben nicht zum Frühstück",
+  "title_en": "Single by Contract",
+  "tmdb": 60809,
+  "tmdb_checked": true,
+  "tmdb_runtime": 103,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 2010
+ },
+ "ik:gruz_200-cargo_200": {
+  "country": "RUS",
+  "director": "Aleksej Balabanow",
+  "genre": "Drama, Thriller",
+  "imdb": "tt0847880",
+  "lang": "ru",
+  "langs": [
+   "ru"
+  ],
+  "min": 90,
+  "orig": "Груз 200",
+  "orig_source": "Gruz 200",
+  "orig_src": "tmdb",
+  "title": "Gruz 200 - Cargo 200",
+  "title_en": "Cargo 200",
+  "tmdb": 34869,
+  "tmdb_checked": true,
+  "tmdb_runtime": 89,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "ru"
+  ],
+  "wd_checked": true,
+  "year": 2007
  },
  "ik:halt_auf_freier_strecke": {
   "country": "D/F",
@@ -6591,21 +7766,93 @@
   "v": 4,
   "year": 2026
  },
+ "ik:jenseits_von_afrika": {
+  "country": "USA",
+  "director": "Sydney Pollack",
+  "genre": "Melodram",
+  "imdb": "tt0089755",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en",
+   "sw"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 606,
+    "rt": 161,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Jenseits von Afrika",
+    "y": 1985
+   }
+  ],
+  "min": 161,
+  "orig": "Out of Africa",
+  "orig_source": "Out Of Africa",
+  "orig_src": "tmdb",
+  "title": "Jenseits von Afrika",
+  "title_en": "Out of Africa",
+  "tmdb": 606,
+  "tmdb_checked": true,
+  "tmdb_runtime": 161,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 1985
+ },
+ "ik:jessy_die_treppe_in_den_tod": {
+  "country": "CDN",
+  "director": "Robert Clark",
+  "genre": "Psychothriller",
+  "imdb": "tt0071222",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 16938,
+    "rt": 98,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Jessy - Die Treppe in den Tod",
+    "y": 1974
+   }
+  ],
+  "min": 98,
+  "orig": "Black Christmas",
+  "orig_source": "Black Christmas (1974)",
+  "orig_src": "tmdb",
+  "title": "Jessy: Die Treppe in den Tod",
+  "title_en": "Black Christmas",
+  "tmdb": 16938,
+  "tmdb_checked": true,
+  "tmdb_runtime": 98,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 1974
+ },
  "ik:jim_queen_2026": {
   "country": "Frankreich/Belgien",
   "director": "Marco Nguyen , Nicolas Athane",
   "genre": "Animation, Komödie, Queer Cinema",
-  "lang": "fr",
-  "langs": [
-   "fr",
-   "en"
-  ],
+  "match_log": [],
   "min": 80,
-  "orig": "Jim Queen à la Recherche de la Chloroqueer",
   "title": "Jim Queen",
-  "tmdb": 1061798,
   "tmdb_checked": true,
-  "v": 2,
+  "tmdb_v": 8,
+  "v": 4,
   "year": 2026
  },
  "ik:junkies_of_dreaming-mahler_3_currentzis_2026": {
@@ -6796,6 +8043,44 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:kokuho": {
+  "country": "Japan",
+  "director": "Sang-il Lee",
+  "genre": "Drama",
+  "imdb": "tt35231039",
+  "imdb_src": "tmdb",
+  "lang": "ja",
+  "langs": [
+   "ja"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1379266,
+    "rt": 174,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Kokuho - Meister des Kabuki",
+    "y": 2025
+   }
+  ],
+  "min": 174,
+  "orig": "国宝",
+  "orig_source": "Kokuho",
+  "orig_src": "tmdb",
+  "title": "Kokuho - Meister des Kabuki",
+  "title_en": "Kokuho",
+  "tmdb": 1379266,
+  "tmdb_checked": true,
+  "tmdb_runtime": 174,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "ja"
+  ],
+  "wd_checked": true,
+  "year": 2025
+ },
  "ik:krysar-der_rattenfaenger": {
   "country": "CZ",
   "director": "Jirí Barta",
@@ -6976,6 +8261,42 @@
   ],
   "wd_checked": true,
   "year": 2025
+ },
+ "ik:lebewohl_meine_konkubine": {
+  "country": "China/Hong Kong",
+  "director": "Chen Kaige",
+  "genre": "Drama, Historienfilm",
+  "imdb": "tt0106332",
+  "imdb_src": "tmdb",
+  "lang": "zh",
+  "langs": [
+   "zh"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 10997,
+    "rt": 171,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Lebewohl, meine Konkubine",
+    "y": 1993
+   }
+  ],
+  "min": 171,
+  "orig": "霸王别姬",
+  "orig_source": "Ba wang bie ji",
+  "orig_src": "tmdb",
+  "title": "Lebewohl, meine Konkubine",
+  "title_en": "Farewell My Concubine",
+  "tmdb": 10997,
+  "tmdb_checked": true,
+  "tmdb_runtime": 171,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
+  "year": 1993
  },
  "ik:leica_ein_jahrhundert_in_bildern": {
   "country": "Deutschland",
@@ -7249,6 +8570,30 @@
   "v": 2,
   "year": 1996
  },
+ "ik:marie_antoinette_2006": {
+  "country": "USA",
+  "director": "Sofia Coppola",
+  "genre": "Drama",
+  "imdb": "tt0472043",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "min": 123,
+  "orig": "Apocalypto",
+  "orig_source": "Marie-Antoinette",
+  "orig_src": "tmdb",
+  "title": "Marie Antoinette",
+  "title_en": "Apocalypto",
+  "tmdb": 1579,
+  "tmdb_checked": true,
+  "tmdb_runtime": 138,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
+  "year": 2006
+ },
  "ik:materia_prima": {
   "country": "Deutschland",
   "director": "Jens Schanze",
@@ -7481,6 +8826,32 @@
   "wd_checked": true,
   "year": 2025
  },
+ "ik:mittwoch_zwischen_5_und_7": {
+  "country": "F",
+  "director": "Agnes Varda",
+  "genre": "Drama",
+  "imdb": "tt0055852",
+  "lang": "fr",
+  "langs": [
+   "fr"
+  ],
+  "min": 90,
+  "orig": "Cléo de 5 à 7",
+  "orig_source": "Cleo de cinq a sept",
+  "orig_src": "tmdb",
+  "title": "Mittwoch zwischen 5 und 7",
+  "title_en": "Cléo from 5 to 7",
+  "tmdb": 499,
+  "tmdb_checked": true,
+  "tmdb_runtime": 90,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "fr"
+  ],
+  "wd_checked": true,
+  "year": 1961
+ },
  "ik:mo_papa": {
   "director": "Eeva Mägi",
   "genre": "Drama",
@@ -7494,6 +8865,61 @@
   "tmdb": 1271974,
   "tmdb_checked": true,
   "v": 2
+ },
+ "ik:momo_2025": {
+  "country": "Deutschland",
+  "director": "Christian Ditter",
+  "genre": "Abenteuer, Fantasy, Literaturverfilmung",
+  "imdb": "tt26325131",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1175842,
+    "rt": 93,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Momo",
+    "y": 2025
+   },
+   {
+    "id": 1529053,
+    "rt": 13,
+    "sim": 0.62,
+    "t": "Momo Deal",
+    "x": "Laufzeit",
+    "y": 2025
+   },
+   {
+    "dir": false,
+    "id": 1655700,
+    "rt": 0,
+    "score": 1.0,
+    "sim": 1.0,
+    "t": "Momo...",
+    "y": 2026
+   }
+  ],
+  "min": 91,
+  "orig": "Momo",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Momo",
+  "title_en": "Momo",
+  "tmdb": 1175842,
+  "tmdb_checked": true,
+  "tmdb_runtime": 93,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2025
  },
  "ik:monster_mia_2026": {
   "country": "Österreich/Deutschland",
@@ -7943,6 +9369,44 @@
   "wd_checked": true,
   "year": 1993
  },
+ "ik:ninja_motherfcking_destruction": {
+  "country": "Deutschland",
+  "director": "Lotta Schwerk",
+  "genre": "Drama",
+  "imdb": "tt35069701",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1411193,
+    "rt": 79,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Ninja Motherf*cking Destruction",
+    "y": 2026
+   }
+  ],
+  "min": 78,
+  "orig": "Ninja Motherf*cking Destruction",
+  "orig_source": "Ninja Motherfucking Destruction",
+  "orig_src": "tmdb",
+  "title": "Ninja Motherf*cking Destruction",
+  "title_en": "Ninja Motherf*cking Destruction",
+  "tmdb": 1411193,
+  "tmdb_checked": true,
+  "tmdb_runtime": 79,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 2025
+ },
  "ik:ninxs-das_leben_glitzert": {
   "country": "Mexiko/Deutschland",
   "director": "Kani Lapuerta",
@@ -8115,6 +9579,33 @@
   "wd_checked": true,
   "year": 2025
  },
+ "ik:oedipussi": {
+  "country": "BRD",
+  "director": "Vicco von Bülow",
+  "genre": "Komödie",
+  "imdb": "tt0094407",
+  "lang": "de",
+  "langs": [
+   "de",
+   "it"
+  ],
+  "min": 88,
+  "orig": "Ödipussi",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Ödipussi",
+  "title_en": "Ödipussi",
+  "tmdb": 4645,
+  "tmdb_checked": true,
+  "tmdb_runtime": 88,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 1987
+ },
  "ik:oh_wie_schoen_ist_panama_2006": {
   "country": "D",
   "director": "Martin Otevrel",
@@ -8216,6 +9707,14 @@
   ],
   "wd_checked": true,
   "year": 2026
+ },
+ "ik:open_screening": {
+  "genre": "Kurzfilm-Programm, Vortrag mit Filmbeispielen",
+  "match_log": [],
+  "title": "Open Screening",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
  },
  "ik:other_mommy_2026": {
   "country": "USA",
@@ -8340,16 +9839,36 @@
  "ik:parkway_drive-home": {
   "director": "Allan Hardy , Macario De Souza",
   "genre": "Dokumentarfilm, Musikfilm",
+  "imdb": "tt47657111",
+  "imdb_src": "tmdb",
   "lang": "en",
   "langs": [
    "en"
   ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1807930,
+    "rt": 0,
+    "score": 5.0,
+    "sim": 1.0,
+    "t": "Parkway Drive - Home",
+    "y": 2026
+   }
+  ],
   "min": 90,
-  "orig": "Parkway Drive: Home",
+  "orig": "Parkway Drive - Home",
+  "orig_source": "Parkway Drive: Home",
+  "orig_src": "tmdb",
   "title": "Parkway Drive - Home",
+  "title_en": "Parkway Drive - Home",
   "tmdb": 1807930,
   "tmdb_checked": true,
-  "v": 2,
+  "tmdb_runtime": 0,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
   "year": 2026
  },
  "ik:paw_patrol_der_dino_film_2026": {
@@ -8385,6 +9904,70 @@
   "tmdb_v": 8,
   "v": 4,
   "wd": [],
+  "wd_checked": true,
+  "year": 2026
+ },
+ "ik:peter_hase_2018": {
+  "country": "Australien/Großbritannien/USA",
+  "director": "Will Gluck",
+  "genre": "Abenteuer, Animation, Literaturverfilmung",
+  "imdb": "tt5117670",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "min": 95,
+  "orig": "Peter Rabbit",
+  "orig_source": "Peter Rabbit",
+  "orig_src": "tmdb",
+  "title": "Peter Hase",
+  "title_en": "Peter Rabbit",
+  "tmdb": 381719,
+  "tmdb_checked": true,
+  "tmdb_runtime": 93,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2018
+ },
+ "ik:pferd_am_stiel-ein_hobby-horsing-abenteuer": {
+  "country": "Deutschland/Litauen",
+  "director": "Sonja Maria Kröner",
+  "genre": "Drama, Coming of Age",
+  "imdb": "tt40135324",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1430655,
+    "rt": 81,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Pferd am Stiel",
+    "y": 2026
+   }
+  ],
+  "min": 80,
+  "orig": "Pferd am Stiel",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Pferd am Stiel",
+  "title_en": "Horse on a Stick",
+  "tmdb": 1430655,
+  "tmdb_checked": true,
+  "tmdb_runtime": 81,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
   "wd_checked": true,
   "year": 2026
  },
@@ -8555,6 +10138,42 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:prinzessin_lillifee": {
+  "country": "D",
+  "director": "Alan Simpson",
+  "genre": "Animation",
+  "imdb": "tt1401245",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 28610,
+    "rt": 70,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Prinzessin Lillifee",
+    "y": 2009
+   }
+  ],
+  "min": 73,
+  "orig": "Prinzessin Lillifee",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Prinzessin Lillifee",
+  "title_en": "Princess Lillifee",
+  "tmdb": 28610,
+  "tmdb_checked": true,
+  "tmdb_runtime": 70,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
+  "year": 2008
+ },
  "ik:puella_magi_madoka_magica-der_film_walpurgisnacht_rising": {
   "country": "J",
   "director": "Yukihiro Miyamoto , Akiyuki Shinbo",
@@ -8590,6 +10209,42 @@
   "wd": [],
   "wd_checked": true,
   "year": 2026
+ },
+ "ik:punk_under_a_communist_regime": {
+  "country": "Slowenien",
+  "director": "Andrej Košak",
+  "genre": "Dokumentarfilm",
+  "imdb": "tt36374445",
+  "imdb_src": "tmdb",
+  "lang": "sl",
+  "langs": [
+   "sl"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1362124,
+    "rt": 85,
+    "score": 7.33,
+    "sim": 0.67,
+    "t": "Punk pod komunističnim režimom",
+    "y": 2025
+   }
+  ],
+  "min": 100,
+  "orig": "Punk pod komunističnim režimom",
+  "orig_source": "Punk under a Communist Regime",
+  "orig_src": "tmdb",
+  "title": "Punk Under Communist Regime",
+  "title_en": "Punk Under Communist Regime",
+  "tmdb": 1362124,
+  "tmdb_checked": true,
+  "tmdb_runtime": 85,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
+  "year": 2025
  },
  "ik:queens_of_the_dead_": {
   "country": "USA",
@@ -8629,6 +10284,45 @@
   "wd_checked": true,
   "year": 2025
  },
+ "ik:quir_2025": {
+  "country": "Schweiz",
+  "director": "Nicola Bellucci",
+  "genre": "Dokumentarfilm, Queer Cinema",
+  "imdb": "tt33111867",
+  "imdb_src": "tmdb",
+  "lang": "it",
+  "langs": [
+   "it",
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1297093,
+    "rt": 105,
+    "score": 10.0,
+    "sim": 1.0,
+    "t": "Queer - A Palermo Love Story",
+    "y": 2025
+   }
+  ],
+  "min": 106,
+  "orig": "Quir",
+  "orig_source": "Quir",
+  "orig_src": "tmdb",
+  "title": "Quir",
+  "title_en": "Quir",
+  "tmdb": 1297093,
+  "tmdb_checked": true,
+  "tmdb_runtime": 105,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "it"
+  ],
+  "wd_checked": true,
+  "year": 2024
+ },
  "ik:ramayana_rise_of_a_legend_2026": {
   "country": "Indien",
   "director": "Nitesh Tiwari",
@@ -8667,6 +10361,44 @@
   ],
   "wd_checked": true,
   "year": 2026
+ },
+ "ik:rashomon-das_lustwaeldchen": {
+  "country": "J",
+  "director": "Akira Kurosawa",
+  "genre": "Drama",
+  "imdb": "tt0042876",
+  "imdb_src": "tmdb",
+  "lang": "ja",
+  "langs": [
+   "ja"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 548,
+    "rt": 88,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Rashomon - Das Lustwäldchen",
+    "y": 1950
+   }
+  ],
+  "min": 88,
+  "orig": "羅生門",
+  "orig_source": "Rashomon",
+  "orig_src": "tmdb",
+  "title": "Rashomon - Das Lustwäldchen",
+  "title_en": "Rashomon",
+  "tmdb": 548,
+  "tmdb_checked": true,
+  "tmdb_runtime": 88,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "ja"
+  ],
+  "wd_checked": true,
+  "year": 1950
  },
  "ik:resident_evil_2026_2026": {
   "country": "USA",
@@ -8852,17 +10584,48 @@
   "country": "Deutschland",
   "director": "Fabienne Engel",
   "genre": "Dokumentarischer Film, Reisefilm",
+  "imdb": "tt42574015",
+  "imdb_src": "tmdb",
   "lang": "de",
   "langs": [
    "de",
    "en"
   ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1650016,
+    "rt": 82,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Same Sun - Mit dem Fahrrad durch Afrika",
+    "y": 2026
+   },
+   {
+    "dir": false,
+    "id": 1025393,
+    "rt": 103,
+    "score": 2.23,
+    "sim": 0.62,
+    "t": "Under the Same Sun",
+    "y": 2026
+   }
+  ],
   "min": 90,
-  "orig": "Same Sun: Mit dem Fahrrad durch Afrika",
+  "orig": "Same Sun - Mit dem Fahrrad durch Afrika",
+  "orig_source": "Same Sun: Mit dem Fahrrad durch Afrika",
+  "orig_src": "tmdb",
   "title": "Same Sun - Mit dem Fahrrad durch Afrika",
+  "title_en": "Same Sun",
   "tmdb": 1650016,
   "tmdb_checked": true,
-  "v": 2,
+  "tmdb_runtime": 82,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
   "year": 2026
  },
  "ik:sayyareye_dozdide_shodeye_man-my_stolen_planet": {
@@ -9174,6 +10937,32 @@
   "wd_checked": true,
   "year": 1985
  },
+ "ik:shoplifters_familienbande": {
+  "country": "Japan",
+  "director": "Hirokazu Koreeda",
+  "genre": "Drama",
+  "imdb": "tt8075192",
+  "lang": "ja",
+  "langs": [
+   "ja"
+  ],
+  "min": 121,
+  "orig": "万引き家族",
+  "orig_source": "Manbiki kazoku",
+  "orig_src": "tmdb",
+  "title": "Shoplifters",
+  "title_en": "Shoplifters",
+  "tmdb": 505192,
+  "tmdb_checked": true,
+  "tmdb_runtime": 120,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "ja"
+  ],
+  "wd_checked": true,
+  "year": 2018
+ },
  "ik:shorts_attack-dem_glueck_ganz_nah": {
   "genre": "Kurzfilm-Programm",
   "orig": "Shorts Attack: Dem Glück ganz nah",
@@ -9412,6 +11201,46 @@
   "tmdb_checked": true,
   "v": 2,
   "year": 1996
+ },
+ "ik:stirb_langsam_i": {
+  "country": "USA",
+  "director": "John McTiernan",
+  "genre": "Action, Krimi, Weihnachtsfilm",
+  "imdb": "tt0095016",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en",
+   "de",
+   "it"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 562,
+    "rt": 132,
+    "score": 8.0,
+    "sim": 1.0,
+    "t": "Stirb langsam",
+    "y": 1988
+   }
+  ],
+  "min": 126,
+  "orig": "Die Hard",
+  "orig_source": "Die Hard",
+  "orig_src": "tmdb",
+  "title": "Stirb langsam I",
+  "title_en": "Die Hard",
+  "tmdb": 562,
+  "tmdb_checked": true,
+  "tmdb_runtime": 132,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 1987
  },
  "ik:street_fighter_2026": {
   "country": "USA",
@@ -9730,6 +11559,32 @@
   "wd_checked": true,
   "year": 1971
  },
+ "ik:the_hours-von_ewigkeit_zu_ewigkeit": {
+  "country": "USA",
+  "director": "Stephen Daldry",
+  "genre": "Drama, Literaturverfilmung",
+  "imdb": "tt0274558",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "min": 110,
+  "orig": "The Hours",
+  "orig_source": "The Hours",
+  "orig_src": "tmdb",
+  "title": "The Hours - Von Ewigkeit zu Ewigkeit",
+  "title_en": "The Hours",
+  "tmdb": 590,
+  "tmdb_checked": true,
+  "tmdb_runtime": 114,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2002
+ },
  "ik:the_invite_2026": {
   "country": "USA",
   "director": "Olivia Wilde",
@@ -9838,6 +11693,53 @@
   "tmdb": 1446080,
   "tmdb_checked": true,
   "tmdb_runtime": 80,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2026
+ },
+ "ik:the_man_i_love_2026": {
+  "country": "USA",
+  "director": "Ira Sachs",
+  "genre": "Drama, Queer Cinema",
+  "imdb": "tt37522972",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": false,
+    "id": 1783208,
+    "rt": 10,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "The Man I Love",
+    "y": 2026
+   },
+   {
+    "dir": true,
+    "id": 1458914,
+    "rt": 95,
+    "score": 6.0,
+    "sim": 1.0,
+    "t": "The Man I Love",
+    "y": 2027
+   }
+  ],
+  "min": 95,
+  "orig": "The Man I Love",
+  "orig_source": "The Man I Love",
+  "orig_src": "tmdb",
+  "title": "The Man I Love",
+  "title_en": "The Man I Love",
+  "tmdb": 1458914,
+  "tmdb_checked": true,
+  "tmdb_runtime": 95,
   "tmdb_v": 8,
   "v": 4,
   "wd": [
@@ -10086,6 +11988,44 @@
   "wd_checked": true,
   "year": 1953
  },
+ "ik:trainspotting-neue_helden": {
+  "country": "GB",
+  "director": "Danny Boyle",
+  "genre": "Drama",
+  "imdb": "tt0117951",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 627,
+    "rt": 94,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Trainspotting - Neue Helden",
+    "y": 1996
+   }
+  ],
+  "min": 93,
+  "orig": "Trainspotting",
+  "orig_source": "Trainspotting",
+  "orig_src": "tmdb",
+  "title": "Trainspotting - Neue Helden",
+  "title_en": "Trainspotting",
+  "tmdb": 627,
+  "tmdb_checked": true,
+  "tmdb_runtime": 94,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 1996
+ },
  "ik:transit-stories_of_travellers_and_migrants": {
   "title": "Transit - Stories of Travellers and Migrants",
   "tmdb_checked": true,
@@ -10134,6 +12074,32 @@
   ],
   "wd_checked": true,
   "year": 2026
+ },
+ "ik:typhoon_club": {
+  "country": "Japan",
+  "director": "Shinji Sōmai",
+  "genre": "Drama",
+  "imdb": "tt0088222",
+  "lang": "ja",
+  "langs": [
+   "ja"
+  ],
+  "min": 115,
+  "orig": "台風クラブ",
+  "orig_source": "Taifu kurabu",
+  "orig_src": "tmdb",
+  "title": "Typhoon Club",
+  "title_en": "Typhoon Club",
+  "tmdb": 108634,
+  "tmdb_checked": true,
+  "tmdb_runtime": 115,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "ja"
+  ],
+  "wd_checked": true,
+  "year": 1985
  },
  "ik:ueber_unterbiberger": {
   "country": "Deutschland",
@@ -10285,6 +12251,32 @@
   ],
   "wd_checked": true,
   "year": 2026
+ },
+ "ik:unsere_lehrerin_die_weihnachtshexe_2019": {
+  "country": "Italien/Spanien",
+  "director": "Michele Soavi",
+  "genre": "Komödie, Fantasy, Weihnachtsfilm",
+  "imdb": "tt8539280",
+  "lang": "it",
+  "langs": [
+   "it"
+  ],
+  "min": 98,
+  "orig": "La befana vien di notte",
+  "orig_source": "La Befana vien di notte",
+  "orig_src": "tmdb",
+  "title": "Unsere Lehrerin, die Weihnachtshexe",
+  "title_en": "The Legend of the Christmas Witch",
+  "tmdb": 554133,
+  "tmdb_checked": true,
+  "tmdb_runtime": 98,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "it"
+  ],
+  "wd_checked": true,
+  "year": 2019
  },
  "ik:unter_schnee": {
   "country": "D",
@@ -10448,6 +12440,52 @@
   "tmdb_checked": true,
   "v": 2,
   "year": 2009
+ },
+ "ik:vom_winde_verweht": {
+  "country": "USA",
+  "director": "Victor Fleming",
+  "genre": "Melodram",
+  "imdb": "tt0031381",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 770,
+    "rt": 238,
+    "score": 9.0,
+    "sim": 1.0,
+    "t": "Vom Winde verweht",
+    "y": 1939
+   },
+   {
+    "id": 1735880,
+    "rt": 4,
+    "sim": 0.6,
+    "t": "British Pathé Newsreels: Gone with the Wind",
+    "x": "Laufzeit",
+    "y": 1939
+   }
+  ],
+  "min": 230,
+  "orig": "Gone with the Wind",
+  "orig_source": "Gone with the Wind",
+  "orig_src": "tmdb",
+  "title": "Vom Winde verweht",
+  "title_en": "Gone with the Wind",
+  "tmdb": 770,
+  "tmdb_checked": true,
+  "tmdb_runtime": 238,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 1939
  },
  "ik:vorhang_auf": {
   "country": "USA",
@@ -10636,6 +12674,61 @@
   "v": 2,
   "year": 2025
  },
+ "ik:weihnachten_der_tiere_2024": {
+  "country": "Frankreich/Deutschland",
+  "director": "Camille Alméras , Ceylan Beyoglu , Natalia Chernysheva , Haruna Kishi , Caroline Attia Larivière , Olesya Shchukina",
+  "genre": "Animation, Kinderfilm, Weihnachtsfilm",
+  "imdb": "tt33077003",
+  "lang": "fr",
+  "langs": [
+   "fr"
+  ],
+  "min": 72,
+  "orig": "Le Grand Noël des animaux",
+  "orig_source": "Le Grand Noël des Animaux",
+  "orig_src": "tmdb",
+  "title": "Weihnachten der Tiere",
+  "title_en": "Animal Tales of Christmas Magic",
+  "tmdb": 978102,
+  "tmdb_checked": true,
+  "tmdb_runtime": 70,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de",
+   "fr"
+  ],
+  "wd_checked": true,
+  "year": 2024
+ },
+ "ik:wenn_die_gondeln_trauer_tragen": {
+  "country": "GB/I",
+  "director": "Nicolas Roeg",
+  "genre": "Horror, Psychothriller",
+  "imdb": "tt0069995",
+  "lang": "en",
+  "langs": [
+   "en",
+   "it"
+  ],
+  "min": 109,
+  "orig": "Don't Look Now",
+  "orig_source": "Don't Look Now",
+  "orig_src": "tmdb",
+  "title": "Wenn die Gondeln Trauer tragen",
+  "title_en": "Don't Look Now",
+  "tmdb": 931,
+  "tmdb_checked": true,
+  "tmdb_runtime": 110,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en",
+   "it"
+  ],
+  "wd_checked": true,
+  "year": 1972
+ },
  "ik:whalefall_2026": {
   "country": "USA",
   "director": "Brian Duffield",
@@ -10747,6 +12840,15 @@
   ],
   "wd_checked": true,
   "year": 2005
+ },
+ "ik:wie_geht_natur": {
+  "director": "Jakob Friedrich",
+  "genre": "Dokumentarfilm, Biografie, Naturfilm",
+  "match_log": [],
+  "title": "Wie geht Natur?!",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
  },
  "ik:wie_verhext_2026": {
   "country": "USA",
@@ -10920,6 +13022,14 @@
   "wd_checked": true,
   "year": 1957
  },
+ "ik:wildes_asien": {
+  "genre": "Dokumentarfilm, Naturfilm",
+  "match_log": [],
+  "title": "3D: Wildes Asien",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ik:wildwood_2026": {
   "country": "USA",
   "director": "Travis Knight",
@@ -10958,6 +13068,32 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:winnetou_i": {
+  "country": "BRD/YU",
+  "director": "Harald Reinl",
+  "genre": "Abenteuer, Western",
+  "imdb": "tt0057687",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "min": 101,
+  "orig": "Winnetou 1. Teil",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Winnetou I",
+  "title_en": "Apache Gold",
+  "tmdb": 3685,
+  "tmdb_checked": true,
+  "tmdb_runtime": 101,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 1963
+ },
  "ik:wir_das_orchester": {
   "country": "Frankreich",
   "director": "Philippe Béziat",
@@ -10973,6 +13109,32 @@
   "tmdb_checked": true,
   "v": 2,
   "year": 2026
+ },
+ "ik:wonders_of_the_sea": {
+  "country": "GB/F",
+  "director": "Jean-Michel Cousteau , Jean-Jacques Mantello",
+  "genre": "Dokumentarfilm, Naturfilm",
+  "imdb": "tt5495792",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "min": 84,
+  "orig": "Wonders of the Sea 3D",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "3D: Wonders of the Sea",
+  "title_en": "Wonders of the Sea",
+  "tmdb": 476070,
+  "tmdb_checked": true,
+  "tmdb_runtime": 82,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2019
  },
  "ik:you_can_see_everything_2026": {
   "country": "USA",
@@ -11127,6 +13289,66 @@
   "wd": [],
   "wd_checked": true
  },
+ "ikt:a girl unknown": {
+  "imdb": "tt32459280",
+  "imdb_src": "tmdb",
+  "lang": "zh",
+  "langs": [
+   "zh"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1364629,
+    "rt": 125,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "A Girl Unknown",
+    "y": 2027
+   }
+  ],
+  "min": 125,
+  "orig": "无名女孩",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "A Girl Unknown",
+  "title_en": "A Girl Unknown",
+  "tmdb": 1364629,
+  "tmdb_checked": true,
+  "tmdb_runtime": 125,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
+ },
+ "ikt:acht eimer huhnerherzen": {
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1797677,
+    "rt": 63,
+    "score": 3.3,
+    "sim": 0.9,
+    "t": "Acht Eimer Hühnerherzen »film«",
+    "y": 2026
+   }
+  ],
+  "min": 63,
+  "orig": "Acht Eimer Hühnerherzen »film«",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Acht Eimer Hühnerherzen",
+  "title_en": "Acht Eimer Hühnerherzen »film«",
+  "tmdb": 1797677,
+  "tmdb_checked": true,
+  "tmdb_runtime": 63,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ikt:al mahatta the station": {
   "imdb": "tt9680050",
   "imdb_src": "tmdb",
@@ -11157,6 +13379,43 @@
   "tmdb_v": 8,
   "v": 4,
   "wd": [],
+  "wd_checked": true
+ },
+ "ikt:all of a sudden": {
+  "imdb": "tt36834996",
+  "imdb_src": "tmdb",
+  "lang": "ja",
+  "langs": [
+   "ja",
+   "fr",
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1476614,
+    "rt": 197,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "All of a Sudden",
+    "y": 2026
+   }
+  ],
+  "min": 197,
+  "orig": "急に具合が悪くなる",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "All of a Sudden",
+  "title_en": "All of a Sudden",
+  "tmdb": 1476614,
+  "tmdb_checked": true,
+  "tmdb_runtime": 197,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "fr",
+   "ja"
+  ],
   "wd_checked": true
  },
  "ikt:amuleto 2026": {
@@ -11206,6 +13465,38 @@
   "v": 4,
   "year": 2026
  },
+ "ikt:andrew lloyd webber s starlight express live on stage": {
+  "imdb": "tt50017070",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1748001,
+    "rt": 125,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Andrew Lloyd Webber's Starlight Express: Live On-Stage",
+    "y": 2026
+   }
+  ],
+  "min": 125,
+  "orig": "Andrew Lloyd Webber's Starlight Express: Live On-Stage",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Andrew Lloyd Webbers Starlight Express - Live On Stage",
+  "title_en": "Andrew Lloyd Webber's Starlight Express: Live On-Stage",
+  "tmdb": 1748001,
+  "tmdb_checked": true,
+  "tmdb_runtime": 125,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
+ },
  "ikt:aqui nao entra luz": {
   "imdb": "tt42254052",
   "imdb_src": "tmdb",
@@ -11238,6 +13529,20 @@
   "wd": [],
   "wd_checked": true
  },
+ "ikt:ask tesadufleri sever iii": {
+  "match_log": [],
+  "title": "Ask Tesadüfleri Sever III",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
+ "ikt:atmos mein frau unsere schwiegertochter und ich": {
+  "match_log": [],
+  "title": "Atmos: Mein Frau, unsere Schwiegertochter und ich",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ikt:becoming stickiness": {
   "match_log": [],
   "title": "Becoming Stickiness",
@@ -11248,6 +13553,13 @@
  "ikt:before guilt knew our names": {
   "match_log": [],
   "title": "Before Guilt Knew our Names",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
+ "ikt:ben imana film": {
+  "match_log": [],
+  "title": "Ben'Imana Film",
   "tmdb_checked": true,
   "tmdb_v": 8,
   "v": 4
@@ -11263,6 +13575,48 @@
   "tmdb": 1688963,
   "tmdb_checked": true,
   "year": 2026
+ },
+ "ikt:brandstifter 1958": {
+  "match_log": [],
+  "title": "Brandstifter",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 1958
+ },
+ "ikt:bulakna": {
+  "imdb": "tt37593786",
+  "imdb_src": "tmdb",
+  "lang": "pt",
+  "langs": [
+   "pt",
+   "en",
+   "tl"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1493033,
+    "rt": 90,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Bulakna",
+    "y": 2025
+   }
+  ],
+  "min": 90,
+  "orig": "Bulakna",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Bulakna",
+  "title_en": "Bulakna",
+  "tmdb": 1493033,
+  "tmdb_checked": true,
+  "tmdb_runtime": 90,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
  },
  "ikt:burning voice": {
   "lang": "da",
@@ -11301,12 +13655,76 @@
   "tmdb_v": 8,
   "v": 4
  },
+ "ikt:butthole surfers the hole truth and nothing butt": {
+  "imdb": "tt16304140",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 982116,
+    "rt": 106,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Butthole Surfers: The Hole Truth and Nothing Butt",
+    "y": 2026
+   }
+  ],
+  "min": 106,
+  "orig": "Butthole Surfers: The Hole Truth and Nothing Butt",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Butthole Surfers: The Hole Truth and Nothing Butt",
+  "title_en": "Butthole Surfers: The Hole Truth and Nothing Butt",
+  "tmdb": 982116,
+  "tmdb_checked": true,
+  "tmdb_runtime": 106,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
+ },
  "ikt:cakallarla dans viii": {
   "match_log": [],
   "title": "Cakallarla Dans VIII",
   "tmdb_checked": true,
   "tmdb_v": 8,
   "v": 4
+ },
+ "ikt:cameron winter at carnegie hall": {
+  "imdb": "tt44879019",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1597242,
+    "rt": 75,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Cameron Winter at Carnegie Hall",
+    "y": 2026
+   }
+  ],
+  "min": 75,
+  "orig": "Cameron Winter at Carnegie Hall",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Cameron Winter at Carnegie Hall",
+  "title_en": "Cameron Winter at Carnegie Hall",
+  "tmdb": 1597242,
+  "tmdb_checked": true,
+  "tmdb_runtime": 75,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
  },
  "ikt:cartas para": {
   "lang": "pt",
@@ -11379,6 +13797,38 @@
   "wd": [],
   "wd_checked": true
  },
+ "ikt:cosmic samson": {
+  "imdb": "tt39139918",
+  "imdb_src": "tmdb",
+  "lang": "ml",
+  "langs": [
+   "ml"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1179380,
+    "rt": 123,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Cosmic Samson",
+    "y": 2026
+   }
+  ],
+  "min": 123,
+  "orig": "കോസ്മിക് സാംസൺ",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Cosmic Samson",
+  "title_en": "Cosmic Samson",
+  "tmdb": 1179380,
+  "tmdb_checked": true,
+  "tmdb_runtime": 123,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
+ },
  "ikt:cowboy 2007": {
   "imdb": "tt0487203",
   "imdb_src": "tmdb",
@@ -11421,6 +13871,13 @@
   "wd_checked": true,
   "year": 2007
  },
+ "ikt:d box mein frau unsere schwiegertochter und ich": {
+  "match_log": [],
+  "title": "D-Box: Mein Frau, unsere Schwiegertochter und ich",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ikt:d box preview mein frau unsere schwiegertochter und ich": {
   "match_log": [],
   "title": "D-Box, Preview: Mein Frau, unsere Schwiegertochter und ich",
@@ -11442,6 +13899,41 @@
   "tmdb_checked": true,
   "tmdb_v": 8,
   "v": 4
+ },
+ "ikt:death has no master": {
+  "imdb": "tt33303400",
+  "imdb_src": "tmdb",
+  "lang": "es",
+  "langs": [
+   "es",
+   "it"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1379747,
+    "rt": 104,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Death Has No Master",
+    "y": 2027
+   }
+  ],
+  "min": 104,
+  "orig": "La Muerte no Tiene Dueño",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Death has no Master",
+  "title_en": "Death Has No Master",
+  "tmdb": 1379747,
+  "tmdb_checked": true,
+  "tmdb_runtime": 104,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "es"
+  ],
+  "wd_checked": true
  },
  "ikt:dedictvi aneb kurvahosigutntag the inheritance or fuckoffguysgoodday": {
   "imdb": "tt0106693",
@@ -11478,6 +13970,41 @@
   ],
   "wd_checked": true
  },
+ "ikt:die ideen 2026": {
+  "imdb": "tt39334900",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de",
+   "en",
+   "sv"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1767269,
+    "rt": 110,
+    "score": 4.0,
+    "sim": 1.0,
+    "t": "Die Ideen",
+    "y": 2027
+   }
+  ],
+  "min": 110,
+  "orig": "Die Ideen",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Die Ideen",
+  "title_en": "The Ideas",
+  "tmdb": 1767269,
+  "tmdb_checked": true,
+  "tmdb_runtime": 110,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
+  "year": 2026
+ },
  "ikt:die miserable mutter": {
   "imdb": "tt43258259",
   "imdb_src": "tmdb",
@@ -11510,6 +14037,13 @@
   "wd": [],
   "wd_checked": true
  },
+ "ikt:dovzhenko legend of ukrainian cinema": {
+  "match_log": [],
+  "title": "Dovzhenko. Legend of Ukrainian Cinema",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ikt:eisfrauen": {
   "lang": "en",
   "langs": [
@@ -11521,6 +14055,81 @@
   "title": "Eisfrauen",
   "tmdb": 1664700,
   "tmdb_checked": true
+ },
+ "ikt:el mal hijo the bad son": {
+  "imdb": "tt37438712",
+  "imdb_src": "tmdb",
+  "lang": "es",
+  "langs": [
+   "es"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1482560,
+    "rt": 106,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "El mal hijo",
+    "y": 2026
+   }
+  ],
+  "min": 106,
+  "orig": "El mal hijo",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "El mal hijo - The Bad Son",
+  "title_en": "The Bad Son",
+  "tmdb": 1482560,
+  "tmdb_checked": true,
+  "tmdb_runtime": 106,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "es"
+  ],
+  "wd_checked": true
+ },
+ "ikt:elefanten im nebel": {
+  "imdb": "tt29279937",
+  "imdb_src": "tmdb",
+  "lang": "ne",
+  "langs": [
+   "ne"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1661926,
+    "rt": 108,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Elefanten im Nebel",
+    "y": 2026
+   }
+  ],
+  "min": 108,
+  "orig": "तिनीहरू",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Elefanten im Nebel",
+  "title_en": "Elephants in the Fog",
+  "tmdb": 1661926,
+  "tmdb_checked": true,
+  "tmdb_runtime": 108,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "ne"
+  ],
+  "wd_checked": true
+ },
+ "ikt:elephants in the fog": {
+  "match_log": [],
+  "title": "Elephants in the Fog",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
  },
  "ikt:exercises in becoming uncertain": {
   "match_log": [],
@@ -11570,6 +14179,12 @@
   "tmdb_v": 8,
   "v": 4
  },
+ "ikt:friday night sneak": {
+  "title": "Friday Night Sneak",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ikt:fuge staccato": {
   "lang": "de",
   "langs": [
@@ -11597,6 +14212,38 @@
   "tmdb_runtime": 40,
   "tmdb_v": 8,
   "v": 4
+ },
+ "ikt:fugs film": {
+  "imdb": "tt38675979",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1567804,
+    "rt": 84,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Fugs Film!",
+    "y": 2025
+   }
+  ],
+  "min": 84,
+  "orig": "Fugs Film!",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Fugs Film!",
+  "title_en": "Fugs Film!",
+  "tmdb": 1567804,
+  "tmdb_checked": true,
+  "tmdb_runtime": 84,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
  },
  "ikt:gabin 2026": {
   "imdb": "tt41829787",
@@ -11680,6 +14327,13 @@
   "tmdb_v": 8,
   "v": 4
  },
+ "ikt:gondhal sacred obsession": {
+  "match_log": [],
+  "title": "Gondhal - Sacred Obsession",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ikt:hadoota": {
   "imdb": "tt43638234",
   "imdb_src": "tmdb",
@@ -11728,6 +14382,126 @@
   "tmdb_checked": true,
   "tmdb_v": 8,
   "v": 4
+ },
+ "ikt:holy wood dust das leben der heiligen baume": {
+  "imdb": "tt39567879",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1625362,
+    "rt": 100,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Holy Wood Dust",
+    "y": 2026
+   }
+  ],
+  "min": 100,
+  "orig": "Holy Wood Dust",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Holy Wood Dust - Das Leben der heiligen Bäume",
+  "title_en": "Holy Wood Dust",
+  "tmdb": 1625362,
+  "tmdb_checked": true,
+  "tmdb_runtime": 100,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
+ },
+ "ikt:hungarian punk encyclopedia": {
+  "match_log": [],
+  "title": "Hungarian Punk Encyclopedia",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
+ "ikt:i am marty parr": {
+  "match_log": [],
+  "title": "I Am Marty Parr",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
+ "ikt:i ll be gone in june": {
+  "imdb": "tt23143606",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de",
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1441105,
+    "rt": 124,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "I'll Be Gone in June",
+    "y": 2027
+   }
+  ],
+  "min": 124,
+  "orig": "I'll Be Gone in June",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "I'll Be Gone In June",
+  "title_en": "I'll Be Gone in June",
+  "tmdb": 1441105,
+  "tmdb_checked": true,
+  "tmdb_runtime": 124,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
+ },
+ "ikt:if i go will they miss me": {
+  "imdb": "tt39151344",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1596248,
+    "rt": 89,
+    "score": 3.5,
+    "sim": 1.0,
+    "t": "If I Go Will They Miss Me",
+    "y": 2026
+   },
+   {
+    "dir": null,
+    "id": 914262,
+    "rt": 13,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "If I Go Will They Miss Me",
+    "y": 2022
+   }
+  ],
+  "min": 89,
+  "orig": "If I Go Will They Miss Me",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "If I Go Will They Miss Me",
+  "title_en": "If I Go Will They Miss Me",
+  "tmdb": 1596248,
+  "tmdb_checked": true,
+  "tmdb_runtime": 89,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
  },
  "ikt:il cattivo poeta bad poet": {
   "lang": "it",
@@ -11954,6 +14728,158 @@
   "wd": [],
   "wd_checked": true
  },
+ "ikt:la gradiva": {
+  "imdb": "tt36107185",
+  "imdb_src": "tmdb",
+  "lang": "fr",
+  "langs": [
+   "fr",
+   "it",
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1154730,
+    "rt": 145,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "La Gradiva",
+    "y": 2026
+   }
+  ],
+  "min": 145,
+  "orig": "La Gradiva",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "La Gradiva",
+  "title_en": "La Gradiva",
+  "tmdb": 1154730,
+  "tmdb_checked": true,
+  "tmdb_runtime": 145,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "fr",
+   "it"
+  ],
+  "wd_checked": true
+ },
+ "ikt:lejos de los arboles far from the trees": {
+  "imdb": "tt39384835",
+  "imdb_src": "tmdb",
+  "lang": "es",
+  "langs": [
+   "es",
+   "ca",
+   "qu"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 256804,
+    "rt": 100,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "Lejos de los árboles",
+    "y": 1972
+   },
+   {
+    "dir": null,
+    "id": 1025391,
+    "rt": 117,
+    "score": 3.5,
+    "sim": 1.0,
+    "t": "Lejos de los árboles",
+    "y": 2026
+   }
+  ],
+  "min": 117,
+  "orig": "Lejos de los árboles",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Lejos de los arboles - Far From The Trees",
+  "title_en": "Far From the Trees",
+  "tmdb": 1025391,
+  "tmdb_checked": true,
+  "tmdb_runtime": 117,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "ca",
+   "es",
+   "qu"
+  ],
+  "wd_checked": true
+ },
+ "ikt:let us through dear ancestors": {
+  "imdb": "tt43704164",
+  "imdb_src": "tmdb",
+  "lang": "tl",
+  "langs": [
+   "tl"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1736478,
+    "rt": 151,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Let Us Through, Dear Ancestors",
+    "y": 2026
+   }
+  ],
+  "min": 151,
+  "orig": "Makikiraan po",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Let Us Through, Dear Ancestors",
+  "title_en": "Let Us Through, Dear Ancestors",
+  "tmdb": 1736478,
+  "tmdb_checked": true,
+  "tmdb_runtime": 151,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
+ },
+ "ikt:lovers sleep alone": {
+  "imdb": "tt38690033",
+  "imdb_src": "tmdb",
+  "lang": "fa",
+  "langs": [
+   "fa",
+   "de",
+   "hu",
+   "ar",
+   "pl"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1536430,
+    "rt": 87,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Lovers Sleep Alone",
+    "y": 2026
+   }
+  ],
+  "min": 87,
+  "orig": "Lovers Sleep Alone",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Lovers Sleep Alone",
+  "title_en": "Lovers Sleep Alone",
+  "tmdb": 1536430,
+  "tmdb_checked": true,
+  "tmdb_runtime": 87,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
+ },
  "ikt:lucy 1984": {
   "lang": "de",
   "langs": [
@@ -12017,12 +14943,54 @@
   "tmdb_v": 8,
   "v": 4
  },
+ "ikt:mein mann das wirtschaftswunder 1960": {
+  "imdb": "tt0055163",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 72028,
+    "rt": 0,
+    "score": 4.0,
+    "sim": 1.0,
+    "t": "Mein Mann, das Wirtschaftswunder",
+    "y": 1961
+   }
+  ],
+  "orig": "Mein Mann, das Wirtschaftswunder",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Mein Mann, das Wirtschaftswunder",
+  "title_en": "Mein Mann, das Wirtschaftswunder",
+  "tmdb": 72028,
+  "tmdb_checked": true,
+  "tmdb_runtime": 0,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 1960
+ },
  "ikt:monster liebe": {
   "match_log": [],
   "title": "Monster & Liebe",
   "tmdb_checked": true,
   "tmdb_v": 8,
   "v": 4
+ },
+ "ikt:morphia 2008": {
+  "match_log": [],
+  "title": "Morphia",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 2008
  },
  "ikt:mother there is star in me": {
   "title": "Mother, There is Star in Me",
@@ -12120,6 +15088,40 @@
   "tmdb_checked": true,
   "year": 2025
  },
+ "ikt:nobody s violence": {
+  "imdb": "tt38512625",
+  "imdb_src": "tmdb",
+  "lang": "fr",
+  "langs": [
+   "fr"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1552242,
+    "rt": 118,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Nobody's Violence",
+    "y": 2026
+   }
+  ],
+  "min": 118,
+  "orig": "Violence du corps de l'autre",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Nobody's Violence",
+  "title_en": "Nobody's Violence",
+  "tmdb": 1552242,
+  "tmdb_checked": true,
+  "tmdb_runtime": 118,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "fr"
+  ],
+  "wd_checked": true
+ },
  "ikt:nos povo das ilhas": {
   "lang": "pt",
   "langs": [
@@ -12182,6 +15184,38 @@
   ],
   "wd_checked": true
  },
+ "ikt:nova 78": {
+  "imdb": "tt37379020",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1510390,
+    "rt": 78,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Nova '78",
+    "y": 2026
+   }
+  ],
+  "min": 78,
+  "orig": "Nova '78",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Nova '78",
+  "title_en": "Nova '78",
+  "tmdb": 1510390,
+  "tmdb_checked": true,
+  "tmdb_runtime": 78,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
+ },
  "ikt:nuns vs the vatican": {
   "lang": "en",
   "langs": [
@@ -12199,6 +15233,38 @@
   "tmdb_checked": true,
   "tmdb_v": 8,
   "v": 4
+ },
+ "ikt:o vento assobiando nas gruas": {
+  "imdb": "tt14565248",
+  "imdb_src": "tmdb",
+  "lang": "pt",
+  "langs": [
+   "pt"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1176192,
+    "rt": 93,
+    "score": 3.0,
+    "sim": 1.0,
+    "t": "O Vento Assobiando nas Gruas",
+    "y": 2024
+   }
+  ],
+  "min": 93,
+  "orig": "O Vento Assobiando nas Gruas",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "O Vento Assobiando nas Gruas",
+  "title_en": "The Fortunate Ones",
+  "tmdb": 1176192,
+  "tmdb_checked": true,
+  "tmdb_runtime": 93,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
  },
  "ikt:occupied city": {
   "match_log": [],
@@ -12296,6 +15362,13 @@
   "tmdb_checked": true,
   "year": 2026
  },
+ "ikt:one with nothing": {
+  "match_log": [],
+  "title": "One With Nothing",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ikt:only yesterday 2026": {
   "match_log": [],
   "title": "Only Yesterday",
@@ -12306,6 +15379,94 @@
  },
  "ikt:os braig brothers kurzfilmprogramm": {
   "title": "Os Braig Brothers-Kurzfilmprogramm",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
+ "ikt:outsider 1997": {
+  "imdb": "tt0117273",
+  "imdb_src": "tmdb",
+  "lang": "sl",
+  "langs": [
+   "sl",
+   "bs"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 152861,
+    "rt": 100,
+    "score": 5.0,
+    "sim": 1.0,
+    "t": "Outsider",
+    "y": 1997
+   },
+   {
+    "dir": null,
+    "id": 77135,
+    "rt": 91,
+    "score": 3.6,
+    "sim": 0.8,
+    "t": "The Outsider",
+    "y": 1997
+   }
+  ],
+  "min": 100,
+  "orig": "Outsider",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Outsider",
+  "title_en": "Outsider",
+  "tmdb": 152861,
+  "tmdb_checked": true,
+  "tmdb_runtime": 100,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "sl",
+   "sr"
+  ],
+  "wd_checked": true,
+  "year": 1997
+ },
+ "ikt:paper tiger 2026": {
+  "imdb": "tt34385689",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1381273,
+    "rt": 115,
+    "score": 5.0,
+    "sim": 1.0,
+    "t": "Paper Tiger",
+    "y": 2026
+   }
+  ],
+  "min": 115,
+  "orig": "Paper Tiger",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Paper Tiger",
+  "title_en": "Paper Tiger",
+  "tmdb": 1381273,
+  "tmdb_checked": true,
+  "tmdb_runtime": 115,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true,
+  "year": 2026
+ },
+ "ikt:performing the goddess the chapal bhaduri story": {
+  "match_log": [],
+  "title": "Performing the Goddess: The Chapal Bhaduri Story",
   "tmdb_checked": true,
   "tmdb_v": 8,
   "v": 4
@@ -12566,6 +15727,47 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ikt:royal ballet and opera in cinemas der nussknacker 2026": {
+  "match_log": [],
+  "title": "Royal Ballet and Opera in Cinemas: Der Nussknacker",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 2026
+ },
+ "ikt:s nicholas and the lost letter": {
+  "imdb": "tt40378088",
+  "imdb_src": "tmdb",
+  "lang": "uk",
+  "langs": [
+   "uk"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1658835,
+    "rt": 0,
+    "score": 4.47,
+    "sim": 0.98,
+    "t": "St. Nicholas and the Lost Letter",
+    "y": 2026
+   }
+  ],
+  "orig": "S Миколай та загублений лист",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "S Nicholas and the Lost Letter",
+  "title_en": "A December Tale 2: The Lost Letter",
+  "tmdb": 1658835,
+  "tmdb_checked": true,
+  "tmdb_runtime": 0,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "uk"
+  ],
+  "wd_checked": true
+ },
  "ikt:sansho the bailiff": {
   "match_log": [],
   "title": "Sansho the Bailiff",
@@ -12622,6 +15824,13 @@
  "ikt:schneckenhaus hoffnungsschimmer": {
   "match_log": [],
   "title": "Schneckenhaus & Hoffnungsschimmer",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
+ "ikt:secret police surveillance of hungarian punk scene": {
+  "match_log": [],
+  "title": "Secret Police Surveillance of Hungarian Punk Scene",
   "tmdb_checked": true,
   "tmdb_v": 8,
   "v": 4
@@ -12695,6 +15904,47 @@
   "tmdb": 1404582,
   "tmdb_checked": true
  },
+ "ikt:subete no koibito tachi no yoru ni all the lovers in the night": {
+  "match_log": [],
+  "title": "Subete no Koibito-tachi no Yoru ni - All the Lovers in the Night",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
+ "ikt:tangles durcheinander": {
+  "imdb": "tt22183852",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1316999,
+    "rt": 102,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Tangles – Durcheinander",
+    "y": 2026
+   }
+  ],
+  "min": 102,
+  "orig": "Tangles",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Tangles - Durcheinander",
+  "title_en": "Tangles",
+  "tmdb": 1316999,
+  "tmdb_checked": true,
+  "tmdb_runtime": 102,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "en"
+  ],
+  "wd_checked": true
+ },
  "ikt:tatort lockruf": {
   "match_log": [],
   "title": "Tatort - Lockruf",
@@ -12724,6 +15974,50 @@
   "tmdb": 1255792,
   "tmdb_checked": true
  },
+ "ikt:the beloved mein liebster mensch": {
+  "imdb": "tt33451014",
+  "imdb_src": "tmdb",
+  "lang": "es",
+  "langs": [
+   "es",
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1074074,
+    "rt": 136,
+    "score": 3.5,
+    "sim": 1.0,
+    "t": "The Beloved - Mein liebster Mensch",
+    "y": 2026
+   },
+   {
+    "dir": null,
+    "id": 850175,
+    "rt": 260,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "The Beloved",
+    "y": 2020
+   }
+  ],
+  "min": 136,
+  "orig": "El ser querido",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "The Beloved - Mein liebster Mensch",
+  "title_en": "The Beloved",
+  "tmdb": 1074074,
+  "tmdb_checked": true,
+  "tmdb_runtime": 136,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "es"
+  ],
+  "wd_checked": true
+ },
  "ikt:the delivery line": {
   "lang": "en",
   "langs": [
@@ -12738,6 +16032,43 @@
   "tmdb": 1657445,
   "tmdb_checked": true
  },
+ "ikt:the meltdown 2026": {
+  "imdb": "tt39571626",
+  "imdb_src": "tmdb",
+  "lang": "es",
+  "langs": [
+   "es",
+   "en",
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1210268,
+    "rt": 110,
+    "score": 5.0,
+    "sim": 1.0,
+    "t": "The Meltdown",
+    "y": 2026
+   }
+  ],
+  "min": 110,
+  "orig": "El deshielo",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "The Meltdown",
+  "title_en": "The Meltdown",
+  "tmdb": 1210268,
+  "tmdb_checked": true,
+  "tmdb_runtime": 110,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "es"
+  ],
+  "wd_checked": true,
+  "year": 2026
+ },
  "ikt:the night arezou disappeared": {
   "lang": "fa",
   "langs": [
@@ -12748,6 +16079,44 @@
   "title": "The Night Arezou Disappeared",
   "tmdb": 1751682,
   "tmdb_checked": true
+ },
+ "ikt:the pervert s guide to utopias doc": {
+  "match_log": [],
+  "title": "The Pervert's Guide To Utopias Doc",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
+ "ikt:the wild west bank sound": {
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1676866,
+    "rt": 57,
+    "score": 2.0,
+    "sim": 1.0,
+    "t": "The Wild West Bank Sound",
+    "y": null
+   }
+  ],
+  "title": "The Wild West Bank Sound",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
+ "ikt:toi yamanamino hikari a pale view of hills": {
+  "match_log": [],
+  "title": "Toi Yamanamino Hikari - A Pale View of Hills",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
+ "ikt:usmanbas modernist": {
+  "match_log": [],
+  "title": "Usmanbas: Modernist",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
  },
  "ikt:velhos bandidos": {
   "imdb": "tt34382332",
@@ -12783,6 +16152,44 @@
   ],
   "wd_checked": true
  },
+ "ikt:viva 2026": {
+  "imdb": "tt36822560",
+  "imdb_src": "tmdb",
+  "lang": "ca",
+  "langs": [
+   "ca",
+   "es",
+   "fr",
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1474225,
+    "rt": 113,
+    "score": 5.0,
+    "sim": 1.0,
+    "t": "Viva",
+    "y": 2026
+   }
+  ],
+  "min": 113,
+  "orig": "Viva",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Viva",
+  "title_en": "Viva",
+  "tmdb": 1474225,
+  "tmdb_checked": true,
+  "tmdb_runtime": 113,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "ca"
+  ],
+  "wd_checked": true,
+  "year": 2026
+ },
  "ikt:wadja 2024": {
   "match_log": [],
   "title": "Wadja",
@@ -12790,6 +16197,38 @@
   "tmdb_v": 8,
   "v": 4,
   "year": 2024
+ },
+ "ikt:we are making a film about mark fisher": {
+  "imdb": "tt38779861",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1580991,
+    "rt": 66,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "We Are Making a Film About Mark Fisher",
+    "y": 2025
+   }
+  ],
+  "min": 66,
+  "orig": "We Are Making a Film About Mark Fisher",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "We Are Making a Film About Mark Fisher",
+  "title_en": "We Are Making a Film About Mark Fisher",
+  "tmdb": 1580991,
+  "tmdb_checked": true,
+  "tmdb_runtime": 66,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
  },
  "ikt:weibliche zone": {
   "lang": "de",
@@ -12828,6 +16267,40 @@
   "title": "Woman Demon Human",
   "tmdb": 94019,
   "tmdb_checked": true
+ },
+ "ikt:yeh prem mol liya": {
+  "imdb": "tt38907401",
+  "imdb_src": "tmdb",
+  "lang": "hi",
+  "langs": [
+   "hi"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 1209723,
+    "rt": 173,
+    "score": 4.5,
+    "sim": 1.0,
+    "t": "Yeh Prem Mol Liya",
+    "y": 2026
+   }
+  ],
+  "min": 173,
+  "orig": "ये प्रेम मोल लिया",
+  "orig_source": null,
+  "orig_src": "tmdb",
+  "title": "Yeh Prem Mol Liya",
+  "title_en": "Yeh Prem Mol Liya",
+  "tmdb": 1209723,
+  "tmdb_checked": true,
+  "tmdb_runtime": 173,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "hi"
+  ],
+  "wd_checked": true
  },
  "ikt:zum gasthof der spritzigen madchen": {
   "imdb": "tt0080181",
