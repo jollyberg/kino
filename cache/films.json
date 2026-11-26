@@ -2774,6 +2774,15 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:before_guilt_knew_our_names": {
+  "genre": "Kurzfilm-Programm",
+  "match_log": [],
+  "orig": "Before Guilt Knew our Names",
+  "title": "ALFILM Wednesday: Before Guilt Knew Our Names",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ik:berlinized-sexy_an_eis": {
   "country": "D",
   "director": "Lucian Busse",
@@ -4179,6 +4188,33 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:dedictvi_aneb_kurvahosigutntag-the_inheritance_or_fuckoffguysgoodday": {
+  "country": "CZ",
+  "director": "Vera Chytilova",
+  "genre": "Komödie",
+  "imdb": "tt0106693",
+  "lang": "cs",
+  "langs": [
+   "cs",
+   "de"
+  ],
+  "min": 120,
+  "orig": "Dědictví aneb Kurvahošigutntag",
+  "orig_source": "Dedictvi aneb kurvahosigutntag",
+  "orig_src": "tmdb",
+  "title": "Die Erbschaft oder: Fuckoffjungsgutntag",
+  "title_en": "The Inheritance or Fuckoffguysgoodday",
+  "tmdb": 40573,
+  "tmdb_checked": true,
+  "tmdb_runtime": 120,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "cs"
+  ],
+  "wd_checked": true,
+  "year": 1993
+ },
  "ik:der_festlaender": {
   "country": "Großbritannien",
   "director": "Louis Paxton",
@@ -5269,6 +5305,19 @@
    "lv"
   ],
   "wd_checked": true,
+  "year": 2025
+ },
+ "ik:dovzhenko_legend_of_ukrainian_cinema": {
+  "country": "Ukraine/Rumänien/Slowakei",
+  "director": "Kostiantyn Konovalov",
+  "genre": "Biografie, Historienfilm, Abenteuer",
+  "match_log": [],
+  "min": 100,
+  "orig": "Dovzhenko – Legend of Ukrainian Cinema",
+  "title": "Dovzhenko. Legend of Ukrainian Cinema",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
   "year": 2025
  },
  "ik:down_and_out_in_paris_": {
@@ -8675,6 +8724,32 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:mein_mann_das_wirtschaftswunder_1960": {
+  "country": "BRD",
+  "director": "Ulrich Erfurth",
+  "genre": "Komödie",
+  "imdb": "tt0055163",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "min": 90,
+  "orig": "Mein Mann, das Wirtschaftswunder",
+  "orig_source": "Mein Mann, das Wirtschaftswunder",
+  "orig_src": "tmdb",
+  "title": "Mein Mann, das Wirtschaftswunder",
+  "title_en": "Mein Mann, das Wirtschaftswunder",
+  "tmdb": 72028,
+  "tmdb_checked": true,
+  "tmdb_runtime": 0,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 1960
+ },
  "ik:minions": {
   "country": "USA",
   "director": "Kyle Balda , Pierre Coffin",
@@ -8920,6 +8995,17 @@
   ],
   "wd_checked": true,
   "year": 2025
+ },
+ "ik:monster_liebe": {
+  "director": "Katja Straub",
+  "genre": "Vortrag, Musikfilm",
+  "match_log": [],
+  "min": 90,
+  "title": "Monster & Liebe",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 2026
  },
  "ik:monster_mia_2026": {
   "country": "Österreich/Deutschland",
@@ -9632,6 +9718,25 @@
   "wd_checked": true,
   "year": 2006
  },
+ "ik:okem": {
+  "director": "Chidinma Nwogbo",
+  "genre": "Drama",
+  "match_log": [
+   {
+    "dir": false,
+    "id": 1217250,
+    "rt": 14,
+    "score": -0.22,
+    "sim": 0.89,
+    "t": "Okem",
+    "y": null
+   }
+  ],
+  "title": "Oke'm",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ik:on_the_sea_2025": {
   "country": "Großbritannien",
   "director": "Helen Walsh",
@@ -9708,6 +9813,19 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:only_yesterday_2026": {
+  "country": "Deutschland",
+  "director": "Cindo Santos , Aleksey Kolbenkhin",
+  "genre": "Experimentalfilm",
+  "match_log": [],
+  "min": 105,
+  "orig": "Only Yesterday",
+  "title": "Only Yesterday",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 2026
+ },
  "ik:open_screening": {
   "genre": "Kurzfilm-Programm, Vortrag mit Filmbeispielen",
   "match_log": [],
@@ -9753,6 +9871,55 @@
   ],
   "wd_checked": true,
   "year": 2026
+ },
+ "ik:outsider_1997": {
+  "country": "SLO",
+  "director": "Andrej Kosak",
+  "genre": "Drama",
+  "imdb": "tt0117273",
+  "imdb_src": "tmdb",
+  "lang": "sl",
+  "langs": [
+   "sl",
+   "bs"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 152861,
+    "rt": 100,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Outsider",
+    "y": 1997
+   },
+   {
+    "dir": false,
+    "id": 77135,
+    "rt": 91,
+    "score": 2.6,
+    "sim": 0.8,
+    "t": "The Outsider",
+    "y": 1997
+   }
+  ],
+  "min": 104,
+  "orig": "Outsider",
+  "orig_source": "Outsider",
+  "orig_src": "tmdb",
+  "title": "Outsider",
+  "title_en": "Outsider",
+  "tmdb": 152861,
+  "tmdb_checked": true,
+  "tmdb_runtime": 100,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "sl",
+   "sr"
+  ],
+  "wd_checked": true,
+  "year": 1997
  },
  "ik:papierova_hlavy-paper_heads": {
   "country": "SK/CH/F/D/CZ",
@@ -9987,6 +10154,47 @@
   "tmdb_checked": true,
   "v": 2,
   "year": 2025
+ },
+ "ik:play_your_part": {
+  "imdb": "tt2941114",
+  "imdb_src": "tmdb",
+  "lang": "en",
+  "langs": [
+   "en"
+  ],
+  "match_log": [
+   {
+    "dir": null,
+    "id": 442748,
+    "rt": 2,
+    "score": 3.0,
+    "sim": 1.0,
+    "t": "Play Your Part",
+    "y": 1941
+   }
+  ],
+  "min": 2,
+  "orig": "Play Your Part",
+  "orig_source": "Play Your Part",
+  "orig_src": "tmdb",
+  "title": "ReSee Movies: Play Your Part",
+  "title_en": "Play Your Part",
+  "tmdb": 442748,
+  "tmdb_checked": true,
+  "tmdb_runtime": 2,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true
+ },
+ "ik:pollkleseners_pumpkin_spezial": {
+  "director": "Michael Pollklesener",
+  "genre": "Horror",
+  "match_log": [],
+  "title": "Pollkleseners Pumpkin Spezial",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
  },
  "ik:possible_love_2026": {
   "country": "ROK",
@@ -10476,6 +10684,19 @@
   "tmdb": 609477,
   "tmdb_checked": true,
   "v": 2
+ },
+ "ik:royal_ballet_and_opera_in_cinemas_der_nussknacker_2026": {
+  "country": "GB",
+  "director": "Julia Trevelyan Oman",
+  "genre": "Ballett",
+  "match_log": [],
+  "min": 140,
+  "orig": "RBO in Cinemas: Der Nussknacker – Saison 2026/2027",
+  "title": "Royal Ballet and Opera in Cinemas: Der Nussknacker",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 2026
  },
  "ik:rumaenien-das_land_in_dem_ich_geboren_bin": {
   "country": "D",
