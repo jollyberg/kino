@@ -2783,6 +2783,18 @@
   "tmdb_v": 8,
   "v": 4
  },
+ "ik:berlin_ben_berlin_aus_diesem_tralala_kommst_du_nicht_raus": {
+  "country": "Deutschland",
+  "director": "Sobo Swobodnik",
+  "genre": "Dokumentarfilm",
+  "match_log": [],
+  "min": 90,
+  "title": "BErliN – Aus diesem Tralala kommst du nicht raus",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 2015
+ },
  "ik:berlinized-sexy_an_eis": {
   "country": "D",
   "director": "Lucian Busse",
@@ -3772,6 +3784,44 @@
   "tmdb_checked": true,
   "v": 2,
   "year": 2026
+ },
+ "ik:das_abenteuer_geht_weiter_1937": {
+  "country": "Deutsches Reich",
+  "director": "Carmine Gallone",
+  "genre": "Drama, Musikfilm",
+  "imdb": "tt0031016",
+  "imdb_src": "tmdb",
+  "lang": "de",
+  "langs": [
+   "de"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 303070,
+    "rt": 93,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Das Abenteuer geht weiter",
+    "y": 1939
+   }
+  ],
+  "min": 93,
+  "orig": "Das Abenteuer geht weiter",
+  "orig_source": "Das Abenteuer geht weiter",
+  "orig_src": "tmdb",
+  "title": "Das Abenteuer geht weiter",
+  "title_en": "Another Experience",
+  "tmdb": 303070,
+  "tmdb_checked": true,
+  "tmdb_runtime": 93,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "de"
+  ],
+  "wd_checked": true,
+  "year": 1939
  },
  "ik:das_ding_mit_federn": {
   "country": "Großbritannien",
@@ -8724,6 +8774,13 @@
   "wd_checked": true,
   "year": 2026
  },
+ "ik:mein_liebster_dokumentarfilm": {
+  "match_log": [],
+  "title": "Mein liebster Dokumentarfilm",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4
+ },
  "ik:mein_mann_das_wirtschaftswunder_1960": {
   "country": "BRD",
   "director": "Ulrich Erfurth",
@@ -9592,6 +9649,18 @@
   "wd_checked": true,
   "year": 1922
  },
+ "ik:novalisland-eine_reise_zur_blauen_blume": {
+  "country": "Deutschland",
+  "director": "Rüdiger Sünner",
+  "genre": "Dokumentarfilm, Porträt",
+  "match_log": [],
+  "min": 80,
+  "title": "Premiere: Novalisland - Eine Reise zur Blauen Blume",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 2026
+ },
  "ik:obsession-du_sollst_mich_lieben_2025": {
   "country": "USA",
   "director": "Curry Barker",
@@ -10234,6 +10303,42 @@
   ],
   "wd_checked": true,
   "year": 2026
+ },
+ "ik:potopa-die_flut_flood": {
+  "country": "Slowakei/ Tschechische Republik/ Polen/ Belgien",
+  "director": "Martin Gonda",
+  "genre": "Drama",
+  "imdb": "tt38629827",
+  "imdb_src": "tmdb",
+  "lang": "sk",
+  "langs": [
+   "sk"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1567441,
+    "rt": 102,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Potopa",
+    "y": 2025
+   }
+  ],
+  "min": 103,
+  "orig": "Potopa",
+  "orig_source": "Potopa",
+  "orig_src": "tmdb",
+  "title": "Potopa - Die Flut: Flood",
+  "title_en": "Flood",
+  "tmdb": 1567441,
+  "tmdb_checked": true,
+  "tmdb_runtime": 102,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [],
+  "wd_checked": true,
+  "year": 2025
  },
  "ik:prater": {
   "country": "A/D",
@@ -11020,6 +11125,44 @@
   "wd_checked": true,
   "year": 2012
  },
+ "ik:shana_2026": {
+  "country": "Frankreich",
+  "director": "Lina Pinell",
+  "genre": "Drama",
+  "imdb": "tt39172310",
+  "imdb_src": "tmdb",
+  "lang": "fr",
+  "langs": [
+   "fr"
+  ],
+  "match_log": [
+   {
+    "dir": true,
+    "id": 1483319,
+    "rt": 83,
+    "score": 11.0,
+    "sim": 1.0,
+    "t": "Shana",
+    "y": 2026
+   }
+  ],
+  "min": 80,
+  "orig": "Shana",
+  "orig_source": "Shana",
+  "orig_src": "tmdb",
+  "title": "Shana",
+  "title_en": "Shana",
+  "tmdb": 1483319,
+  "tmdb_checked": true,
+  "tmdb_runtime": 83,
+  "tmdb_v": 8,
+  "v": 4,
+  "wd": [
+   "fr"
+  ],
+  "wd_checked": true,
+  "year": 2026
+ },
  "ik:shaun_das_schaf_spuk_im_kuerbisfeld": {
   "country": "Großbritannien",
   "director": "Steve Cox , Matthew Walker",
@@ -11628,6 +11771,18 @@
   "tmdb_checked": true,
   "v": 2,
   "year": 1967
+ },
+ "ik:tatort-lockruf": {
+  "country": "BRD",
+  "director": "Wolfgang Becker",
+  "genre": "Krimi, TV-Serie",
+  "match_log": [],
+  "min": 90,
+  "title": "Tatort - Lockruf",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 1978
  },
  "ik:teatro_amazonas": {
   "country": "USA",
