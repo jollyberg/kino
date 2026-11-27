@@ -8614,6 +8614,27 @@
   "v": 4,
   "year": 2024
  },
+ "ik:look_back_2027": {
+  "country": "Japan",
+  "director": "Hirokazu Kore-eda",
+  "genre": "Drama",
+  "match_log": [
+   {
+    "id": 1732097,
+    "rt": 60,
+    "sim": 0.62,
+    "t": "Euphoria: Ein Rückblick",
+    "x": "Laufzeit",
+    "y": 2026
+   }
+  ],
+  "min": 100,
+  "title": "Look Back",
+  "tmdb_checked": true,
+  "tmdb_v": 8,
+  "v": 4,
+  "year": 2027
+ },
  "ik:luegen_ueber_meine_mutter_2026": {
   "country": "Deutschland",
   "director": "Aron Lehmann",
